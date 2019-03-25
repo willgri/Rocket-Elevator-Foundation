@@ -97,4 +97,4 @@ gem 'groupdate'
 
 
 # DROPBOX
-gem 'dropbox', '~> 1.3'
+gem 'dropbox_api'
