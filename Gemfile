@@ -96,3 +96,5 @@ gem 'chartjs-ror'
 gem 'groupdate'
 
 
+# DROPBOX
+gem 'dropbox', '~> 1.3'

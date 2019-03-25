@@ -41,3 +41,9 @@ gem uses for schedule : whenever
 -Joanie Coffey
 -Airton
 -Charles Hébert
+
+# Week 7
+
+working on APIs
+
+Dropbox dev : Danny Gauthier
