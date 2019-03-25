@@ -1,0 +1,501 @@
+id,battery_id,atype,number_of_floor,status,information,notes,created_at,updated_at
+1,1,Residential,84,Active,This is an informative information,I have nothing to say about a battery,7/21/2018,12/23/2018
+2,2,Corporate,85,Active,I like that,Look behind you,9/5/2018,12/2/2018
+3,3,Commercial,53,Inactive,I like that,Very long note,1/22/2019,1/13/2019
+4,4,Hybrid,71,Inactive,You are looking at the battery,Very long note,6/23/2018,2/26/2019
+5,5,Residential,55,Inactive,This is an informative information,I have nothing to say about a battery,10/30/2018,11/25/2018
+6,6,Corporate,57,Active,This is an informative information,Very long note,6/24/2018,5/13/2018
+7,7,Commercial,87,Active,I like that,Look behind you,11/11/2018,4/13/2018
+8,8,Hybrid,59,Active,I like that,Very long note,7/5/2018,7/9/2018
+9,9,Residential,17,Active,You are looking at the battery,Very long note,1/21/2019,7/28/2018
+10,10,Corporate,17,Active,I like that,Very long note,1/27/2019,2/13/2019
+11,11,Commercial,3,Active,I like that,Look behind you,12/19/2018,11/5/2018
+12,12,Hybrid,11,Active,I like that,I have nothing to say about a battery,1/11/2019,10/1/2018
+13,13,Residential,10,Active,You are looking at the battery,Very long note,11/20/2018,5/31/2018
+14,14,Corporate,38,Active,This is an informative information,I have nothing to say about a battery,9/13/2018,2/13/2019
+15,15,Commercial,84,Active,This is an informative information,Look behind you,7/20/2018,10/13/2018
+16,16,Hybrid,63,Active,This is an informative information,I have nothing to say about a battery,9/18/2018,6/20/2018
+17,17,Residential,41,Active,You are looking at the battery,Very long note,5/27/2018,3/30/2018
+18,18,Corporate,38,Active,I like that,Look behind you,10/25/2018,2/11/2019
+19,19,Commercial,22,Active,This is an informative information,Very long note,7/15/2018,2/20/2019
+20,20,Hybrid,91,Active,I like that,Very long note,4/3/2018,5/27/2018
+21,21,Residential,74,Active,You are looking at the battery,I have nothing to say about a battery,2/23/2019,10/7/2018
+22,22,Corporate,50,Active,I like that,Very long note,1/4/2019,1/19/2019
+23,23,Commercial,8,Active,I like that,Look behind you,5/8/2018,4/1/2018
+24,24,Hybrid,52,Active,You are looking at the battery,I have nothing to say about a battery,2/20/2019,3/11/2018
+25,25,Residential,34,Inactive,You are looking at the battery,Look behind you,12/27/2018,2/20/2019
+26,26,Corporate,72,Active,This is an informative information,Very long note,11/8/2018,2/12/2019
+27,27,Commercial,58,Active,I like that,Look behind you,5/12/2018,12/13/2018
+28,28,Hybrid,51,Active,I like that,Very long note,10/19/2018,10/18/2018
+29,29,Residential,31,Active,This is an informative information,I have nothing to say about a battery,12/4/2018,7/28/2018
+30,30,Corporate,36,Active,You are looking at the battery,Look behind you,3/14/2018,2/14/2019
+31,31,Commercial,79,Active,I like that,I have nothing to say about a battery,11/6/2018,2/12/2019
+32,32,Hybrid,81,Active,I like that,Very long note,11/10/2018,12/14/2018
+33,33,Residential,94,Active,I like that,I have nothing to say about a battery,1/9/2019,5/10/2018
+34,34,Corporate,48,Active,You are looking at the battery,Very long note,11/10/2018,10/20/2018
+35,35,Commercial,17,Active,This is an informative information,Look behind you,9/5/2018,7/12/2018
+36,36,Hybrid,19,Active,You are looking at the battery,Look behind you,9/29/2018,11/14/2018
+37,37,Residential,46,Active,You are looking at the battery,Look behind you,4/16/2018,4/11/2018
+38,38,Corporate,38,Active,I like that,Very long note,6/13/2018,3/30/2018
+39,39,Commercial,1,Active,I like that,Very long note,8/27/2018,3/3/2019
+40,40,Hybrid,46,Active,You are looking at the battery,Look behind you,7/15/2018,4/27/2018
+41,41,Residential,42,Active,You are looking at the battery,Very long note,11/17/2018,6/29/2018
+42,42,Corporate,100,Active,You are looking at the battery,I have nothing to say about a battery,12/26/2018,1/5/2019
+43,43,Commercial,29,Active,I like that,Look behind you,5/25/2018,7/12/2018
+44,44,Hybrid,100,Active,I like that,Look behind you,1/13/2019,12/4/2018
+45,45,Residential,73,Active,This is an informative information,Look behind you,1/13/2019,7/6/2018
+46,46,Corporate,5,Active,This is an informative information,Look behind you,10/2/2018,2/11/2019
+47,47,Commercial,46,Active,You are looking at the battery,Look behind you,10/9/2018,4/16/2018
+48,48,Hybrid,66,Active,This is an informative information,I have nothing to say about a battery,5/24/2018,5/20/2018
+49,49,Residential,18,Active,You are looking at the battery,Look behind you,12/17/2018,11/26/2018
+50,50,Corporate,43,Active,I like that,Look behind you,4/1/2018,10/27/2018
+51,51,Commercial,69,Active,You are looking at the battery,Very long note,6/27/2018,3/7/2018
+52,52,Hybrid,33,Active,This is an informative information,Very long note,5/19/2018,7/5/2018
+53,53,Residential,30,Active,I like that,Very long note,7/25/2018,10/26/2018
+54,54,Corporate,10,Active,You are looking at the battery,Very long note,3/25/2018,1/9/2019
+55,55,Commercial,14,Active,You are looking at the battery,Look behind you,5/7/2018,1/15/2019
+56,56,Hybrid,85,Active,This is an informative information,Very long note,7/11/2018,1/24/2019
+57,57,Residential,40,Active,You are looking at the battery,I have nothing to say about a battery,11/14/2018,5/19/2018
+58,58,Corporate,92,Active,This is an informative information,Very long note,3/16/2018,3/11/2018
+59,59,Commercial,42,Active,You are looking at the battery,Look behind you,3/26/2018,5/9/2018
+60,60,Hybrid,50,Active,I like that,Very long note,7/27/2018,7/26/2018
+61,61,Residential,22,Active,You are looking at the battery,Look behind you,11/3/2018,3/10/2018
+62,62,Corporate,21,Active,You are looking at the battery,I have nothing to say about a battery,8/19/2018,5/6/2018
+63,63,Commercial,49,Active,I like that,I have nothing to say about a battery,5/14/2018,3/21/2018
+64,64,Hybrid,83,Active,I like that,I have nothing to say about a battery,1/15/2019,1/12/2019
+65,65,Residential,32,Active,I like that,Look behind you,5/6/2018,5/2/2018
+66,66,Corporate,28,Active,I like that,I have nothing to say about a battery,8/1/2018,6/14/2018
+67,67,Commercial,84,Active,I like that,Look behind you,12/17/2018,5/2/2018
+68,68,Hybrid,17,Active,This is an informative information,I have nothing to say about a battery,5/23/2018,12/4/2018
+69,69,Residential,95,Active,You are looking at the battery,I have nothing to say about a battery,1/27/2019,5/16/2018
+70,70,Corporate,75,Active,You are looking at the battery,Very long note,1/13/2019,11/16/2018
+71,71,Commercial,1,Inactive,This is an informative information,I have nothing to say about a battery,2/1/2019,5/28/2018
+72,72,Hybrid,60,Inactive,I like that,Very long note,5/26/2018,1/2/2019
+73,73,Residential,60,Active,I like that,Look behind you,5/21/2018,4/21/2018
+74,74,Corporate,67,Active,You are looking at the battery,Very long note,3/16/2018,10/19/2018
+75,75,Commercial,46,Active,I like that,Look behind you,7/5/2018,6/1/2018
+76,76,Hybrid,13,Active,I like that,Look behind you,12/21/2018,5/10/2018
+77,77,Residential,78,Active,This is an informative information,Look behind you,4/24/2018,11/22/2018
+78,78,Corporate,33,Active,You are looking at the battery,I have nothing to say about a battery,6/25/2018,3/3/2019
+79,79,Commercial,3,Active,This is an informative information,Look behind you,3/17/2018,6/4/2018
+80,80,Hybrid,22,Active,This is an informative information,Very long note,2/6/2019,7/24/2018
+81,81,Residential,56,Active,This is an informative information,Look behind you,9/19/2018,2/18/2019
+82,82,Corporate,82,Active,This is an informative information,I have nothing to say about a battery,8/9/2018,9/13/2018
+83,83,Commercial,86,Active,You are looking at the battery,Very long note,6/30/2018,11/24/2018
+84,84,Hybrid,56,Active,You are looking at the battery,I have nothing to say about a battery,2/12/2019,12/19/2018
+85,85,Residential,65,Active,This is an informative information,I have nothing to say about a battery,7/29/2018,1/31/2019
+86,86,Corporate,86,Active,You are looking at the battery,Very long note,10/2/2018,11/24/2018
+87,87,Commercial,89,Active,This is an informative information,Look behind you,6/19/2018,10/10/2018
+88,88,Hybrid,78,Active,You are looking at the battery,I have nothing to say about a battery,4/3/2018,1/31/2019
+89,89,Residential,86,Active,I like that,Look behind you,3/28/2018,10/22/2018
+90,90,Corporate,38,Active,This is an informative information,Very long note,9/9/2018,2/14/2019
+91,91,Commercial,65,Active,This is an informative information,Look behind you,9/16/2018,9/3/2018
+92,92,Hybrid,95,Active,This is an informative information,I have nothing to say about a battery,8/18/2018,3/3/2018
+93,93,Residential,73,Inactive,I like that,Very long note,12/31/2018,12/28/2018
+94,94,Corporate,33,Active,You are looking at the battery,I have nothing to say about a battery,2/20/2019,10/1/2018
+95,95,Commercial,46,Active,You are looking at the battery,Very long note,2/11/2019,7/18/2018
+96,96,Hybrid,2,Active,This is an informative information,Look behind you,7/26/2018,6/2/2018
+97,97,Residential,39,Active,You are looking at the battery,I have nothing to say about a battery,1/21/2019,4/26/2018
+98,98,Corporate,39,Active,This is an informative information,I have nothing to say about a battery,5/8/2018,11/4/2018
+99,99,Commercial,84,Active,This is an informative information,Look behind you,8/15/2018,6/13/2018
+100,100,Hybrid,56,Active,This is an informative information,Look behind you,2/10/2019,7/18/2018
+101,101,Residential,80,Active,You are looking at the battery,Very long note,4/4/2018,10/22/2018
+102,102,Corporate,10,Active,This is an informative information,I have nothing to say about a battery,9/20/2018,4/4/2018
+103,103,Commercial,52,Active,You are looking at the battery,Look behind you,7/14/2018,9/10/2018
+104,104,Hybrid,47,Active,I like that,Look behind you,6/30/2018,6/14/2018
+105,105,Residential,16,Active,You are looking at the battery,I have nothing to say about a battery,12/27/2018,10/21/2018
+106,106,Corporate,39,Active,You are looking at the battery,Look behind you,1/9/2019,4/5/2018
+107,107,Commercial,64,Active,I like that,Look behind you,10/21/2018,12/14/2018
+108,108,Hybrid,67,Active,You are looking at the battery,I have nothing to say about a battery,12/29/2018,7/3/2018
+109,109,Residential,32,Active,You are looking at the battery,Look behind you,3/17/2018,12/6/2018
+110,110,Corporate,50,Active,This is an informative information,I have nothing to say about a battery,7/31/2018,4/11/2018
+111,111,Commercial,44,Active,You are looking at the battery,I have nothing to say about a battery,3/16/2018,4/3/2018
+112,112,Hybrid,46,Active,You are looking at the battery,Look behind you,9/28/2018,8/25/2018
+113,113,Residential,27,Active,This is an informative information,Very long note,9/15/2018,3/12/2018
+114,114,Corporate,35,Active,This is an informative information,I have nothing to say about a battery,4/14/2018,2/7/2019
+115,115,Commercial,37,Inactive,You are looking at the battery,Very long note,2/22/2019,3/20/2018
+116,116,Hybrid,46,Active,I like that,Look behind you,7/15/2018,3/3/2019
+117,117,Residential,79,Active,This is an informative information,Look behind you,11/21/2018,9/11/2018
+118,118,Corporate,91,Active,This is an informative information,Very long note,3/22/2018,2/12/2019
+119,119,Commercial,85,Active,You are looking at the battery,Very long note,8/22/2018,11/3/2018
+120,120,Hybrid,19,Active,This is an informative information,Look behind you,8/25/2018,12/5/2018
+121,121,Residential,88,Active,This is an informative information,I have nothing to say about a battery,10/3/2018,1/13/2019
+122,122,Corporate,100,Active,I like that,I have nothing to say about a battery,4/7/2018,10/8/2018
+123,123,Commercial,79,Active,I like that,Look behind you,4/21/2018,12/22/2018
+124,124,Hybrid,45,Active,This is an informative information,Look behind you,1/10/2019,11/6/2018
+125,125,Residential,35,Inactive,You are looking at the battery,Look behind you,6/3/2018,7/6/2018
+126,126,Corporate,94,Active,This is an informative information,I have nothing to say about a battery,1/6/2019,5/16/2018
+127,127,Commercial,69,Active,I like that,Look behind you,7/11/2018,3/14/2018
+128,128,Hybrid,22,Active,You are looking at the battery,I have nothing to say about a battery,9/2/2018,2/15/2019
+129,129,Residential,88,Active,I like that,Very long note,3/27/2018,2/6/2019
+130,130,Corporate,94,Active,I like that,I have nothing to say about a battery,8/25/2018,3/3/2018
+131,131,Commercial,8,Active,I like that,Look behind you,2/7/2019,12/31/2018
+132,132,Hybrid,78,Active,You are looking at the battery,I have nothing to say about a battery,10/7/2018,4/21/2018
+133,133,Residential,99,Active,You are looking at the battery,Look behind you,5/1/2018,6/10/2018
+134,134,Corporate,89,Active,I like that,I have nothing to say about a battery,5/10/2018,5/25/2018
+135,135,Commercial,74,Active,This is an informative information,Look behind you,6/6/2018,10/25/2018
+136,136,Hybrid,76,Active,You are looking at the battery,Very long note,5/29/2018,8/12/2018
+137,137,Residential,56,Active,This is an informative information,Very long note,8/20/2018,5/9/2018
+138,138,Corporate,53,Active,I like that,I have nothing to say about a battery,7/14/2018,9/3/2018
+139,139,Commercial,2,Active,I like that,Very long note,6/15/2018,7/22/2018
+140,140,Hybrid,57,Active,You are looking at the battery,Look behind you,10/16/2018,5/31/2018
+141,141,Residential,20,Active,You are looking at the battery,Very long note,6/17/2018,10/19/2018
+142,142,Corporate,16,Inactive,This is an informative information,Look behind you,2/18/2019,6/30/2018
+143,143,Commercial,89,Inactive,I like that,Very long note,5/22/2018,11/8/2018
+144,144,Hybrid,42,Active,You are looking at the battery,Very long note,8/14/2018,1/28/2019
+145,145,Residential,3,Active,You are looking at the battery,Look behind you,10/2/2018,11/19/2018
+146,146,Corporate,83,Active,I like that,Very long note,4/20/2018,8/1/2018
+147,147,Commercial,16,Active,I like that,I have nothing to say about a battery,7/10/2018,5/4/2018
+148,148,Hybrid,61,Active,I like that,Look behind you,4/29/2018,10/7/2018
+149,149,Residential,92,Inactive,I like that,Very long note,4/6/2018,8/5/2018
+150,150,Corporate,43,Active,I like that,I have nothing to say about a battery,2/4/2019,12/2/2018
+151,151,Commercial,18,Active,I like that,Very long note,1/17/2019,6/26/2018
+152,152,Hybrid,70,Active,You are looking at the battery,Look behind you,2/2/2019,6/18/2018
+153,153,Residential,81,Active,You are looking at the battery,I have nothing to say about a battery,3/21/2018,3/25/2018
+154,154,Corporate,2,Active,This is an informative information,Very long note,8/29/2018,12/1/2018
+155,155,Commercial,20,Active,I like that,Look behind you,12/18/2018,4/16/2018
+156,156,Hybrid,37,Active,This is an informative information,I have nothing to say about a battery,4/11/2018,12/30/2018
+157,157,Residential,96,Active,This is an informative information,I have nothing to say about a battery,2/22/2019,1/25/2019
+158,158,Corporate,20,Active,This is an informative information,Very long note,12/18/2018,5/6/2018
+159,159,Commercial,21,Active,This is an informative information,Very long note,10/8/2018,3/23/2018
+160,160,Hybrid,12,Active,This is an informative information,I have nothing to say about a battery,6/29/2018,9/10/2018
+161,161,Residential,71,Active,This is an informative information,I have nothing to say about a battery,1/6/2019,2/23/2019
+162,162,Corporate,5,Active,This is an informative information,Look behind you,12/25/2018,12/22/2018
+163,163,Commercial,28,Active,This is an informative information,I have nothing to say about a battery,8/21/2018,7/17/2018
+164,164,Hybrid,54,Active,This is an informative information,Look behind you,8/20/2018,2/24/2019
+165,165,Residential,32,Active,This is an informative information,Very long note,2/7/2019,3/11/2018
+166,166,Corporate,89,Inactive,You are looking at the battery,Very long note,10/8/2018,5/14/2018
+167,167,Commercial,22,Active,This is an informative information,Very long note,9/17/2018,6/16/2018
+168,168,Hybrid,13,Active,I like that,Look behind you,2/18/2019,4/13/2018
+169,169,Residential,84,Active,I like that,Very long note,6/19/2018,12/14/2018
+170,170,Corporate,85,Active,I like that,Look behind you,8/9/2018,1/2/2019
+171,171,Commercial,58,Active,You are looking at the battery,Very long note,5/2/2018,3/7/2019
+172,172,Hybrid,3,Inactive,You are looking at the battery,Very long note,4/26/2018,3/9/2019
+173,173,Residential,6,Active,I like that,Look behind you,3/25/2018,5/10/2018
+174,174,Corporate,29,Active,You are looking at the battery,Look behind you,9/11/2018,8/17/2018
+175,175,Commercial,63,Active,You are looking at the battery,I have nothing to say about a battery,10/12/2018,1/18/2019
+176,176,Hybrid,33,Active,I like that,I have nothing to say about a battery,10/4/2018,12/17/2018
+177,177,Residential,70,Active,This is an informative information,I have nothing to say about a battery,4/3/2018,9/21/2018
+178,178,Corporate,80,Active,This is an informative information,Look behind you,2/1/2019,11/12/2018
+179,179,Commercial,98,Active,This is an informative information,I have nothing to say about a battery,5/10/2018,11/19/2018
+180,180,Hybrid,56,Active,I like that,Very long note,11/4/2018,5/5/2018
+181,181,Residential,5,Active,This is an informative information,Look behind you,11/21/2018,10/16/2018
+182,182,Corporate,25,Active,This is an informative information,Look behind you,3/19/2018,3/11/2018
+183,183,Commercial,63,Active,This is an informative information,Look behind you,2/9/2019,3/30/2018
+184,184,Hybrid,62,Active,I like that,I have nothing to say about a battery,12/6/2018,8/18/2018
+185,185,Residential,59,Active,I like that,Look behind you,5/8/2018,5/23/2018
+186,186,Corporate,58,Active,You are looking at the battery,Very long note,4/4/2018,12/8/2018
+187,187,Commercial,27,Active,I like that,Look behind you,2/16/2019,7/1/2018
+188,188,Hybrid,83,Inactive,This is an informative information,I have nothing to say about a battery,2/21/2019,5/16/2018
+189,189,Residential,86,Active,I like that,Very long note,12/7/2018,3/5/2019
+190,190,Corporate,28,Active,I like that,Look behind you,9/9/2018,2/23/2019
+191,191,Commercial,63,Inactive,You are looking at the battery,Very long note,11/9/2018,7/7/2018
+192,192,Hybrid,68,Active,You are looking at the battery,Very long note,6/12/2018,5/19/2018
+193,193,Residential,17,Active,I like that,Look behind you,5/5/2018,6/25/2018
+194,194,Corporate,88,Active,You are looking at the battery,Very long note,11/1/2018,6/20/2018
+195,195,Commercial,31,Active,This is an informative information,Very long note,4/24/2018,1/22/2019
+196,196,Hybrid,83,Active,This is an informative information,Look behind you,4/18/2018,9/28/2018
+197,197,Residential,59,Active,I like that,I have nothing to say about a battery,6/20/2018,2/13/2019
+198,198,Corporate,78,Active,I like that,I have nothing to say about a battery,2/3/2019,6/1/2018
+199,199,Commercial,81,Active,This is an informative information,Very long note,6/24/2018,1/9/2019
+200,200,Hybrid,95,Active,You are looking at the battery,Very long note,8/1/2018,7/28/2018
+201,201,Residential,73,Inactive,I like that,Look behind you,6/7/2018,12/28/2018
+202,202,Corporate,35,Active,You are looking at the battery,Look behind you,5/4/2018,5/28/2018
+203,203,Commercial,7,Active,This is an informative information,I have nothing to say about a battery,5/13/2018,12/10/2018
+204,204,Hybrid,63,Active,I like that,Look behind you,10/4/2018,4/2/2018
+205,205,Residential,80,Active,You are looking at the battery,I have nothing to say about a battery,12/17/2018,6/7/2018
+206,206,Corporate,36,Active,You are looking at the battery,Very long note,11/24/2018,5/3/2018
+207,207,Commercial,68,Active,This is an informative information,Look behind you,10/16/2018,4/18/2018
+208,208,Hybrid,28,Active,You are looking at the battery,Look behind you,6/26/2018,5/3/2018
+209,209,Residential,59,Active,This is an informative information,Very long note,5/13/2018,8/27/2018
+210,210,Corporate,41,Active,I like that,Very long note,5/30/2018,6/27/2018
+211,211,Commercial,62,Active,You are looking at the battery,Very long note,6/7/2018,9/9/2018
+212,212,Hybrid,73,Active,I like that,Very long note,7/21/2018,5/17/2018
+213,213,Residential,63,Active,I like that,I have nothing to say about a battery,10/16/2018,2/11/2019
+214,214,Corporate,4,Active,I like that,Very long note,2/5/2019,9/20/2018
+215,215,Commercial,13,Active,I like that,Look behind you,4/7/2018,10/13/2018
+216,216,Hybrid,39,Active,You are looking at the battery,Look behind you,8/28/2018,6/11/2018
+217,217,Residential,96,Active,You are looking at the battery,I have nothing to say about a battery,3/15/2018,7/23/2018
+218,218,Corporate,4,Active,This is an informative information,Very long note,4/16/2018,6/17/2018
+219,219,Commercial,14,Inactive,This is an informative information,I have nothing to say about a battery,8/9/2018,9/3/2018
+220,220,Hybrid,88,Active,I like that,I have nothing to say about a battery,5/21/2018,7/6/2018
+221,221,Residential,67,Active,This is an informative information,Look behind you,6/21/2018,3/26/2018
+222,222,Corporate,70,Active,This is an informative information,I have nothing to say about a battery,7/17/2018,3/16/2018
+223,223,Commercial,88,Active,This is an informative information,I have nothing to say about a battery,10/28/2018,11/8/2018
+224,224,Hybrid,21,Active,I like that,Very long note,3/27/2018,12/13/2018
+225,225,Residential,22,Active,I like that,Look behind you,6/27/2018,1/8/2019
+226,226,Corporate,76,Active,You are looking at the battery,Look behind you,2/6/2019,3/30/2018
+227,227,Commercial,2,Active,I like that,Look behind you,4/11/2018,3/7/2018
+228,228,Hybrid,53,Active,I like that,Look behind you,7/20/2018,12/27/2018
+229,229,Residential,32,Active,I like that,I have nothing to say about a battery,1/31/2019,8/3/2018
+230,230,Corporate,77,Active,I like that,Look behind you,9/8/2018,1/29/2019
+231,231,Commercial,61,Active,You are looking at the battery,I have nothing to say about a battery,7/24/2018,3/4/2019
+232,232,Hybrid,17,Active,You are looking at the battery,Look behind you,5/18/2018,4/23/2018
+233,233,Residential,6,Inactive,This is an informative information,Very long note,1/25/2019,3/1/2019
+234,234,Corporate,54,Active,I like that,Look behind you,12/18/2018,12/8/2018
+235,235,Commercial,20,Inactive,You are looking at the battery,I have nothing to say about a battery,12/27/2018,1/16/2019
+236,236,Hybrid,53,Active,You are looking at the battery,I have nothing to say about a battery,1/25/2019,11/26/2018
+237,237,Residential,56,Active,This is an informative information,Look behind you,7/10/2018,9/10/2018
+238,238,Corporate,38,Inactive,You are looking at the battery,Look behind you,9/9/2018,9/18/2018
+239,239,Commercial,52,Active,This is an informative information,Very long note,9/10/2018,1/8/2019
+240,240,Hybrid,84,Active,You are looking at the battery,I have nothing to say about a battery,8/4/2018,8/8/2018
+241,241,Residential,50,Active,This is an informative information,I have nothing to say about a battery,2/24/2019,10/20/2018
+242,242,Corporate,64,Inactive,You are looking at the battery,I have nothing to say about a battery,12/14/2018,3/23/2018
+243,243,Commercial,14,Active,I like that,Look behind you,12/30/2018,9/13/2018
+244,244,Hybrid,5,Active,This is an informative information,I have nothing to say about a battery,6/12/2018,6/28/2018
+245,245,Residential,44,Active,I like that,Look behind you,3/18/2018,3/19/2018
+246,246,Corporate,45,Active,This is an informative information,Look behind you,4/6/2018,11/18/2018
+247,247,Commercial,94,Active,I like that,Look behind you,12/13/2018,1/11/2019
+248,248,Hybrid,92,Inactive,I like that,I have nothing to say about a battery,11/26/2018,6/4/2018
+249,249,Residential,41,Active,This is an informative information,Very long note,9/9/2018,2/27/2019
+250,250,Corporate,57,Active,This is an informative information,Very long note,7/10/2018,9/11/2018
+251,251,Commercial,93,Inactive,I like that,Very long note,1/31/2019,11/4/2018
+252,252,Hybrid,65,Active,I like that,Very long note,8/8/2018,7/18/2018
+253,253,Residential,64,Active,I like that,Very long note,8/16/2018,6/22/2018
+254,254,Corporate,17,Active,This is an informative information,Look behind you,10/21/2018,5/31/2018
+255,255,Commercial,2,Inactive,I like that,I have nothing to say about a battery,4/30/2018,3/10/2019
+256,256,Hybrid,9,Active,You are looking at the battery,Very long note,4/1/2018,1/5/2019
+257,257,Residential,10,Active,I like that,I have nothing to say about a battery,10/18/2018,5/12/2018
+258,258,Corporate,39,Active,I like that,Look behind you,7/4/2018,3/22/2018
+259,259,Commercial,40,Active,I like that,Look behind you,6/15/2018,9/28/2018
+260,260,Hybrid,31,Active,I like that,Very long note,2/18/2019,1/20/2019
+261,261,Residential,60,Active,You are looking at the battery,I have nothing to say about a battery,9/8/2018,5/30/2018
+262,262,Corporate,70,Active,I like that,I have nothing to say about a battery,4/27/2018,2/19/2019
+263,263,Commercial,78,Active,You are looking at the battery,Look behind you,5/28/2018,1/18/2019
+264,264,Hybrid,76,Active,This is an informative information,Very long note,4/30/2018,3/7/2018
+265,265,Residential,94,Active,This is an informative information,Look behind you,4/18/2018,10/4/2018
+266,266,Corporate,70,Active,This is an informative information,Very long note,11/23/2018,8/10/2018
+267,267,Commercial,24,Active,You are looking at the battery,I have nothing to say about a battery,2/3/2019,8/3/2018
+268,268,Hybrid,16,Active,This is an informative information,Very long note,5/26/2018,5/30/2018
+269,269,Residential,63,Active,You are looking at the battery,Look behind you,9/21/2018,4/4/2018
+270,270,Corporate,56,Active,You are looking at the battery,Look behind you,7/30/2018,10/18/2018
+271,271,Commercial,61,Active,This is an informative information,I have nothing to say about a battery,4/2/2018,3/5/2019
+272,272,Hybrid,6,Active,I like that,I have nothing to say about a battery,8/9/2018,10/7/2018
+273,273,Residential,96,Active,This is an informative information,I have nothing to say about a battery,4/10/2018,2/1/2019
+274,274,Corporate,21,Active,This is an informative information,Look behind you,12/8/2018,12/31/2018
+275,275,Commercial,84,Active,I like that,I have nothing to say about a battery,6/2/2018,8/12/2018
+276,276,Hybrid,94,Active,You are looking at the battery,I have nothing to say about a battery,4/29/2018,1/6/2019
+277,277,Residential,80,Active,I like that,I have nothing to say about a battery,2/24/2019,4/30/2018
+278,278,Corporate,38,Active,You are looking at the battery,Look behind you,12/31/2018,4/26/2018
+279,279,Commercial,32,Active,This is an informative information,Very long note,1/29/2019,10/9/2018
+280,280,Hybrid,44,Active,You are looking at the battery,I have nothing to say about a battery,7/1/2018,3/10/2019
+281,281,Residential,2,Active,You are looking at the battery,Very long note,8/11/2018,10/30/2018
+282,282,Corporate,76,Active,This is an informative information,Look behind you,4/24/2018,8/9/2018
+283,283,Commercial,48,Active,You are looking at the battery,Very long note,6/12/2018,5/16/2018
+284,284,Hybrid,15,Active,You are looking at the battery,Look behind you,11/29/2018,6/22/2018
+285,285,Residential,30,Inactive,You are looking at the battery,Very long note,11/15/2018,8/13/2018
+286,286,Corporate,46,Inactive,You are looking at the battery,I have nothing to say about a battery,4/20/2018,4/18/2018
+287,287,Commercial,81,Active,I like that,Look behind you,2/8/2019,3/30/2018
+288,288,Hybrid,33,Inactive,This is an informative information,Very long note,5/27/2018,9/29/2018
+289,289,Residential,3,Active,I like that,Look behind you,8/5/2018,1/25/2019
+290,290,Corporate,78,Active,I like that,Look behind you,8/2/2018,4/28/2018
+291,291,Commercial,1,Active,I like that,Look behind you,3/15/2018,1/11/2019
+292,292,Hybrid,8,Active,This is an informative information,I have nothing to say about a battery,1/9/2019,2/11/2019
+293,293,Residential,88,Active,This is an informative information,Very long note,10/4/2018,9/24/2018
+294,294,Corporate,40,Inactive,You are looking at the battery,Very long note,10/2/2018,2/10/2019
+295,295,Commercial,86,Active,This is an informative information,Look behind you,4/18/2018,1/7/2019
+296,296,Hybrid,47,Active,I like that,Very long note,12/24/2018,2/14/2019
+297,297,Residential,27,Active,You are looking at the battery,Very long note,6/30/2018,5/14/2018
+298,298,Corporate,98,Active,I like that,Look behind you,4/5/2018,9/13/2018
+299,299,Commercial,73,Active,You are looking at the battery,I have nothing to say about a battery,7/3/2018,4/28/2018
+300,300,Hybrid,78,Active,You are looking at the battery,Look behind you,8/1/2018,5/27/2018
+301,301,Residential,56,Active,You are looking at the battery,I have nothing to say about a battery,2/18/2019,8/30/2018
+302,302,Corporate,8,Active,This is an informative information,Very long note,12/27/2018,6/25/2018
+303,303,Commercial,12,Active,You are looking at the battery,Very long note,2/20/2019,12/18/2018
+304,304,Hybrid,65,Active,I like that,I have nothing to say about a battery,7/30/2018,3/9/2019
+305,305,Residential,40,Active,This is an informative information,Very long note,7/18/2018,7/29/2018
+306,306,Corporate,4,Active,This is an informative information,Look behind you,9/14/2018,10/20/2018
+307,307,Commercial,98,Active,You are looking at the battery,Very long note,12/7/2018,1/12/2019
+308,308,Hybrid,16,Active,I like that,I have nothing to say about a battery,6/30/2018,6/30/2018
+309,309,Residential,18,Active,I like that,Look behind you,9/8/2018,1/19/2019
+310,310,Corporate,26,Active,You are looking at the battery,I have nothing to say about a battery,7/12/2018,2/17/2019
+311,311,Commercial,20,Active,This is an informative information,Very long note,10/8/2018,9/23/2018
+312,312,Hybrid,81,Active,You are looking at the battery,Very long note,1/13/2019,3/12/2019
+313,313,Residential,37,Active,This is an informative information,Look behind you,11/16/2018,10/18/2018
+314,314,Corporate,60,Active,This is an informative information,I have nothing to say about a battery,10/7/2018,12/6/2018
+315,315,Commercial,59,Inactive,I like that,I have nothing to say about a battery,10/3/2018,4/25/2018
+316,316,Hybrid,60,Active,I like that,I have nothing to say about a battery,1/16/2019,1/25/2019
+317,317,Residential,24,Active,You are looking at the battery,Very long note,9/24/2018,8/26/2018
+318,318,Corporate,32,Active,You are looking at the battery,Very long note,1/2/2019,9/23/2018
+319,319,Commercial,5,Inactive,You are looking at the battery,I have nothing to say about a battery,7/13/2018,6/19/2018
+320,320,Hybrid,78,Active,This is an informative information,I have nothing to say about a battery,10/8/2018,7/5/2018
+321,321,Residential,4,Active,You are looking at the battery,Look behind you,11/9/2018,10/14/2018
+322,322,Corporate,90,Active,I like that,Very long note,3/23/2018,3/13/2018
+323,323,Commercial,78,Active,I like that,Look behind you,3/19/2018,11/21/2018
+324,324,Hybrid,35,Active,You are looking at the battery,I have nothing to say about a battery,5/17/2018,10/4/2018
+325,325,Residential,52,Active,This is an informative information,I have nothing to say about a battery,9/24/2018,8/17/2018
+326,326,Corporate,60,Active,I like that,I have nothing to say about a battery,6/25/2018,7/16/2018
+327,327,Commercial,18,Active,This is an informative information,Very long note,5/15/2018,2/27/2019
+328,328,Hybrid,57,Active,I like that,I have nothing to say about a battery,7/13/2018,11/16/2018
+329,329,Residential,34,Active,This is an informative information,I have nothing to say about a battery,3/27/2018,3/5/2018
+330,330,Corporate,49,Active,You are looking at the battery,Very long note,4/24/2018,3/12/2019
+331,331,Commercial,93,Active,I like that,I have nothing to say about a battery,8/21/2018,12/16/2018
+332,332,Hybrid,56,Active,This is an informative information,Look behind you,12/10/2018,7/30/2018
+333,333,Residential,10,Active,You are looking at the battery,Very long note,8/14/2018,9/11/2018
+334,334,Corporate,31,Active,I like that,I have nothing to say about a battery,7/8/2018,1/15/2019
+335,335,Commercial,100,Active,This is an informative information,I have nothing to say about a battery,11/3/2018,6/5/2018
+336,336,Hybrid,34,Active,This is an informative information,Look behind you,2/12/2019,10/31/2018
+337,337,Residential,93,Active,You are looking at the battery,I have nothing to say about a battery,4/29/2018,7/10/2018
+338,338,Corporate,91,Active,I like that,Very long note,5/14/2018,1/3/2019
+339,339,Commercial,49,Active,This is an informative information,I have nothing to say about a battery,4/4/2018,4/19/2018
+340,340,Hybrid,17,Active,You are looking at the battery,Look behind you,7/16/2018,4/4/2018
+341,341,Residential,91,Active,You are looking at the battery,I have nothing to say about a battery,10/9/2018,8/26/2018
+342,342,Corporate,9,Active,This is an informative information,Look behind you,4/13/2018,12/9/2018
+343,343,Commercial,99,Active,This is an informative information,I have nothing to say about a battery,6/14/2018,1/1/2019
+344,344,Hybrid,87,Active,This is an informative information,Look behind you,1/25/2019,10/29/2018
+345,345,Residential,67,Active,You are looking at the battery,Very long note,6/3/2018,7/18/2018
+346,346,Corporate,99,Active,You are looking at the battery,I have nothing to say about a battery,10/23/2018,3/30/2018
+347,347,Commercial,38,Active,This is an informative information,I have nothing to say about a battery,8/19/2018,9/11/2018
+348,348,Hybrid,60,Inactive,You are looking at the battery,I have nothing to say about a battery,6/17/2018,10/13/2018
+349,349,Residential,97,Active,I like that,Look behind you,8/22/2018,1/24/2019
+350,350,Corporate,94,Active,I like that,I have nothing to say about a battery,1/4/2019,12/7/2018
+351,351,Commercial,73,Active,This is an informative information,Look behind you,5/29/2018,10/9/2018
+352,352,Hybrid,50,Active,You are looking at the battery,I have nothing to say about a battery,3/14/2018,6/24/2018
+353,353,Residential,88,Active,This is an informative information,Very long note,8/19/2018,3/6/2018
+354,354,Corporate,98,Inactive,You are looking at the battery,Look behind you,5/6/2018,2/27/2019
+355,355,Commercial,88,Active,I like that,Look behind you,7/31/2018,4/10/2018
+356,356,Hybrid,11,Active,You are looking at the battery,Very long note,12/6/2018,9/22/2018
+357,357,Residential,28,Active,You are looking at the battery,Look behind you,3/14/2018,3/12/2018
+358,358,Corporate,7,Active,I like that,I have nothing to say about a battery,10/4/2018,5/5/2018
+359,359,Commercial,89,Active,You are looking at the battery,Very long note,7/21/2018,3/11/2019
+360,360,Hybrid,93,Active,I like that,I have nothing to say about a battery,4/16/2018,12/28/2018
+361,361,Residential,57,Active,You are looking at the battery,Look behind you,6/30/2018,6/8/2018
+362,362,Corporate,96,Active,You are looking at the battery,I have nothing to say about a battery,3/16/2018,8/19/2018
+363,363,Commercial,50,Active,You are looking at the battery,Very long note,5/11/2018,3/7/2019
+364,364,Hybrid,18,Active,This is an informative information,Very long note,2/14/2019,1/24/2019
+365,365,Residential,69,Active,This is an informative information,Very long note,2/16/2019,3/5/2018
+366,366,Corporate,62,Active,You are looking at the battery,I have nothing to say about a battery,10/23/2018,12/26/2018
+367,367,Commercial,86,Active,This is an informative information,I have nothing to say about a battery,10/5/2018,6/9/2018
+368,368,Hybrid,48,Active,You are looking at the battery,Very long note,5/7/2018,8/20/2018
+369,369,Residential,77,Inactive,You are looking at the battery,I have nothing to say about a battery,5/21/2018,2/23/2019
+370,370,Corporate,43,Active,This is an informative information,Look behind you,10/29/2018,9/16/2018
+371,371,Commercial,31,Inactive,This is an informative information,Very long note,10/19/2018,5/8/2018
+372,372,Hybrid,62,Active,You are looking at the battery,Look behind you,12/15/2018,4/21/2018
+373,373,Residential,33,Inactive,I like that,Very long note,4/20/2018,8/16/2018
+374,374,Corporate,98,Active,You are looking at the battery,I have nothing to say about a battery,8/3/2018,8/26/2018
+375,375,Commercial,90,Active,You are looking at the battery,Look behind you,4/23/2018,10/3/2018
+376,376,Hybrid,29,Active,This is an informative information,I have nothing to say about a battery,12/6/2018,4/12/2018
+377,377,Residential,36,Active,This is an informative information,Look behind you,6/27/2018,10/23/2018
+378,378,Corporate,7,Active,I like that,Very long note,9/7/2018,10/30/2018
+379,379,Commercial,60,Active,I like that,I have nothing to say about a battery,5/28/2018,2/25/2019
+380,380,Hybrid,12,Active,I like that,Very long note,7/29/2018,1/19/2019
+381,381,Residential,49,Active,You are looking at the battery,Very long note,8/17/2018,10/29/2018
+382,382,Corporate,17,Active,I like that,Look behind you,7/14/2018,4/12/2018
+383,383,Commercial,89,Active,I like that,Very long note,5/16/2018,6/29/2018
+384,384,Hybrid,100,Active,You are looking at the battery,Very long note,10/30/2018,3/14/2018
+385,385,Residential,86,Active,You are looking at the battery,I have nothing to say about a battery,1/23/2019,12/10/2018
+386,386,Corporate,62,Active,You are looking at the battery,Look behind you,12/21/2018,3/16/2018
+387,387,Commercial,66,Active,This is an informative information,Very long note,3/22/2018,8/6/2018
+388,388,Hybrid,96,Active,You are looking at the battery,Very long note,5/17/2018,6/27/2018
+389,389,Residential,67,Inactive,This is an informative information,Very long note,8/1/2018,12/7/2018
+390,390,Corporate,65,Active,I like that,Very long note,4/15/2018,7/26/2018
+391,391,Commercial,22,Active,You are looking at the battery,I have nothing to say about a battery,5/25/2018,9/10/2018
+392,392,Hybrid,1,Active,This is an informative information,Very long note,8/18/2018,12/4/2018
+393,393,Residential,63,Active,You are looking at the battery,Very long note,2/6/2019,9/16/2018
+394,394,Corporate,65,Active,This is an informative information,Very long note,5/17/2018,10/11/2018
+395,395,Commercial,65,Active,This is an informative information,Very long note,6/6/2018,9/19/2018
+396,396,Hybrid,33,Active,This is an informative information,Look behind you,3/16/2018,3/15/2018
+397,397,Residential,1,Active,I like that,I have nothing to say about a battery,2/2/2019,10/29/2018
+398,398,Corporate,68,Inactive,I like that,Look behind you,11/24/2018,7/2/2018
+399,399,Commercial,29,Inactive,I like that,Very long note,2/1/2019,2/24/2019
+400,400,Hybrid,20,Active,This is an informative information,Very long note,10/26/2018,11/9/2018
+401,401,Residential,84,Active,This is an informative information,Very long note,3/18/2018,10/2/2018
+402,402,Corporate,77,Inactive,This is an informative information,Look behind you,11/23/2018,3/29/2018
+403,403,Commercial,69,Active,I like that,Very long note,12/20/2018,4/18/2018
+404,404,Hybrid,24,Active,You are looking at the battery,Look behind you,8/12/2018,1/28/2019
+405,405,Residential,62,Active,I like that,I have nothing to say about a battery,4/26/2018,6/28/2018
+406,406,Corporate,82,Active,You are looking at the battery,Look behind you,2/5/2019,9/7/2018
+407,407,Commercial,6,Active,You are looking at the battery,Very long note,10/8/2018,2/18/2019
+408,408,Hybrid,23,Active,You are looking at the battery,Very long note,8/17/2018,11/13/2018
+409,409,Residential,25,Active,You are looking at the battery,I have nothing to say about a battery,5/17/2018,3/24/2018
+410,410,Corporate,17,Active,I like that,Look behind you,2/18/2019,3/1/2019
+411,411,Commercial,28,Inactive,I like that,I have nothing to say about a battery,11/20/2018,9/28/2018
+412,412,Hybrid,87,Active,You are looking at the battery,Very long note,9/20/2018,1/7/2019
+413,413,Residential,55,Active,You are looking at the battery,I have nothing to say about a battery,10/22/2018,12/17/2018
+414,414,Corporate,89,Active,This is an informative information,I have nothing to say about a battery,4/8/2018,9/25/2018
+415,415,Commercial,8,Active,I like that,I have nothing to say about a battery,4/16/2018,5/31/2018
+416,416,Hybrid,92,Active,This is an informative information,I have nothing to say about a battery,4/26/2018,6/18/2018
+417,417,Residential,24,Active,You are looking at the battery,I have nothing to say about a battery,8/30/2018,10/19/2018
+418,418,Corporate,89,Active,This is an informative information,Look behind you,6/25/2018,3/11/2019
+419,419,Commercial,59,Active,This is an informative information,I have nothing to say about a battery,6/18/2018,3/20/2018
+420,420,Hybrid,36,Active,I like that,Very long note,6/3/2018,9/13/2018
+421,421,Residential,29,Active,You are looking at the battery,I have nothing to say about a battery,5/4/2018,3/2/2018
+422,422,Corporate,11,Active,This is an informative information,I have nothing to say about a battery,9/10/2018,3/10/2018
+423,423,Commercial,52,Active,You are looking at the battery,I have nothing to say about a battery,1/22/2019,3/12/2019
+424,424,Hybrid,41,Active,You are looking at the battery,Look behind you,5/7/2018,5/11/2018
+425,425,Residential,14,Active,You are looking at the battery,Look behind you,9/3/2018,9/18/2018
+426,426,Corporate,75,Active,This is an informative information,Look behind you,8/15/2018,3/3/2018
+427,427,Commercial,78,Active,I like that,I have nothing to say about a battery,11/5/2018,2/26/2019
+428,428,Hybrid,53,Active,This is an informative information,Very long note,11/30/2018,8/16/2018
+429,429,Residential,58,Active,I like that,I have nothing to say about a battery,4/18/2018,5/16/2018
+430,430,Corporate,75,Active,I like that,I have nothing to say about a battery,7/6/2018,3/16/2018
+431,431,Commercial,87,Active,You are looking at the battery,Very long note,1/21/2019,3/14/2018
+432,432,Hybrid,65,Active,I like that,Very long note,5/10/2018,6/10/2018
+433,433,Residential,26,Active,This is an informative information,Look behind you,2/11/2019,2/2/2019
+434,434,Corporate,59,Active,You are looking at the battery,Very long note,1/17/2019,10/24/2018
+435,435,Commercial,45,Active,You are looking at the battery,Look behind you,1/11/2019,3/26/2018
+436,436,Hybrid,3,Active,You are looking at the battery,Look behind you,8/7/2018,2/17/2019
+437,437,Residential,68,Active,This is an informative information,Very long note,5/29/2018,9/13/2018
+438,438,Corporate,62,Active,This is an informative information,Look behind you,7/9/2018,7/14/2018
+439,439,Commercial,79,Active,This is an informative information,I have nothing to say about a battery,9/17/2018,5/19/2018
+440,440,Hybrid,16,Active,You are looking at the battery,I have nothing to say about a battery,9/11/2018,3/7/2019
+441,441,Residential,58,Active,This is an informative information,I have nothing to say about a battery,7/25/2018,8/8/2018
+442,442,Corporate,42,Active,You are looking at the battery,Look behind you,11/8/2018,2/16/2019
+443,443,Commercial,53,Active,I like that,Look behind you,8/28/2018,4/26/2018
+444,444,Hybrid,20,Active,I like that,Very long note,4/9/2018,2/18/2019
+445,445,Residential,70,Active,I like that,I have nothing to say about a battery,8/7/2018,1/14/2019
+446,446,Corporate,42,Active,I like that,Very long note,12/10/2018,1/6/2019
+447,447,Commercial,31,Active,I like that,Very long note,11/14/2018,2/19/2019
+448,448,Hybrid,53,Active,This is an informative information,Look behind you,4/17/2018,11/28/2018
+449,449,Residential,91,Active,You are looking at the battery,Look behind you,8/25/2018,1/10/2019
+450,450,Corporate,79,Active,You are looking at the battery,I have nothing to say about a battery,12/1/2018,11/11/2018
+451,451,Commercial,76,Active,I like that,Very long note,7/27/2018,9/19/2018
+452,452,Hybrid,1,Active,I like that,Look behind you,4/15/2018,10/11/2018
+453,453,Residential,88,Active,You are looking at the battery,I have nothing to say about a battery,10/1/2018,12/1/2018
+454,454,Corporate,15,Active,This is an informative information,Very long note,9/20/2018,7/17/2018
+455,455,Commercial,91,Active,I like that,I have nothing to say about a battery,4/18/2018,11/25/2018
+456,456,Hybrid,90,Active,This is an informative information,Look behind you,10/27/2018,7/28/2018
+457,457,Residential,9,Active,I like that,I have nothing to say about a battery,6/27/2018,7/15/2018
+458,458,Corporate,22,Active,You are looking at the battery,I have nothing to say about a battery,4/6/2018,8/11/2018
+459,459,Commercial,38,Active,I like that,Very long note,6/3/2018,2/4/2019
+460,460,Hybrid,54,Active,This is an informative information,Very long note,8/16/2018,12/31/2018
+461,461,Residential,33,Active,I like that,Very long note,5/18/2018,6/26/2018
+462,462,Corporate,16,Active,You are looking at the battery,Look behind you,3/18/2018,10/1/2018
+463,463,Commercial,52,Active,This is an informative information,Look behind you,1/12/2019,12/9/2018
+464,464,Hybrid,35,Active,You are looking at the battery,Look behind you,6/22/2018,6/6/2018
+465,465,Residential,78,Active,I like that,Very long note,3/14/2018,3/2/2018
+466,466,Corporate,74,Active,This is an informative information,Very long note,6/13/2018,6/1/2018
+467,467,Commercial,28,Active,I like that,I have nothing to say about a battery,1/31/2019,11/21/2018
+468,468,Hybrid,58,Active,This is an informative information,Look behind you,2/18/2019,4/12/2018
+469,469,Residential,89,Active,You are looking at the battery,Look behind you,2/16/2019,1/25/2019
+470,470,Corporate,85,Inactive,I like that,I have nothing to say about a battery,2/19/2019,4/24/2018
+471,471,Commercial,76,Active,I like that,Look behind you,4/22/2018,9/27/2018
+472,472,Hybrid,31,Active,You are looking at the battery,Look behind you,1/27/2019,12/27/2018
+473,473,Residential,5,Inactive,This is an informative information,Very long note,9/16/2018,3/2/2018
+474,474,Corporate,78,Active,This is an informative information,Look behind you,11/18/2018,4/30/2018
+475,475,Commercial,73,Active,This is an informative information,I have nothing to say about a battery,9/13/2018,8/23/2018
+476,476,Hybrid,64,Active,You are looking at the battery,Look behind you,11/30/2018,9/7/2018
+477,477,Residential,5,Active,This is an informative information,Very long note,2/6/2019,9/18/2018
+478,478,Corporate,8,Active,I like that,I have nothing to say about a battery,9/13/2018,9/29/2018
+479,479,Commercial,92,Active,You are looking at the battery,Look behind you,7/20/2018,1/13/2019
+480,480,Hybrid,9,Active,This is an informative information,Look behind you,6/20/2018,6/30/2018
+481,481,Residential,69,Active,You are looking at the battery,Look behind you,5/2/2018,7/21/2018
+482,482,Corporate,19,Active,This is an informative information,Look behind you,10/12/2018,10/15/2018
+483,483,Commercial,23,Active,This is an informative information,I have nothing to say about a battery,10/2/2018,11/10/2018
+484,484,Hybrid,92,Active,You are looking at the battery,Look behind you,1/28/2019,12/3/2018
+485,485,Residential,10,Active,This is an informative information,Very long note,3/31/2018,9/30/2018
+486,486,Corporate,16,Active,I like that,Look behind you,11/28/2018,7/9/2018
+487,487,Commercial,45,Active,This is an informative information,Very long note,6/28/2018,7/12/2018
+488,488,Hybrid,93,Active,I like that,Very long note,5/13/2018,4/27/2018
+489,489,Residential,76,Active,You are looking at the battery,Look behind you,12/11/2018,2/1/2019
+490,490,Corporate,49,Inactive,You are looking at the battery,I have nothing to say about a battery,6/20/2018,8/9/2018
+491,491,Commercial,44,Active,I like that,Very long note,9/7/2018,11/16/2018
+492,492,Hybrid,9,Active,You are looking at the battery,I have nothing to say about a battery,11/10/2018,3/21/2018
+493,493,Residential,57,Inactive,This is an informative information,Look behind you,4/30/2018,4/4/2018
+494,494,Corporate,21,Active,I like that,Very long note,7/5/2018,12/3/2018
+495,495,Commercial,41,Active,I like that,Very long note,6/23/2018,8/20/2018
+496,496,Hybrid,66,Active,This is an informative information,Look behind you,12/15/2018,3/7/2018
+497,497,Residential,22,Active,I like that,Very long note,7/29/2018,4/14/2018
+498,498,Corporate,45,Active,You are looking at the battery,Very long note,5/2/2018,6/2/2018
+499,499,Commercial,3,Inactive,This is an informative information,I have nothing to say about a battery,7/14/2018,1/13/2019
+500,500,Hybrid,49,Active,This is an informative information,I have nothing to say about a battery,9/28/2018,6/10/2018

@@ -1,0 +1,54 @@
+
+<%= render partial: "partial" %>
+
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Full Name:</strong>
+  <%= @quote.full_name %>
+</p>
+
+<p>
+  <strong>Phone Number:</strong>
+  <%= @quote.phone_number %>
+</p>
+
+<p>
+  <strong>Email:</strong>
+  <%= @quote.email %>
+</p>
+
+<p>
+  <strong>Business Name:</strong>
+  <%= @quote.business_name %>
+</p>
+
+<p>
+  <strong>Quality selected:</strong>
+  <%= @quote.quality %>
+</p>
+
+<p>
+  <strong>Estimate number of elevators needed:</strong>
+  <%= @quote.number_elevator %>
+</p>
+
+<p>
+  <strong>Price per elevators:</strong>
+  <%= @quote.elevator_price %> $
+</p>
+
+<p>
+  <strong>Installation fees:</strong> 
+  <%= @quote.installation_price %> $
+</p>
+
+
+
+<p>
+  <strong>Total Estimation:</strong>
+  <%= @quote.total_price %> $
+</p>
+
+
+

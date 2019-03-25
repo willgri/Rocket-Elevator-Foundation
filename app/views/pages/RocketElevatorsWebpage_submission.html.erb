@@ -1,0 +1,495 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8" />
+	<title>Rocket Elevators</title>
+	<meta name="Rocket Elevators Website" content="" />
+	<meta name="Dominic Villemure" content="Dominic Villemure [www.codeboxx.biz]" />
+	<link rel="icon" type="image/png" href="RocketElevatorAssets/R22.png">
+
+	<!-- mobile settings -->
+	<meta name="viewport" content="width=device-width, maximum-scale=1, initial-scale=1, user-scalable=0" />
+	<!--[if IE]><meta http-equiv='X-UA-Compatible' content='IE=edge,chrome=1'><![endif]-->
+
+	<!-- WEB FONTS : use %7C instead of | (pipe) -->
+	<!-- <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600%7CRaleway:300,400,500,600,700%7CLato:300,400,400italic,600,700" rel="stylesheet" type="text/css" /> -->
+	<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+
+
+	  <!-- CORE CSS -->
+	 <%# <link href="assets/plugins/bootstrap/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+
+	<!-- REVOLUTION SLIDER -->
+	<link href="assets/plugins/slider.revolution/css/extralayers.css" rel="stylesheet" type="text/css" />
+	<link href="assets/plugins/slider.revolution/css/settings.css" rel="stylesheet" type="text/css" />
+
+	<!-- THEME CSS -->
+	<link href="assets/css/essentials.css" rel="stylesheet" type="text/css" />
+	<link href="assets/css/layout.css" rel="stylesheet" type="text/css" />
+	<link href="assets/plugins/bootstrap/css/Custom.css" rel="stylesheet" type="text/css" />
+	<link href="assets/css/Custom.css" rel="stylesheet" type="text/css" />
+
+	<!-- PAGE LEVEL SCRIPTS -->
+	<link href="assets/css/header-2.css" rel="stylesheet" type="text/css" />
+	<link href="assets/css/color_scheme/lightgrey.css" rel="stylesheet" type="text/css" id="color_scheme" />  %>
+</head> 
+
+<body class="smoothscroll enable-animation">
+
+
+
+
+	<!-- wrapper -->
+	<div id="wrapper">
+
+		<div id="header" class="dark navbar-toggleable-md sticky clearfix shadow-before-1">
+
+			<!-- TOP NAV -->
+			<header id="topNav">
+				<div class="container">
+
+					<!-- Mobile Menu Button -->
+					<button class="btn btn-mobile" data-toggle="collapse" data-target=".nav-main-collapse">
+						<i class="fa fa-bars"></i>
+					</button>
+
+					<!-- BUTTONS -->
+					<ul class="float-right nav nav-pills nav-second-main">
+
+
+
+
+					</ul>
+					<!-- /BUTTONS -->
+
+
+					<!-- Logo -->
+					<a class="submenu-dark" href="index.html">
+						<%= image_tag("R22.png", :alt => "RocketElevator-logo", :class => "img-fluid", :width =>"150", :height =>"60") %>
+					</a>
+
+					<div class="navbar-collapse collapse float-right nav-main-collapse">
+						<nav class="nav-main">
+
+							<ul id="topMain" class="nav nav-pills nav-main">
+								<li>
+									<!-- HOME -->
+									<a href="index.html">
+										HOME
+									</a>
+
+								</li>
+
+								<li>
+									<!-- SERVICES -->
+									<a href="index.html#to_services">
+										SERVICES
+									</a>
+									<ul class="dropdown-menu">
+										<li><a href="RocketElevatorsWebpage_Residential.html">Residential offers</a></li>
+										<li><a href="RocketElevatorsWebpage_Corporate.html">Corporate offers</a></li>
+										<li><a href="RocketElevatorsWebpage_submission.html">Submission</a></li>
+									</ul>
+
+								<li>
+									<!-- PORTFOLIO -->
+									<a href="index.html#to_portfolio">
+										PORTFOLIO
+									</a>
+
+								<li>
+									<!-- NEWS -->
+									<a href="index.html#to_news">
+										NEWS
+									</a>
+
+								</li>
+
+
+								<li>
+									<!-- CLIENTS -->
+									<a href="index.html#to_clients">
+										CLIENTS
+									</a>
+
+								</li>
+
+								<li>
+									<!-- ADMIN -->
+									<a href="admins">LOGIN</a>
+
+								</li>
+
+								<li>
+									<!-- GRAPH -->
+									<a href="charts">GRAPH</a>
+
+								</li>
+
+								<li>
+									<!-- CONTACT US -->
+									<a href="index.html#footer">
+										CONTACT US
+									</a>
+
+								</li>
+
+
+							</ul>
+
+						</nav>
+					</div>
+
+				</div>
+			</header>
+			<!-- /Top Nav -->
+
+		</div>
+
+
+	<section class="btn btn-xlg btn-primary fs-20 fullwidth m-0 rad-40 p-40 " style="background-image: url('/assets/AdobeStock_103570025.jpeg');">
+		<span class="font-lato fs-30" style="color:rgb(300, 300, 300)">
+			For the best elevators,
+			<strong> Rocket Elevators ! </strong>
+		</span>
+	</section>
+
+	</footer>
+	<!-- /FOOTER INFO -->
+
+
+	<!-- FOOTER Formulaire-->
+	<footer id="footer">
+		<div class="wide">
+
+
+			<div class="row" style="margin:2%">
+			<h2 class="col-sm-6">GET YOUR SUBMISSION </h2>
+
+				
+
+				<!-- FORM -->
+				<div style="margin:0% ; padding:0%" class="col-md-9">
+
+				
+					<!-- Alert Success -->
+					<div id="alert_success" class="alert alert-success mb-30">
+						<button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button>
+						<strong>Thank You!</strong> Your message successfully sent!
+					</div><!-- /Alert Success -->
+
+
+					<!-- Alert Failed -->
+					<div id="alert_failed" class="alert alert-danger mb-30">
+						<button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button>
+						<strong>[SMTP] Error!</strong> Internal server error!
+					</div><!-- /Alert Failed -->
+
+
+					<!-- Alert Mandatory -->
+					<div id="alert_mandatory" class="alert alert-danger mb-30">
+						<button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button>
+						<strong>Sorry!</strong> You need to complete all mandatory (*) fields!
+					</div><!-- /Alert Mandatory -->
+
+				
+					<form id="formulaire" class="col-sm-8" clearfix method="post" action="/quotes" novalidate enctype="multipart/form-data">
+					
+							<fieldset>
+								<input type="hidden" name="action" value="contact_send" />
+
+								<div class="row" style="margin:-3% ; padding:0%" >
+									<div class="col-md-9">
+										 <label for="contact:phone">Full Name <strong href="#" data-toggle="tooltip" title="Name, Last Name">(?)</strong></label>
+                                         <input required type="text" value="" class="form-control" name="full_name" id="full_name">
+									</div>
+								</div>
+
+								<div class="row" style="margin:-3% ; padding:0%" >
+									<div class="col-md-9">
+										 <label for="contact:phone">Phone Number <strong href="#" data-toggle="tooltip" title="Phone Number">(?)</strong></label>
+                                         <input required type="number" value="" class="form-control" name="phone_number" id="phone_number">
+									</div>
+								</div>
+
+								<div class="row" style="margin:-3% ; padding:0%" >
+									<div class="col-md-9">
+										 <label for="contact:phone">Email <strong href="#" data-toggle="tooltip" title="Phone Number">(?)</strong></label>
+                                         <input required type="email" value="" class="form-control" name="email" id="email">
+									</div>
+								</div>
+
+								<div class="row" style="margin:-3% ; padding:0%" >
+									<div class="col-md-9">
+										 <label for="contact:phone">Business name <strong href="#" data-toggle="tooltip" title="Phone Number">(?)</strong></label>
+                                         <input required type="string" value="" class="form-control" name="business_name" id="business_name">
+									</div>
+								</div>
+
+							</fieldset>
+
+						
+						<fieldset>
+							<input type="hidden" name="action" value="contact_send" />
+
+							<div class="row">
+
+								<div class="col-md-4" id="select_1">
+									<label for="building_type">
+										<p> Select Your Building Type </p>
+										</p>
+									</label>
+									<select class="btn btn-primary" id="building_type" name="building_type">
+										<option value="Select">--- Select ---</option>
+										<option value="Residential">Residential</option>
+										<option value="Corporate">Corporate</option>
+										<option value="Commercial">Commercial</option>
+										<option value="Hybrid">Hybrid</option>
+									</select>
+								</div>
+							</div>
+
+
+
+							
+								<label id="Quality" for="Quality" >
+									<p> Select your desired quality </p>
+									</p>
+								</label>
+								<input id="Standard" type="radio" name="quality" value="Standard" checked>Standard
+								<input id="Premium" type="radio" name="quality" value="Premium">Premium
+								<input id="Excelium" type="radio" name="quality" value="Excelium">Excelium
+							
+
+							<br>
+							<br>
+
+
+
+							<div class="row" id="department_1">
+								<div class="col-md-6">
+									<label for="contact:subject">Number of appartments <strong href="#" data-toggle="tooltip" title="Total numbers of appartments in your building.">(?)</strong></label>
+									<input required type="Number" value="" class="form-control" name="number_appartment" id="nb-app">
+									<span id="error_txt" style="color:red"></span>
+								</div>
+
+								<div class="col-md-6">
+									<label for="contact:subject">Number of floors <strong href="#" data-toggle="tooltip" title="Numbers of floors, don't include basement.">(?)</strong></label>
+									<input required type="Number" value="" class="form-control" name="number_floor" id="nb-floor">
+									<span id="error2_txt" style="color:red"></span>
+								</div>
+
+								<div class="col-md-6">
+									<label for="contact:subject">Numbers of basements </label>
+									<input id- required type="Number" value="" class="form-control" name="number_basement" id="nb-basement">
+									<span id="error3_txt" style="color:red"></span>
+								</div>
+							</div>
+
+
+
+
+
+							<div class="row" id="department_2">
+								<div class="col-md-5">
+									<label for="contact:subject">Numbers of dinstinct trades </label>
+									<input required type="Number" value="" class="form-control" name="number_of_trade_market" id="nb-trade3">
+								</div>
+
+								<div class="col-md-5">
+									<label for="contact:subject">Numbers of floors <strong href="#" data-toggle="tooltip" title="Numbers of floors, don't include basement.">(?)</strong></label>
+									<input required type="Number" value="" class="form-control" name="number_floor2" id="nb-floor3">
+								</div>
+
+								<div class="col-md-5">
+									<label for="contact:subject">Numbers of basements </label>
+									<input required type="Number" value="" class="form-control" name="number_basement2" id="nb-basement3">
+								</div>
+
+								<div class="col-md-5">
+									<label for="contact:subject">Numbers of parkings </label>
+									<input required type="Number" value="" class="form-control" name="number_parking_space2" id="nb-parking3">
+								</div>
+
+								<div class="col-md-5">
+									<label for="contact:subject">Numbers of cages to deploy </label>
+									<input required type="Number" value="" class="form-control" name="number_of_elevators_cage" id="nb-cage-deploy3">
+									<span id="error9_txt" style="color:red"></span>
+								</div>
+							</div>
+
+
+
+							<div class="row" id="department_3">
+								<div class="col-md-6">
+									<label for="contact:subject">Numbers of distinct business <strong href="#" data-toggle="tooltip" title="Total number of distinct business present in your building ">(?)</strong>
+									</label>
+									<input required type="Number" value="" class="form-control" name="number_of_distinct_business3" id="dist-loca2">
+									<span id="error8_txt" style="color:red"></span>
+								</div>
+
+								<div class="col-md-6">
+									<label for="contact:subject">Numbers of floors <strong href="#" data-toggle="tooltip" title="Numbers of floors, don't include basement.">(?)</strong></label>
+									<input required type="Number" value="" class="form-control" name="number_floor3" id="nb-floor2">
+									<span id="error5_txt" style="color:red"></span>
+								</div>
+
+								<div class="col-md-6">
+									<label for="contact:subject">Numbers of basements </label>
+									<input required type="Number" value="" class="form-control" name="number_basement3" id="nb-basement2">
+									<span id="error4_txt" style="color:red"></span>
+								</div>
+
+								<div class="col-md-6">
+									<label for="contact:subject">Numbers of parkings </label>
+									<input required type="Number" value="" class="form-control" name="number_parking_space3" id="nb-parking2">
+									<span id="error7_txt" style="color:red"></span>
+								</div>
+
+								<div class="col-md-6">
+									<label for="contact:subject">Max numbers of people per floor </label>
+									<input required type="Number" value="" class="form-control" name="maximum_occupant_per_floor3" id="nb-maxPeople2">
+									<span id="error6_txt" style="color:red"></span>
+								</div>
+							</div>
+
+
+
+							<div class="row " id="department_4">
+								<div class="col-md-6">
+									<label for="contact:subject">Numbers of distinct business </label>
+									<input required type="Number" value="" class="form-control" name="number_of_distinct_business4" id="dist-busi4">
+									<span id="error14_txt" style="color:red"></span>
+								</div>
+
+								<div class="col-md-6">
+									<label for="contact:subject">Numbers of floors <strong href="#" data-toggle="tooltip" title="Numbers of floors, don't include basement.">(?)</strong></label>
+									<input required type="Number" value="" class="form-control" name="number_floor4" id="nb-floor4">
+									<span id="error10_txt" style="color:red"></span>
+								</div>
+
+								<div class="col-md-6">
+									<label for="contact:subject">Numbers of basements </label>
+									<input required type="Number" value="" class="form-control" name="number_basement4" id="nb-basement4">
+									<span id="error11_txt" style="color:red"></span>
+								</div>
+
+								<div class="col-md-6">
+									<label for="contact:subject">Numbers of parkings </label>
+									<input required type="Number" value="" class="form-control" name="number_parking_space4" id="nb-parking4">
+									<span id="error15_txt" style="color:red"></span>
+								</div>
+
+								<div class="col-md-6">
+									<label for="contact:subject">Max numbers of people per floor </label>
+									<input required type="Number" value="" class="form-control" name="maximum_occupant_per_floor4" id="nb-people4">
+									<span id="error12_txt" style="color:red"></span>
+								</div>
+
+								<div class="col-md-6">
+									<label for="contact:subject">Hour of activity in the building <strong href="#" data-toggle="tooltip" title="per day : Max 24h">(?)</strong>
+									</label>
+									<input required type="Number" min="0" max="24" value="" class="form-control" name="hour_of_activity"
+									 id="hr-activity4">
+									<span id="error13_txt" style="color:red"></span>
+								</div>
+							</div>
+
+			<!-- CALCULATION SECTION -->
+			<div id="tobot" class="toggle-transparent toggle-bordered-full clearfix" class="col-sm-12">
+				<div class="toggle active">
+					<div class="toggle-content">
+
+						<span class="clearfix">
+							<span id="solo_estimate" name="elevator_prices" class="float-right"> 0$ </span>
+							<input required type="Number" id ="solo_estimate_fake" name="elevator_price">
+							<span class="float-left">Price per elevator: <strong href="#tobot" data-toggle="tooltip" title="Price for 1 elevator">(?)</strong></span>
+						</span>
+
+						<span class="clearfix">
+							<span id="inst_fee" name="installation_prices" class="float-right"> 0$ </span>
+							<input required type="Number" id ="inst_fee_fake" name="installation_price">
+							<span class="float-left">Installation fee per elevator: <strong href="#tobot" data-toggle="tooltip" title="Installation fee for 1 elevator">(?)</strong></span>
+						</span>
+
+
+						<span class="clearfix">
+							<span id="num_elev" name="number_elevators" class="float-right"> 0 </span>
+							<input required type="Number" id ="num_elev_fake" name="number_elevator"> 
+							<strong class="float-left">Numbers of Elevators Needed:</strong>
+						</span>
+
+						<hr />
+
+						<span class="clearfix">
+							<span class="float-right fs-20">
+								<p id="tot_estimate" name="total_prices"> 0$ </p>
+								<input required type="Number" id ="tot_estimate_fake" name="total_price"> 
+							</span>
+							<strong class="float-left"> TOTAL ESTIMATE:</strong>
+
+						</span>
+						<hr />
+
+						<button id="send" href="index.html" class="btn btn-primary btn-lg btn-block fs-15"><i class="fa fa-mail-forward"></i> SEND YOUR SUBMISSION</button>
+					</div>
+				</div>
+			</div>
+
+		</div>
+		</fieldset>
+		</form>
+	</div>
+
+		<!-- FOOTER -->
+
+		<div class="copyright">
+			<div class="container">
+				<ul class="float-right m-0 list-inline mobile-block">
+					<li><a href="#"></a></li>
+
+					<li><a href="#">(418)580-7055</a></li>
+					
+				</ul>
+				WHY US ? Because we are the best in the elevators technology.
+			</div>
+		</div>
+	
+
+		<!-- /FOOTER -->
+
+
+		</div>
+
+
+	</footer>
+
+
+	</div>
+	<!-- /wrapper -->
+
+
+	<!-- SCROLL TO TOP -->
+	<a href="#" id="toTop"></a>
+
+	<!-- JAVASCRIPT FILES -->
+<script>
+		var plugin_path = 'assets/plugins/';
+	</script> 
+	
+	<script src="assets/plugins/jquery/jquery-3.3.1.min.js"></script>
+
+	<script src="/assets/scripts.js"></script>
+
+
+
+	<%# <!-- REVOLUTION SLIDER -->
+	<script src="assets/plugins/slider.revolution/js/jquery.themepunch.tools.min.js"></script>
+	<script src="assets/plugins/slider.revolution/js/jquery.themepunch.revolution.min.js"></script>
+	<script src="assets/js/view/demo.revolution_slider.js"></script> %>
+	<script src="/assets/contact.js"></script>
+
+</body>
+
+</html>

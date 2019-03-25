@@ -1,0 +1,1001 @@
+id,column_id,serial_number,model,atype,status,installation_date,last_inspection_date,inspection_certificate,information,notes,created_at,updated_at
+1,464,3163,Standard,Residential,Active,20/2/2019,22/3/2018,Not Certified,Look at me,Not an interesting note,6/28/2018,3/22/2018
+2,314,7598,Premium,Corporate,Active,23/7/2018,31/10/2018,Certified,Best 0-100 mph,Long note,12/17/2018,1/14/2019
+3,295,5095,Premium,Commercial,Active,22/7/2018,13/4/2018,Certified,Shinny elevator,Not an interesting note,4/11/2018,10/15/2018
+4,221,1371,Standard,Hybrid,Active,28/10/2018,7/7/2018,Certified,Best 0-100 mph,Long note,9/3/2018,4/7/2018
+5,89,2129,Standard,Residential,Active,25/7/2018,20/9/2018,Certified,Nice music,This is a note,2/24/2019,7/25/2018
+6,70,9264,Standard,Corporate,Active,22/2/2019,20/6/2018,Certified,Best 0-100 mph,Long note,12/4/2018,4/28/2018
+7,382,9537,Excelium,Commercial,Active,4/9/2018,12/11/2018,Certified,Best 0-100 mph,Not an interesting note,2/9/2019,2/3/2019
+8,496,6385,Standard,Hybrid,Active,10/12/2018,11/3/2019,Certified,Best 0-100 mph,Useless note,4/28/2018,5/21/2018
+9,422,2348,Standard,Residential,Active,7/1/2019,17/12/2018,Certified,This in an interesting information,Long note,12/3/2018,12/20/2018
+10,370,4180,Standard,Corporate,Active,28/10/2018,30/6/2018,Certified,This in an interesting information,This is a note,1/17/2019,5/21/2018
+11,140,7847,Excelium,Commercial,Active,9/8/2018,21/2/2019,Certified,Shinny elevator,Not an interesting note,11/24/2018,1/22/2019
+12,130,6752,Premium,Hybrid,Active,30/6/2018,18/8/2018,Certified,Nice music,This is a note,12/27/2018,4/30/2018
+13,6,2640,Excelium,Residential,Active,25/12/2018,1/1/2019,Certified,Best 0-100 mph,Long note,11/9/2018,3/20/2018
+14,32,2106,Excelium,Corporate,Active,14/7/2018,28/5/2018,Certified,Shinny elevator,This is a note,9/14/2018,12/28/2018
+15,422,8248,Standard,Commercial,Active,29/8/2018,16/9/2018,Certified,Nice music,Useless note,3/2/2019,8/8/2018
+16,494,9058,Premium,Hybrid,Active,26/4/2018,12/3/2019,Certified,Shinny elevator,Not an interesting note,7/16/2018,9/26/2018
+17,16,2782,Premium,Residential,Active,18/9/2018,5/9/2018,Certified,Look at me,This is a note,11/22/2018,6/4/2018
+18,383,8279,Standard,Corporate,Active,21/8/2018,24/7/2018,Certified,Best 0-100 mph,Long note,2/26/2019,4/20/2018
+19,500,3438,Standard,Commercial,Active,21/11/2018,20/10/2018,Certified,Best 0-100 mph,This is a note,2/23/2019,2/26/2019
+20,363,8517,Excelium,Hybrid,Active,16/5/2018,7/3/2019,Certified,Best 0-100 mph,Useless note,12/26/2018,1/4/2019
+21,13,9744,Excelium,Residential,Inactive,7/11/2018,14/9/2018,Certified,Best 0-100 mph,This is a note,8/7/2018,12/6/2018
+22,434,6110,Standard,Corporate,Active,27/2/2019,11/3/2019,Certified,Shinny elevator,Not an interesting note,11/13/2018,5/21/2018
+23,313,9193,Premium,Commercial,Active,17/11/2018,23/12/2018,Certified,Best 0-100 mph,Not an interesting note,12/7/2018,8/27/2018
+24,142,6614,Excelium,Hybrid,Active,18/11/2018,22/4/2018,Certified,Look at me,Not an interesting note,12/27/2018,3/11/2019
+25,309,1858,Premium,Residential,Active,19/11/2018,7/10/2018,Certified,Shinny elevator,This is a note,12/14/2018,2/4/2019
+26,86,7184,Premium,Corporate,Active,29/5/2018,29/5/2018,Certified,This in an interesting information,Long note,12/5/2018,5/5/2018
+27,277,1122,Standard,Commercial,Inactive,12/4/2018,25/3/2018,Not Certified,Look at me,Not an interesting note,8/24/2018,8/4/2018
+28,165,5389,Standard,Hybrid,Active,7/8/2018,16/11/2018,Certified,This in an interesting information,Long note,3/29/2018,5/11/2018
+29,237,1422,Excelium,Residential,Active,16/1/2019,3/3/2019,Certified,Shinny elevator,This is a note,10/20/2018,11/27/2018
+30,17,7151,Premium,Corporate,Active,3/4/2018,12/11/2018,Certified,Best 0-100 mph,Useless note,11/26/2018,9/9/2018
+31,338,9010,Premium,Commercial,Active,19/5/2018,15/8/2018,Certified,Best 0-100 mph,Useless note,10/14/2018,2/15/2019
+32,78,1567,Excelium,Hybrid,Active,7/9/2018,3/12/2018,Certified,Best 0-100 mph,Not an interesting note,7/16/2018,4/15/2018
+33,414,4200,Premium,Residential,Active,20/10/2018,28/8/2018,Not Certified,Look at me,Long note,9/2/2018,8/4/2018
+34,23,4760,Premium,Corporate,Active,18/11/2018,17/4/2018,Certified,Nice music,Not an interesting note,2/7/2019,7/17/2018
+35,182,6609,Excelium,Commercial,Active,29/1/2019,15/2/2019,Certified,Best 0-100 mph,Useless note,7/13/2018,12/15/2018
+36,465,9645,Premium,Hybrid,Active,25/5/2018,1/3/2019,Not Certified,Nice music,This is a note,8/19/2018,4/22/2018
+37,10,9141,Premium,Residential,Active,1/10/2018,9/1/2019,Certified,Best 0-100 mph,This is a note,9/27/2018,5/25/2018
+38,24,1677,Excelium,Corporate,Active,18/9/2018,11/7/2018,Certified,Look at me,This is a note,6/2/2018,12/16/2018
+39,460,7231,Standard,Commercial,Active,10/9/2018,26/1/2019,Certified,Nice music,This is a note,11/21/2018,4/16/2018
+40,290,6537,Standard,Hybrid,Active,18/3/2018,22/8/2018,Certified,Look at me,This is a note,10/4/2018,1/19/2019
+41,363,9774,Excelium,Residential,Active,4/6/2018,3/8/2018,Certified,This in an interesting information,This is a note,10/7/2018,10/8/2018
+42,333,4676,Excelium,Corporate,Active,7/9/2018,27/10/2018,Certified,Shinny elevator,This is a note,5/30/2018,5/27/2018
+43,233,7243,Premium,Commercial,Active,16/7/2018,31/8/2018,Certified,Best 0-100 mph,Useless note,10/17/2018,3/24/2018
+44,453,2460,Premium,Hybrid,Active,12/6/2018,18/4/2018,Certified,Look at me,Long note,9/3/2018,3/22/2018
+45,30,9007,Premium,Residential,Active,19/3/2018,16/7/2018,Certified,Nice music,This is a note,7/29/2018,5/19/2018
+46,436,6720,Premium,Corporate,Active,21/10/2018,24/3/2018,Certified,Shinny elevator,Not an interesting note,6/16/2018,3/26/2018
+47,111,7810,Standard,Commercial,Active,18/3/2018,19/5/2018,Not Certified,Look at me,Long note,5/24/2018,12/3/2018
+48,162,8067,Excelium,Hybrid,Active,22/2/2019,3/10/2018,Certified,Best 0-100 mph,Long note,5/24/2018,5/21/2018
+49,290,3153,Standard,Residential,Active,15/9/2018,9/12/2018,Certified,Look at me,Long note,4/30/2018,5/1/2018
+50,340,7066,Standard,Corporate,Active,5/5/2018,19/1/2019,Certified,This in an interesting information,This is a note,10/19/2018,6/7/2018
+51,109,9981,Standard,Commercial,Active,26/7/2018,12/10/2018,Certified,Best 0-100 mph,Useless note,12/20/2018,12/7/2018
+52,228,9565,Premium,Hybrid,Active,3/10/2018,18/5/2018,Certified,This in an interesting information,Not an interesting note,4/16/2018,7/29/2018
+53,371,8973,Standard,Residential,Active,18/1/2019,9/6/2018,Certified,Best 0-100 mph,Long note,10/18/2018,8/29/2018
+54,202,1908,Excelium,Corporate,Active,9/2/2019,12/8/2018,Certified,Look at me,Long note,10/26/2018,6/3/2018
+55,172,4011,Excelium,Commercial,Active,12/1/2019,26/8/2018,Certified,Best 0-100 mph,Not an interesting note,9/12/2018,10/30/2018
+56,440,8570,Premium,Hybrid,Active,9/4/2018,30/5/2018,Certified,This in an interesting information,This is a note,10/28/2018,7/31/2018
+57,310,5519,Premium,Residential,Active,27/3/2018,5/6/2018,Certified,This in an interesting information,Not an interesting note,12/4/2018,12/5/2018
+58,437,9988,Premium,Corporate,Active,8/12/2018,10/1/2019,Certified,Nice music,Useless note,10/30/2018,9/20/2018
+59,408,7223,Standard,Commercial,Active,6/8/2018,22/10/2018,Certified,Nice music,Long note,1/27/2019,5/30/2018
+60,399,3757,Premium,Hybrid,Active,31/12/2018,25/3/2018,Certified,Shinny elevator,Useless note,6/1/2018,2/24/2019
+61,191,8112,Standard,Residential,Active,29/3/2018,22/10/2018,Certified,Look at me,Long note,6/2/2018,8/16/2018
+62,448,1122,Premium,Corporate,Active,15/6/2018,22/9/2018,Certified,Nice music,This is a note,7/10/2018,2/16/2019
+63,116,6908,Excelium,Commercial,Active,13/6/2018,15/3/2018,Certified,Best 0-100 mph,Useless note,6/20/2018,2/18/2019
+64,63,4618,Premium,Hybrid,Active,12/7/2018,30/8/2018,Certified,Look at me,Not an interesting note,7/25/2018,6/19/2018
+65,356,5436,Premium,Residential,Active,11/9/2018,30/4/2018,Certified,Look at me,Not an interesting note,9/8/2018,10/9/2018
+66,235,1147,Premium,Corporate,Active,11/2/2019,10/10/2018,Certified,Shinny elevator,Long note,5/7/2018,5/20/2018
+67,277,1186,Excelium,Commercial,Active,17/8/2018,8/2/2019,Certified,This in an interesting information,Useless note,4/27/2018,3/15/2018
+68,497,7611,Premium,Hybrid,Active,20/12/2018,9/1/2019,Certified,Nice music,This is a note,10/21/2018,8/26/2018
+69,360,8201,Standard,Residential,Active,28/2/2019,29/3/2018,Certified,This in an interesting information,Useless note,7/12/2018,7/4/2018
+70,144,6493,Standard,Corporate,Inactive,24/9/2018,21/8/2018,Certified,This in an interesting information,Long note,11/7/2018,5/2/2018
+71,220,7700,Standard,Commercial,Active,2/4/2018,23/8/2018,Certified,Shinny elevator,Useless note,10/31/2018,5/22/2018
+72,154,9376,Premium,Hybrid,Active,3/9/2018,29/8/2018,Certified,Best 0-100 mph,This is a note,3/25/2018,7/25/2018
+73,195,6073,Excelium,Residential,Active,26/12/2018,10/12/2018,Certified,Nice music,This is a note,1/20/2019,12/10/2018
+74,98,2687,Premium,Corporate,Active,19/5/2018,25/9/2018,Certified,Nice music,Not an interesting note,3/4/2019,7/4/2018
+75,334,8133,Excelium,Commercial,Active,21/11/2018,28/8/2018,Certified,Nice music,Long note,9/3/2018,3/11/2019
+76,251,6033,Premium,Hybrid,Active,23/10/2018,3/4/2018,Certified,This in an interesting information,Not an interesting note,3/19/2018,4/23/2018
+77,155,1821,Excelium,Residential,Active,29/4/2018,11/3/2019,Certified,Best 0-100 mph,Useless note,3/10/2019,2/10/2019
+78,204,7942,Excelium,Corporate,Active,25/1/2019,14/12/2018,Certified,This in an interesting information,Not an interesting note,10/27/2018,5/1/2018
+79,344,7253,Standard,Commercial,Active,6/2/2019,3/4/2018,Certified,Shinny elevator,Not an interesting note,10/24/2018,2/3/2019
+80,254,1993,Standard,Hybrid,Active,2/4/2018,5/1/2019,Certified,This in an interesting information,This is a note,2/5/2019,12/13/2018
+81,197,5524,Premium,Residential,Active,8/1/2019,29/5/2018,Certified,Nice music,Not an interesting note,8/12/2018,9/15/2018
+82,138,4006,Excelium,Corporate,Active,28/12/2018,17/7/2018,Certified,Look at me,Useless note,1/20/2019,12/29/2018
+83,362,6921,Premium,Commercial,Active,24/1/2019,18/12/2018,Certified,Shinny elevator,Long note,8/20/2018,1/20/2019
+84,483,6516,Standard,Hybrid,Active,14/3/2018,26/1/2019,Certified,Best 0-100 mph,This is a note,3/30/2018,7/1/2018
+85,161,7805,Excelium,Residential,Active,22/8/2018,4/4/2018,Certified,Nice music,Useless note,5/26/2018,11/27/2018
+86,7,1421,Excelium,Corporate,Active,25/2/2019,5/8/2018,Certified,This in an interesting information,Useless note,12/11/2018,3/29/2018
+87,316,7110,Excelium,Commercial,Active,11/7/2018,15/1/2019,Certified,Nice music,This is a note,7/12/2018,8/15/2018
+88,240,6965,Standard,Hybrid,Inactive,26/3/2018,29/12/2018,Certified,Nice music,This is a note,7/25/2018,12/13/2018
+89,293,5319,Standard,Residential,Active,1/9/2018,4/12/2018,Certified,Nice music,Not an interesting note,7/5/2018,12/2/2018
+90,158,3351,Standard,Corporate,Active,27/11/2018,17/1/2019,Certified,Best 0-100 mph,Not an interesting note,5/2/2018,5/17/2018
+91,373,6936,Excelium,Commercial,Active,14/5/2018,26/7/2018,Certified,Look at me,Useless note,6/11/2018,6/12/2018
+92,54,1877,Standard,Hybrid,Active,18/1/2019,28/6/2018,Certified,Shinny elevator,Not an interesting note,1/17/2019,4/26/2018
+93,157,7492,Standard,Residential,Active,31/1/2019,11/5/2018,Certified,Nice music,This is a note,9/24/2018,10/8/2018
+94,72,1875,Premium,Corporate,Active,10/11/2018,8/11/2018,Certified,Shinny elevator,Long note,3/4/2019,10/9/2018
+95,459,1350,Excelium,Commercial,Active,11/4/2018,3/6/2018,Certified,This in an interesting information,Not an interesting note,9/25/2018,9/21/2018
+96,50,8064,Excelium,Hybrid,Active,10/8/2018,28/2/2019,Certified,Nice music,Long note,8/9/2018,7/3/2018
+97,475,2972,Premium,Residential,Active,14/2/2019,15/7/2018,Certified,Shinny elevator,Not an interesting note,12/31/2018,3/17/2018
+98,118,4991,Premium,Corporate,Active,27/2/2019,12/11/2018,Certified,Best 0-100 mph,Useless note,3/29/2018,10/14/2018
+99,341,5185,Standard,Commercial,Active,27/9/2018,13/5/2018,Certified,Look at me,This is a note,1/19/2019,3/27/2018
+100,419,1458,Premium,Hybrid,Active,20/4/2018,24/4/2018,Certified,Shinny elevator,This is a note,8/20/2018,6/24/2018
+101,250,4170,Standard,Residential,Active,20/7/2018,9/8/2018,Certified,Shinny elevator,Not an interesting note,12/2/2018,9/9/2018
+102,451,9007,Premium,Corporate,Active,9/11/2018,8/7/2018,Certified,Nice music,Not an interesting note,4/12/2018,1/11/2019
+103,4,5262,Excelium,Commercial,Active,9/3/2019,29/12/2018,Certified,Look at me,Useless note,11/3/2018,7/7/2018
+104,486,5333,Excelium,Hybrid,Active,14/2/2019,11/3/2019,Certified,This in an interesting information,Not an interesting note,11/5/2018,8/25/2018
+105,434,3744,Standard,Residential,Active,8/7/2018,22/8/2018,Certified,Look at me,Not an interesting note,6/26/2018,8/1/2018
+106,469,2565,Premium,Corporate,Active,2/9/2018,15/10/2018,Certified,Nice music,Long note,5/15/2018,2/7/2019
+107,431,9292,Excelium,Commercial,Active,6/8/2018,10/11/2018,Certified,Shinny elevator,Long note,12/16/2018,1/26/2019
+108,252,9394,Premium,Hybrid,Active,29/12/2018,8/10/2018,Certified,Nice music,This is a note,7/25/2018,6/28/2018
+109,476,2041,Premium,Residential,Active,20/4/2018,12/7/2018,Certified,This in an interesting information,Useless note,2/8/2019,9/3/2018
+110,466,9818,Excelium,Corporate,Active,16/11/2018,28/4/2018,Certified,Nice music,This is a note,11/12/2018,11/23/2018
+111,399,7083,Premium,Commercial,Active,27/10/2018,15/10/2018,Certified,Best 0-100 mph,Long note,7/2/2018,4/25/2018
+112,467,9627,Premium,Hybrid,Active,8/2/2019,22/7/2018,Certified,Look at me,Long note,4/29/2018,6/9/2018
+113,137,3156,Standard,Residential,Active,5/12/2018,10/9/2018,Certified,Nice music,This is a note,10/4/2018,11/10/2018
+114,186,2867,Standard,Corporate,Active,3/11/2018,30/4/2018,Certified,Best 0-100 mph,Not an interesting note,1/27/2019,2/13/2019
+115,265,3481,Excelium,Commercial,Active,15/2/2019,20/10/2018,Not Certified,Nice music,Not an interesting note,10/18/2018,2/2/2019
+116,62,9795,Premium,Hybrid,Active,23/10/2018,11/3/2019,Certified,Nice music,Useless note,3/12/2019,7/9/2018
+117,140,8564,Standard,Residential,Active,16/1/2019,5/4/2018,Certified,Shinny elevator,Useless note,6/12/2018,1/29/2019
+118,415,7192,Standard,Corporate,Active,19/9/2018,9/2/2019,Not Certified,Best 0-100 mph,Useless note,3/31/2018,7/9/2018
+119,290,6799,Premium,Commercial,Active,6/11/2018,20/2/2019,Not Certified,Shinny elevator,This is a note,6/27/2018,11/5/2018
+120,20,9366,Premium,Hybrid,Active,21/2/2019,6/10/2018,Certified,Look at me,Long note,9/15/2018,9/15/2018
+121,407,2767,Excelium,Residential,Active,14/12/2018,19/10/2018,Certified,Best 0-100 mph,Useless note,2/18/2019,5/23/2018
+122,369,7159,Standard,Corporate,Inactive,5/2/2019,12/9/2018,Certified,This in an interesting information,This is a note,9/18/2018,4/6/2018
+123,461,3633,Standard,Commercial,Active,8/1/2019,2/4/2018,Not Certified,Best 0-100 mph,Useless note,8/3/2018,8/15/2018
+124,46,5384,Premium,Hybrid,Active,20/6/2018,18/9/2018,Certified,Shinny elevator,Useless note,9/5/2018,11/11/2018
+125,237,9184,Standard,Residential,Active,9/3/2019,3/4/2018,Certified,Best 0-100 mph,Useless note,10/25/2018,3/25/2018
+126,29,6184,Excelium,Corporate,Active,1/3/2019,20/3/2018,Certified,Look at me,Long note,4/22/2018,5/16/2018
+127,481,5059,Premium,Commercial,Active,8/7/2018,27/5/2018,Certified,Look at me,This is a note,3/29/2018,8/18/2018
+128,21,6206,Standard,Hybrid,Active,31/3/2018,27/8/2018,Certified,This in an interesting information,Useless note,11/13/2018,7/29/2018
+129,322,3405,Premium,Residential,Inactive,14/1/2019,29/9/2018,Not Certified,This in an interesting information,This is a note,1/31/2019,4/5/2018
+130,168,6695,Standard,Corporate,Active,8/10/2018,11/9/2018,Certified,This in an interesting information,This is a note,6/22/2018,11/22/2018
+131,349,6288,Premium,Commercial,Active,7/3/2019,18/2/2019,Certified,Best 0-100 mph,Long note,5/12/2018,5/16/2018
+132,115,4830,Excelium,Hybrid,Active,23/12/2018,7/4/2018,Certified,Look at me,Not an interesting note,5/11/2018,6/4/2018
+133,44,5817,Premium,Residential,Active,16/6/2018,27/6/2018,Certified,Shinny elevator,Long note,10/28/2018,12/26/2018
+134,183,2930,Premium,Corporate,Active,26/10/2018,5/2/2019,Certified,Shinny elevator,Useless note,2/2/2019,11/16/2018
+135,340,2033,Standard,Commercial,Active,18/4/2018,3/12/2018,Certified,This in an interesting information,This is a note,5/30/2018,2/17/2019
+136,75,8702,Premium,Hybrid,Active,30/4/2018,13/3/2018,Certified,Shinny elevator,This is a note,4/19/2018,9/24/2018
+137,411,8977,Standard,Residential,Active,5/9/2018,9/12/2018,Certified,Shinny elevator,This is a note,1/23/2019,5/24/2018
+138,459,3744,Premium,Corporate,Active,13/5/2018,26/12/2018,Certified,This in an interesting information,Not an interesting note,12/23/2018,10/18/2018
+139,209,5793,Excelium,Commercial,Active,9/2/2019,7/4/2018,Certified,Look at me,Useless note,10/30/2018,10/9/2018
+140,372,9411,Standard,Hybrid,Active,19/3/2018,8/5/2018,Certified,Shinny elevator,This is a note,9/22/2018,1/10/2019
+141,36,10000,Premium,Residential,Active,24/6/2018,9/2/2019,Certified,Look at me,This is a note,11/6/2018,5/22/2018
+142,460,3766,Excelium,Corporate,Active,3/11/2018,15/2/2019,Certified,Nice music,This is a note,4/7/2018,3/20/2018
+143,177,5504,Excelium,Commercial,Active,2/12/2018,20/2/2019,Certified,Shinny elevator,Long note,11/16/2018,2/27/2019
+144,433,3140,Standard,Hybrid,Active,19/12/2018,26/11/2018,Certified,Look at me,This is a note,6/25/2018,5/29/2018
+145,376,3175,Premium,Residential,Active,23/2/2019,8/1/2019,Certified,Shinny elevator,Not an interesting note,9/13/2018,11/22/2018
+146,184,6132,Excelium,Corporate,Active,5/4/2018,24/1/2019,Certified,This in an interesting information,Useless note,8/23/2018,1/18/2019
+147,416,8916,Excelium,Commercial,Active,4/1/2019,10/8/2018,Certified,This in an interesting information,Not an interesting note,5/23/2018,12/12/2018
+148,52,1427,Standard,Hybrid,Active,9/3/2019,9/10/2018,Certified,Look at me,Long note,9/17/2018,10/9/2018
+149,141,2883,Premium,Residential,Active,15/9/2018,19/6/2018,Not Certified,Shinny elevator,Not an interesting note,3/24/2018,4/25/2018
+150,379,3796,Standard,Corporate,Active,14/11/2018,4/7/2018,Certified,This in an interesting information,This is a note,5/4/2018,2/3/2019
+151,341,1461,Standard,Commercial,Active,28/10/2018,30/3/2018,Certified,Look at me,This is a note,3/3/2019,12/6/2018
+152,466,9315,Excelium,Hybrid,Active,16/2/2019,10/9/2018,Certified,Nice music,This is a note,7/26/2018,9/11/2018
+153,436,4373,Standard,Residential,Active,11/3/2019,21/7/2018,Certified,Look at me,This is a note,8/16/2018,5/14/2018
+154,350,8945,Standard,Corporate,Active,13/5/2018,11/8/2018,Certified,Shinny elevator,This is a note,12/6/2018,1/8/2019
+155,109,5406,Premium,Commercial,Active,19/5/2018,14/7/2018,Certified,This in an interesting information,Useless note,4/29/2018,9/14/2018
+156,246,1703,Standard,Hybrid,Active,23/4/2018,6/5/2018,Certified,This in an interesting information,Long note,12/16/2018,11/25/2018
+157,116,6031,Premium,Residential,Active,18/10/2018,9/2/2019,Certified,Look at me,Long note,8/1/2018,3/12/2019
+158,127,2642,Excelium,Corporate,Active,21/10/2018,28/9/2018,Certified,Nice music,Useless note,2/7/2019,3/3/2019
+159,21,6411,Excelium,Commercial,Active,28/6/2018,10/7/2018,Certified,Shinny elevator,Useless note,12/10/2018,6/17/2018
+160,332,7407,Premium,Hybrid,Active,14/9/2018,3/2/2019,Certified,Nice music,Useless note,12/25/2018,5/25/2018
+161,327,3761,Excelium,Residential,Active,8/3/2019,14/2/2019,Certified,Look at me,This is a note,12/24/2018,12/24/2018
+162,171,9714,Standard,Corporate,Active,6/6/2018,14/1/2019,Certified,Best 0-100 mph,Useless note,4/2/2018,2/21/2019
+163,67,6085,Excelium,Commercial,Active,26/9/2018,4/10/2018,Certified,This in an interesting information,Not an interesting note,5/17/2018,5/3/2018
+164,131,8182,Premium,Hybrid,Active,21/8/2018,5/8/2018,Certified,Best 0-100 mph,Long note,10/16/2018,1/16/2019
+165,405,6721,Excelium,Residential,Active,29/6/2018,20/12/2018,Certified,Look at me,Long note,9/3/2018,3/14/2018
+166,57,7941,Excelium,Corporate,Active,1/11/2018,11/6/2018,Certified,This in an interesting information,This is a note,9/25/2018,7/18/2018
+167,441,8454,Premium,Commercial,Active,20/2/2019,9/4/2018,Certified,This in an interesting information,Not an interesting note,10/17/2018,10/18/2018
+168,411,3799,Standard,Hybrid,Active,23/4/2018,5/7/2018,Certified,Look at me,Long note,7/2/2018,12/18/2018
+169,26,4479,Excelium,Residential,Active,3/8/2018,28/12/2018,Certified,Nice music,This is a note,4/2/2018,10/15/2018
+170,158,2386,Standard,Corporate,Active,30/12/2018,12/4/2018,Certified,Nice music,Long note,7/20/2018,8/2/2018
+171,180,9717,Excelium,Commercial,Inactive,17/9/2018,26/3/2018,Certified,This in an interesting information,Useless note,6/7/2018,2/5/2019
+172,357,9178,Standard,Hybrid,Active,25/9/2018,28/10/2018,Certified,Look at me,This is a note,4/2/2018,7/29/2018
+173,294,2755,Standard,Residential,Active,23/11/2018,19/5/2018,Certified,Shinny elevator,Long note,1/26/2019,1/27/2019
+174,38,9795,Standard,Corporate,Active,30/7/2018,26/4/2018,Certified,Shinny elevator,Long note,11/3/2018,8/25/2018
+175,333,2030,Excelium,Commercial,Active,12/7/2018,22/12/2018,Certified,This in an interesting information,This is a note,9/20/2018,1/4/2019
+176,118,3430,Standard,Hybrid,Active,25/5/2018,3/1/2019,Certified,Nice music,Not an interesting note,11/15/2018,2/15/2019
+177,303,7317,Standard,Residential,Active,25/10/2018,15/7/2018,Certified,Best 0-100 mph,Long note,10/20/2018,6/25/2018
+178,234,2367,Premium,Corporate,Active,29/3/2018,15/7/2018,Certified,Nice music,Useless note,5/6/2018,8/30/2018
+179,363,3428,Premium,Commercial,Active,25/8/2018,11/6/2018,Certified,Look at me,Not an interesting note,3/1/2019,4/14/2018
+180,265,2023,Standard,Hybrid,Active,14/5/2018,4/3/2019,Certified,Best 0-100 mph,Long note,4/17/2018,10/7/2018
+181,248,6452,Excelium,Residential,Active,28/9/2018,2/12/2018,Certified,This in an interesting information,Useless note,12/14/2018,9/21/2018
+182,498,1987,Premium,Corporate,Active,2/10/2018,7/2/2019,Certified,Best 0-100 mph,Useless note,12/15/2018,10/14/2018
+183,69,9379,Premium,Commercial,Active,7/10/2018,6/11/2018,Certified,Nice music,Long note,1/24/2019,11/9/2018
+184,51,3785,Standard,Hybrid,Active,30/6/2018,17/8/2018,Certified,Nice music,Not an interesting note,10/3/2018,9/30/2018
+185,194,2818,Standard,Residential,Inactive,5/1/2019,25/10/2018,Certified,This in an interesting information,Not an interesting note,5/2/2018,10/6/2018
+186,333,1814,Premium,Corporate,Active,4/6/2018,9/3/2019,Certified,This in an interesting information,Long note,2/28/2019,9/7/2018
+187,476,5115,Standard,Commercial,Active,11/6/2018,21/5/2018,Certified,Look at me,Long note,6/17/2018,11/13/2018
+188,75,8042,Premium,Hybrid,Active,2/12/2018,5/10/2018,Certified,Nice music,This is a note,8/11/2018,10/15/2018
+189,239,8303,Standard,Residential,Active,19/4/2018,30/5/2018,Certified,Look at me,This is a note,9/24/2018,11/2/2018
+190,58,4647,Standard,Corporate,Active,11/11/2018,16/3/2018,Certified,Look at me,This is a note,5/9/2018,2/1/2019
+191,17,1349,Premium,Commercial,Active,11/9/2018,22/6/2018,Certified,Shinny elevator,Useless note,6/20/2018,5/30/2018
+192,312,6638,Excelium,Hybrid,Active,5/7/2018,2/11/2018,Certified,Best 0-100 mph,Long note,1/26/2019,10/12/2018
+193,286,3271,Standard,Residential,Active,9/4/2018,26/5/2018,Certified,Look at me,This is a note,2/11/2019,12/9/2018
+194,385,3571,Standard,Corporate,Active,1/4/2018,5/4/2018,Certified,Shinny elevator,Not an interesting note,12/16/2018,4/5/2018
+195,132,8884,Excelium,Commercial,Active,22/12/2018,30/11/2018,Certified,Shinny elevator,Useless note,10/19/2018,2/3/2019
+196,262,7959,Premium,Hybrid,Active,21/9/2018,10/10/2018,Certified,This in an interesting information,This is a note,7/14/2018,7/25/2018
+197,25,4499,Standard,Residential,Active,22/6/2018,12/1/2019,Certified,This in an interesting information,Not an interesting note,8/26/2018,9/16/2018
+198,456,3103,Premium,Corporate,Active,23/3/2018,28/3/2018,Certified,Nice music,Long note,5/24/2018,12/9/2018
+199,359,5011,Standard,Commercial,Active,24/11/2018,16/12/2018,Certified,Best 0-100 mph,Useless note,2/11/2019,5/20/2018
+200,414,7907,Excelium,Hybrid,Active,26/8/2018,25/4/2018,Certified,Look at me,Not an interesting note,2/7/2019,12/8/2018
+201,460,4439,Premium,Residential,Active,27/1/2019,18/8/2018,Certified,This in an interesting information,Not an interesting note,7/19/2018,9/10/2018
+202,46,8966,Premium,Corporate,Active,8/7/2018,4/4/2018,Not Certified,This in an interesting information,This is a note,7/7/2018,7/19/2018
+203,415,6884,Premium,Commercial,Active,19/7/2018,15/8/2018,Certified,Look at me,Long note,9/12/2018,3/1/2019
+204,305,8168,Excelium,Hybrid,Active,12/11/2018,11/12/2018,Certified,This in an interesting information,Not an interesting note,9/28/2018,11/7/2018
+205,447,9352,Excelium,Residential,Active,16/5/2018,2/2/2019,Certified,Look at me,Not an interesting note,10/14/2018,11/15/2018
+206,342,9155,Excelium,Corporate,Active,8/10/2018,25/2/2019,Certified,Shinny elevator,Long note,3/9/2019,9/1/2018
+207,204,5120,Standard,Commercial,Active,6/7/2018,10/1/2019,Certified,Nice music,This is a note,3/22/2018,11/17/2018
+208,13,4736,Premium,Hybrid,Active,9/2/2019,4/10/2018,Certified,Shinny elevator,Not an interesting note,6/5/2018,7/28/2018
+209,265,3285,Excelium,Residential,Active,2/9/2018,3/11/2018,Certified,Shinny elevator,Useless note,7/4/2018,12/13/2018
+210,500,7985,Excelium,Corporate,Active,27/5/2018,12/2/2019,Certified,This in an interesting information,Useless note,8/12/2018,7/19/2018
+211,410,7400,Premium,Commercial,Active,7/2/2019,22/8/2018,Certified,Best 0-100 mph,Not an interesting note,2/9/2019,3/13/2018
+212,462,8777,Premium,Hybrid,Active,3/12/2018,22/4/2018,Certified,Best 0-100 mph,This is a note,9/21/2018,4/14/2018
+213,393,3273,Premium,Residential,Active,7/1/2019,1/5/2018,Not Certified,This in an interesting information,Not an interesting note,12/31/2018,8/24/2018
+214,347,6296,Excelium,Corporate,Active,21/2/2019,9/2/2019,Certified,Shinny elevator,Not an interesting note,5/5/2018,4/23/2018
+215,24,7708,Premium,Commercial,Active,5/3/2019,11/12/2018,Certified,Look at me,Not an interesting note,9/15/2018,6/27/2018
+216,146,5072,Premium,Hybrid,Inactive,4/7/2018,1/8/2018,Certified,This in an interesting information,Long note,8/12/2018,8/11/2018
+217,181,2232,Standard,Residential,Active,30/1/2019,12/12/2018,Certified,Best 0-100 mph,This is a note,11/8/2018,10/31/2018
+218,405,7061,Premium,Corporate,Active,20/5/2018,22/4/2018,Certified,Shinny elevator,Not an interesting note,9/19/2018,8/12/2018
+219,314,6986,Excelium,Commercial,Active,28/2/2019,9/7/2018,Certified,Shinny elevator,Useless note,2/21/2019,5/3/2018
+220,224,2100,Standard,Hybrid,Active,17/1/2019,26/10/2018,Certified,This in an interesting information,This is a note,11/3/2018,3/29/2018
+221,186,4310,Excelium,Residential,Active,30/10/2018,15/1/2019,Certified,Best 0-100 mph,This is a note,5/12/2018,2/3/2019
+222,243,8047,Excelium,Corporate,Active,23/1/2019,22/5/2018,Certified,Best 0-100 mph,Long note,6/8/2018,9/11/2018
+223,244,5043,Standard,Commercial,Active,7/3/2019,16/8/2018,Certified,Best 0-100 mph,Useless note,8/26/2018,1/28/2019
+224,131,2840,Excelium,Hybrid,Active,19/1/2019,15/4/2018,Not Certified,Best 0-100 mph,Not an interesting note,7/7/2018,10/10/2018
+225,243,7784,Excelium,Residential,Active,19/1/2019,16/6/2018,Certified,Look at me,Useless note,7/1/2018,6/5/2018
+226,468,3389,Standard,Corporate,Active,10/6/2018,16/1/2019,Certified,Look at me,Useless note,10/15/2018,7/1/2018
+227,294,1136,Excelium,Commercial,Active,4/12/2018,13/11/2018,Certified,Look at me,Long note,1/29/2019,12/1/2018
+228,118,4839,Standard,Hybrid,Active,10/4/2018,17/8/2018,Certified,Best 0-100 mph,This is a note,10/14/2018,10/7/2018
+229,120,4346,Premium,Residential,Active,30/6/2018,12/3/2019,Certified,Look at me,Long note,6/7/2018,12/11/2018
+230,167,7118,Standard,Corporate,Active,24/9/2018,10/5/2018,Certified,Best 0-100 mph,Useless note,11/23/2018,12/17/2018
+231,160,8746,Excelium,Commercial,Active,13/11/2018,20/1/2019,Certified,Nice music,Not an interesting note,11/24/2018,12/26/2018
+232,64,5320,Standard,Hybrid,Inactive,9/11/2018,5/10/2018,Certified,Nice music,Not an interesting note,10/7/2018,3/1/2019
+233,202,5455,Standard,Residential,Inactive,17/2/2019,17/10/2018,Certified,Shinny elevator,Long note,5/6/2018,8/23/2018
+234,246,5382,Standard,Corporate,Active,17/11/2018,29/8/2018,Certified,Shinny elevator,This is a note,7/26/2018,4/16/2018
+235,228,1475,Premium,Commercial,Active,10/8/2018,10/3/2019,Certified,Nice music,Not an interesting note,6/4/2018,2/15/2019
+236,72,1703,Excelium,Hybrid,Active,2/5/2018,4/10/2018,Certified,Nice music,Useless note,9/17/2018,6/20/2018
+237,170,1531,Standard,Residential,Active,1/1/2019,30/9/2018,Certified,Look at me,Useless note,4/8/2018,12/28/2018
+238,136,1568,Premium,Corporate,Active,24/11/2018,23/11/2018,Certified,Nice music,This is a note,1/22/2019,10/29/2018
+239,146,9295,Excelium,Commercial,Active,13/10/2018,30/9/2018,Certified,This in an interesting information,Not an interesting note,12/10/2018,9/11/2018
+240,267,9646,Standard,Hybrid,Active,27/9/2018,4/8/2018,Certified,Best 0-100 mph,This is a note,11/1/2018,10/1/2018
+241,462,4856,Premium,Residential,Active,8/12/2018,28/6/2018,Certified,Shinny elevator,Useless note,10/24/2018,11/29/2018
+242,495,7827,Premium,Corporate,Active,23/3/2018,21/9/2018,Certified,Look at me,Useless note,8/18/2018,1/3/2019
+243,96,5080,Premium,Commercial,Active,3/5/2018,22/11/2018,Certified,This in an interesting information,Not an interesting note,6/17/2018,9/7/2018
+244,171,9148,Standard,Hybrid,Active,23/7/2018,21/11/2018,Certified,Nice music,Not an interesting note,12/29/2018,3/15/2018
+245,15,2197,Standard,Residential,Active,9/5/2018,18/6/2018,Certified,Look at me,This is a note,8/12/2018,11/25/2018
+246,291,7197,Standard,Corporate,Active,15/6/2018,26/3/2018,Certified,This in an interesting information,Useless note,11/13/2018,8/8/2018
+247,359,1831,Excelium,Commercial,Active,21/5/2018,10/5/2018,Certified,Best 0-100 mph,Long note,10/10/2018,2/26/2019
+248,313,2324,Excelium,Hybrid,Active,12/6/2018,14/12/2018,Certified,Shinny elevator,This is a note,3/19/2018,9/26/2018
+249,132,6851,Premium,Residential,Active,18/3/2018,13/7/2018,Certified,Look at me,Not an interesting note,2/19/2019,8/29/2018
+250,314,6783,Standard,Corporate,Active,4/12/2018,4/2/2019,Certified,Nice music,Not an interesting note,9/8/2018,10/7/2018
+251,71,7995,Standard,Commercial,Active,6/10/2018,18/12/2018,Certified,This in an interesting information,Useless note,6/14/2018,5/5/2018
+252,51,8154,Standard,Hybrid,Active,30/12/2018,6/12/2018,Certified,Look at me,Long note,5/31/2018,7/13/2018
+253,312,5945,Standard,Residential,Active,31/1/2019,11/9/2018,Certified,This in an interesting information,This is a note,6/7/2018,11/15/2018
+254,341,7365,Standard,Corporate,Active,4/8/2018,22/5/2018,Certified,Nice music,This is a note,5/10/2018,5/4/2018
+255,126,5933,Standard,Commercial,Active,16/1/2019,11/11/2018,Certified,Shinny elevator,This is a note,2/24/2019,1/21/2019
+256,375,7745,Premium,Hybrid,Active,30/8/2018,18/1/2019,Certified,Shinny elevator,Not an interesting note,6/15/2018,7/25/2018
+257,500,8345,Standard,Residential,Active,3/4/2018,5/10/2018,Certified,Nice music,Not an interesting note,4/5/2018,6/11/2018
+258,272,6963,Premium,Corporate,Inactive,2/4/2018,24/3/2018,Certified,Shinny elevator,This is a note,9/7/2018,8/23/2018
+259,379,1131,Standard,Commercial,Active,29/12/2018,14/12/2018,Certified,Look at me,Long note,12/23/2018,9/7/2018
+260,27,4897,Premium,Hybrid,Active,21/9/2018,10/4/2018,Certified,Best 0-100 mph,Not an interesting note,12/4/2018,1/16/2019
+261,68,4608,Premium,Residential,Active,8/2/2019,29/10/2018,Certified,Shinny elevator,This is a note,4/17/2018,2/25/2019
+262,306,2668,Premium,Corporate,Active,9/8/2018,8/2/2019,Certified,Best 0-100 mph,Long note,3/23/2018,11/22/2018
+263,394,3564,Premium,Commercial,Active,21/9/2018,18/12/2018,Certified,Best 0-100 mph,Long note,7/5/2018,9/17/2018
+264,260,8576,Excelium,Hybrid,Active,12/1/2019,25/11/2018,Certified,Look at me,Long note,7/8/2018,7/17/2018
+265,73,1537,Excelium,Residential,Active,8/9/2018,21/10/2018,Certified,Look at me,Useless note,5/6/2018,1/21/2019
+266,82,3835,Premium,Corporate,Inactive,17/5/2018,4/10/2018,Certified,This in an interesting information,Useless note,1/1/2019,8/2/2018
+267,350,7482,Premium,Commercial,Active,23/5/2018,24/3/2018,Certified,Nice music,Not an interesting note,10/13/2018,2/10/2019
+268,180,1995,Standard,Hybrid,Active,25/8/2018,10/1/2019,Certified,Shinny elevator,Not an interesting note,9/23/2018,1/26/2019
+269,7,6780,Standard,Residential,Active,4/2/2019,6/10/2018,Certified,Nice music,Not an interesting note,4/17/2018,8/5/2018
+270,468,8628,Premium,Corporate,Active,21/7/2018,21/3/2018,Certified,This in an interesting information,This is a note,3/27/2018,8/23/2018
+271,442,8465,Excelium,Commercial,Active,16/3/2018,25/6/2018,Certified,Look at me,Long note,10/15/2018,1/29/2019
+272,149,1221,Excelium,Hybrid,Active,5/5/2018,2/12/2018,Not Certified,Look at me,This is a note,9/2/2018,12/25/2018
+273,192,2912,Standard,Residential,Active,30/3/2018,1/5/2018,Certified,This in an interesting information,Useless note,5/6/2018,7/23/2018
+274,93,5711,Standard,Corporate,Active,15/10/2018,25/5/2018,Certified,Nice music,Useless note,3/31/2018,3/17/2018
+275,43,8014,Standard,Commercial,Active,18/10/2018,18/5/2018,Certified,Best 0-100 mph,This is a note,3/14/2018,8/30/2018
+276,344,8407,Standard,Hybrid,Active,5/8/2018,5/9/2018,Certified,Best 0-100 mph,Long note,12/16/2018,1/5/2019
+277,143,2044,Standard,Residential,Active,1/7/2018,10/12/2018,Certified,Best 0-100 mph,This is a note,4/25/2018,9/26/2018
+278,246,9898,Excelium,Corporate,Active,31/3/2018,9/10/2018,Certified,Nice music,Not an interesting note,2/21/2019,3/24/2018
+279,122,1015,Standard,Commercial,Active,11/8/2018,19/10/2018,Certified,Look at me,This is a note,11/14/2018,7/24/2018
+280,81,1234,Standard,Hybrid,Active,2/7/2018,2/6/2018,Certified,Look at me,Long note,4/27/2018,2/24/2019
+281,424,4850,Excelium,Residential,Active,26/6/2018,19/6/2018,Certified,Shinny elevator,This is a note,4/26/2018,3/23/2018
+282,145,5275,Excelium,Corporate,Active,12/5/2018,18/12/2018,Certified,Look at me,Useless note,8/19/2018,4/26/2018
+283,383,8445,Excelium,Commercial,Active,1/9/2018,21/8/2018,Certified,Look at me,Useless note,3/29/2018,7/4/2018
+284,267,3228,Excelium,Hybrid,Active,16/8/2018,7/12/2018,Certified,Nice music,This is a note,12/19/2018,11/24/2018
+285,438,7275,Standard,Residential,Inactive,23/7/2018,29/10/2018,Certified,Best 0-100 mph,Useless note,3/22/2018,8/8/2018
+286,209,3066,Premium,Corporate,Active,4/9/2018,2/8/2018,Certified,Shinny elevator,This is a note,7/28/2018,9/2/2018
+287,258,5134,Standard,Commercial,Active,8/9/2018,22/2/2019,Certified,Nice music,Long note,2/19/2019,1/11/2019
+288,145,1283,Excelium,Hybrid,Inactive,7/4/2018,26/5/2018,Certified,This in an interesting information,Useless note,12/26/2018,3/6/2019
+289,263,7199,Premium,Residential,Active,13/11/2018,11/8/2018,Certified,Best 0-100 mph,Useless note,1/4/2019,1/14/2019
+290,142,3320,Excelium,Corporate,Active,11/4/2018,7/6/2018,Certified,Nice music,Not an interesting note,5/1/2018,1/13/2019
+291,141,1130,Premium,Commercial,Active,31/7/2018,26/10/2018,Certified,Best 0-100 mph,Not an interesting note,4/28/2018,3/19/2018
+292,123,5047,Standard,Hybrid,Inactive,2/12/2018,18/6/2018,Certified,Shinny elevator,This is a note,12/25/2018,8/10/2018
+293,467,2858,Standard,Residential,Active,18/4/2018,21/12/2018,Certified,This in an interesting information,This is a note,7/16/2018,12/27/2018
+294,382,1260,Premium,Corporate,Active,11/5/2018,7/10/2018,Certified,This in an interesting information,Long note,10/20/2018,11/20/2018
+295,466,6319,Excelium,Commercial,Active,17/9/2018,13/11/2018,Certified,This in an interesting information,Not an interesting note,9/12/2018,4/19/2018
+296,93,4143,Standard,Hybrid,Active,25/12/2018,14/4/2018,Certified,This in an interesting information,This is a note,10/6/2018,9/5/2018
+297,166,7730,Standard,Residential,Active,23/5/2018,11/6/2018,Certified,Nice music,Long note,1/20/2019,12/30/2018
+298,442,7115,Premium,Corporate,Active,22/4/2018,2/10/2018,Certified,Shinny elevator,Not an interesting note,11/23/2018,1/23/2019
+299,81,1019,Excelium,Commercial,Active,22/11/2018,3/10/2018,Certified,Best 0-100 mph,Useless note,10/10/2018,3/25/2018
+300,202,5751,Premium,Hybrid,Active,22/9/2018,23/6/2018,Certified,This in an interesting information,Long note,1/13/2019,9/24/2018
+301,393,6923,Standard,Residential,Active,23/9/2018,4/1/2019,Certified,This in an interesting information,Long note,7/11/2018,12/23/2018
+302,100,2311,Excelium,Corporate,Active,22/11/2018,26/6/2018,Certified,This in an interesting information,Useless note,1/3/2019,7/31/2018
+303,211,4085,Excelium,Commercial,Active,19/6/2018,10/10/2018,Certified,Shinny elevator,This is a note,1/27/2019,7/29/2018
+304,226,8438,Standard,Hybrid,Active,30/1/2019,1/10/2018,Certified,Nice music,Useless note,2/15/2019,5/3/2018
+305,242,7279,Excelium,Residential,Active,17/10/2018,29/11/2018,Certified,This in an interesting information,This is a note,5/27/2018,11/25/2018
+306,110,8478,Standard,Corporate,Active,26/11/2018,19/11/2018,Certified,Shinny elevator,Long note,7/18/2018,8/12/2018
+307,232,5183,Standard,Commercial,Active,31/7/2018,6/6/2018,Certified,This in an interesting information,Long note,5/23/2018,5/27/2018
+308,48,5567,Excelium,Hybrid,Active,4/5/2018,24/7/2018,Certified,Look at me,This is a note,2/11/2019,4/15/2018
+309,232,3555,Standard,Residential,Active,2/6/2018,18/11/2018,Certified,Shinny elevator,This is a note,4/20/2018,5/13/2018
+310,324,3282,Premium,Corporate,Active,29/5/2018,4/6/2018,Certified,This in an interesting information,Useless note,8/30/2018,1/28/2019
+311,431,4984,Standard,Commercial,Active,28/3/2018,24/1/2019,Certified,Nice music,Long note,6/27/2018,10/8/2018
+312,56,6740,Premium,Hybrid,Active,31/10/2018,18/2/2019,Certified,Nice music,Long note,8/11/2018,2/13/2019
+313,41,9437,Premium,Residential,Inactive,7/12/2018,23/1/2019,Certified,This in an interesting information,Long note,12/27/2018,6/30/2018
+314,288,3803,Excelium,Corporate,Active,29/11/2018,28/2/2019,Certified,Nice music,This is a note,12/6/2018,3/17/2018
+315,489,9862,Excelium,Commercial,Inactive,10/7/2018,14/3/2018,Certified,Shinny elevator,This is a note,7/11/2018,12/24/2018
+316,203,2731,Premium,Hybrid,Active,11/1/2019,5/6/2018,Certified,Shinny elevator,Long note,5/20/2018,12/7/2018
+317,186,9622,Premium,Residential,Active,14/1/2019,13/2/2019,Certified,Shinny elevator,Long note,12/8/2018,9/27/2018
+318,228,3315,Excelium,Corporate,Active,28/6/2018,11/1/2019,Certified,Look at me,Useless note,1/27/2019,9/10/2018
+319,249,9162,Standard,Commercial,Active,26/6/2018,5/11/2018,Certified,Best 0-100 mph,Not an interesting note,7/18/2018,4/16/2018
+320,176,5366,Excelium,Hybrid,Active,6/11/2018,27/3/2018,Certified,Shinny elevator,This is a note,1/17/2019,7/10/2018
+321,314,9301,Standard,Residential,Active,29/11/2018,10/11/2018,Certified,Shinny elevator,Useless note,4/22/2018,11/23/2018
+322,308,7686,Premium,Corporate,Inactive,24/8/2018,26/3/2018,Certified,Best 0-100 mph,Long note,6/19/2018,4/8/2018
+323,348,5785,Premium,Commercial,Active,27/8/2018,3/7/2018,Certified,Shinny elevator,Useless note,5/10/2018,8/26/2018
+324,72,3365,Standard,Hybrid,Active,7/4/2018,27/7/2018,Certified,Look at me,Useless note,7/7/2018,3/2/2019
+325,52,3223,Excelium,Residential,Active,22/6/2018,11/1/2019,Not Certified,This in an interesting information,Useless note,3/13/2018,10/26/2018
+326,46,8078,Premium,Corporate,Active,20/10/2018,19/2/2019,Certified,Look at me,Not an interesting note,2/5/2019,8/26/2018
+327,207,5218,Standard,Commercial,Inactive,19/11/2018,4/8/2018,Certified,Nice music,Not an interesting note,6/17/2018,3/24/2018
+328,292,6884,Excelium,Hybrid,Active,18/1/2019,13/7/2018,Certified,Nice music,This is a note,2/10/2019,11/11/2018
+329,53,8961,Standard,Residential,Active,15/10/2018,6/7/2018,Certified,Nice music,Useless note,8/17/2018,12/18/2018
+330,392,5352,Excelium,Corporate,Active,3/6/2018,31/8/2018,Not Certified,Best 0-100 mph,Not an interesting note,3/14/2018,10/10/2018
+331,424,7287,Excelium,Commercial,Active,30/12/2018,16/7/2018,Certified,This in an interesting information,Not an interesting note,2/17/2019,9/13/2018
+332,347,4127,Premium,Hybrid,Active,15/6/2018,26/5/2018,Certified,Best 0-100 mph,Useless note,5/31/2018,12/18/2018
+333,461,2496,Excelium,Residential,Active,27/5/2018,17/2/2019,Certified,Look at me,Useless note,9/25/2018,11/18/2018
+334,401,9228,Excelium,Corporate,Active,5/5/2018,4/10/2018,Certified,Best 0-100 mph,This is a note,5/26/2018,2/28/2019
+335,374,7241,Premium,Commercial,Active,11/4/2018,30/5/2018,Certified,Nice music,Useless note,9/11/2018,6/4/2018
+336,89,9593,Premium,Hybrid,Active,29/8/2018,17/10/2018,Certified,Look at me,Long note,7/25/2018,10/5/2018
+337,239,5371,Premium,Residential,Active,17/7/2018,1/10/2018,Certified,Look at me,This is a note,10/16/2018,6/19/2018
+338,9,8273,Excelium,Corporate,Active,18/1/2019,12/7/2018,Certified,This in an interesting information,Useless note,2/7/2019,4/15/2018
+339,166,4067,Premium,Commercial,Active,7/12/2018,25/6/2018,Certified,Shinny elevator,Useless note,2/24/2019,2/24/2019
+340,128,1597,Standard,Hybrid,Active,20/7/2018,20/11/2018,Certified,Nice music,Useless note,10/16/2018,12/25/2018
+341,195,7550,Premium,Residential,Active,15/6/2018,19/6/2018,Certified,Look at me,Useless note,1/13/2019,2/21/2019
+342,380,2119,Excelium,Corporate,Active,15/4/2018,22/4/2018,Certified,Best 0-100 mph,Useless note,10/13/2018,11/11/2018
+343,59,6950,Excelium,Commercial,Active,29/8/2018,28/3/2018,Certified,Best 0-100 mph,This is a note,10/22/2018,9/7/2018
+344,135,6994,Standard,Hybrid,Active,17/3/2018,30/12/2018,Certified,This in an interesting information,Long note,3/20/2018,12/1/2018
+345,378,1601,Standard,Residential,Active,19/9/2018,12/7/2018,Certified,Best 0-100 mph,Useless note,8/3/2018,2/22/2019
+346,151,8603,Premium,Corporate,Inactive,24/5/2018,2/1/2019,Certified,Shinny elevator,Not an interesting note,12/16/2018,9/30/2018
+347,47,1459,Standard,Commercial,Active,13/3/2018,8/2/2019,Certified,Look at me,This is a note,5/18/2018,10/12/2018
+348,440,1782,Premium,Hybrid,Active,5/9/2018,31/12/2018,Certified,This in an interesting information,Not an interesting note,11/20/2018,3/22/2018
+349,97,5405,Standard,Residential,Active,4/10/2018,14/5/2018,Certified,This in an interesting information,Useless note,4/16/2018,6/29/2018
+350,37,3846,Premium,Corporate,Active,13/3/2018,10/6/2018,Certified,Nice music,Useless note,4/25/2018,4/6/2018
+351,250,6625,Standard,Commercial,Active,6/2/2019,17/8/2018,Not Certified,This in an interesting information,This is a note,8/18/2018,4/28/2018
+352,418,3287,Premium,Hybrid,Active,15/2/2019,28/12/2018,Certified,Best 0-100 mph,Not an interesting note,11/23/2018,12/3/2018
+353,280,8028,Excelium,Residential,Active,13/9/2018,11/5/2018,Certified,Look at me,This is a note,5/20/2018,2/24/2019
+354,143,8973,Premium,Corporate,Active,15/3/2018,5/11/2018,Certified,Nice music,Useless note,2/10/2019,6/13/2018
+355,497,1152,Standard,Commercial,Active,18/10/2018,19/6/2018,Certified,Look at me,Useless note,9/19/2018,7/18/2018
+356,466,6224,Standard,Hybrid,Active,30/7/2018,16/11/2018,Certified,Best 0-100 mph,Useless note,2/13/2019,11/11/2018
+357,229,6904,Standard,Residential,Active,8/8/2018,14/10/2018,Certified,This in an interesting information,Long note,5/2/2018,5/12/2018
+358,213,6815,Excelium,Corporate,Active,29/11/2018,9/1/2019,Certified,Shinny elevator,Useless note,3/12/2019,3/30/2018
+359,491,8539,Standard,Commercial,Active,18/1/2019,9/12/2018,Not Certified,Shinny elevator,Useless note,11/11/2018,10/28/2018
+360,404,7875,Standard,Hybrid,Active,1/8/2018,7/3/2019,Certified,Look at me,This is a note,12/5/2018,2/12/2019
+361,482,6265,Premium,Residential,Active,20/4/2018,18/11/2018,Certified,Nice music,This is a note,12/30/2018,4/12/2018
+362,473,1573,Standard,Corporate,Active,28/10/2018,9/9/2018,Certified,Best 0-100 mph,This is a note,3/9/2019,9/10/2018
+363,397,2331,Premium,Commercial,Active,5/4/2018,12/7/2018,Certified,This in an interesting information,Long note,5/27/2018,4/16/2018
+364,398,3791,Excelium,Hybrid,Active,18/3/2018,17/3/2018,Certified,Shinny elevator,Not an interesting note,9/29/2018,8/28/2018
+365,434,2848,Excelium,Residential,Inactive,28/6/2018,23/9/2018,Certified,Shinny elevator,Not an interesting note,7/20/2018,9/12/2018
+366,114,1699,Excelium,Corporate,Active,31/5/2018,30/1/2019,Certified,Best 0-100 mph,This is a note,1/22/2019,10/29/2018
+367,255,3358,Excelium,Commercial,Active,24/1/2019,5/10/2018,Certified,Nice music,Long note,5/30/2018,7/14/2018
+368,489,9986,Premium,Hybrid,Active,28/3/2018,11/11/2018,Certified,Best 0-100 mph,Not an interesting note,8/28/2018,6/9/2018
+369,453,2448,Standard,Residential,Inactive,7/11/2018,7/10/2018,Not Certified,This in an interesting information,This is a note,8/16/2018,12/19/2018
+370,14,1827,Excelium,Corporate,Active,3/9/2018,6/8/2018,Certified,Look at me,This is a note,3/18/2018,5/7/2018
+371,494,1053,Excelium,Commercial,Active,14/9/2018,15/5/2018,Certified,Nice music,This is a note,3/8/2019,4/13/2018
+372,448,4992,Excelium,Hybrid,Active,16/1/2019,26/11/2018,Certified,Best 0-100 mph,This is a note,2/5/2019,12/4/2018
+373,11,2131,Premium,Residential,Active,14/11/2018,22/1/2019,Certified,Look at me,Not an interesting note,6/25/2018,12/4/2018
+374,322,8604,Excelium,Corporate,Active,7/1/2019,18/3/2018,Certified,Nice music,Long note,12/4/2018,2/17/2019
+375,107,9047,Excelium,Commercial,Active,6/4/2018,7/7/2018,Certified,Look at me,This is a note,7/21/2018,11/27/2018
+376,282,3762,Premium,Hybrid,Active,22/9/2018,7/3/2019,Not Certified,Nice music,Useless note,12/3/2018,8/2/2018
+377,204,7098,Standard,Residential,Active,2/12/2018,29/10/2018,Certified,Look at me,Long note,12/23/2018,5/10/2018
+378,210,1406,Excelium,Corporate,Active,27/3/2018,19/1/2019,Certified,Nice music,This is a note,11/5/2018,4/25/2018
+379,207,8020,Premium,Commercial,Active,12/5/2018,4/5/2018,Certified,Best 0-100 mph,This is a note,11/18/2018,12/6/2018
+380,126,6299,Premium,Hybrid,Active,2/2/2019,3/7/2018,Certified,Nice music,Long note,2/1/2019,6/10/2018
+381,155,5712,Premium,Residential,Active,7/2/2019,14/4/2018,Certified,Look at me,Useless note,11/17/2018,2/17/2019
+382,203,5031,Premium,Corporate,Active,23/4/2018,16/9/2018,Not Certified,Shinny elevator,This is a note,11/12/2018,8/18/2018
+383,287,6923,Premium,Commercial,Active,11/9/2018,14/3/2018,Certified,Shinny elevator,This is a note,6/13/2018,3/19/2018
+384,42,3969,Standard,Hybrid,Active,21/12/2018,26/9/2018,Certified,Look at me,Long note,5/5/2018,8/10/2018
+385,170,5142,Standard,Residential,Active,22/7/2018,30/7/2018,Not Certified,Nice music,Long note,8/18/2018,2/21/2019
+386,162,2891,Premium,Corporate,Active,19/10/2018,26/4/2018,Certified,Best 0-100 mph,Not an interesting note,9/1/2018,6/26/2018
+387,244,2057,Standard,Commercial,Active,26/5/2018,17/5/2018,Certified,This in an interesting information,Long note,12/29/2018,8/1/2018
+388,148,4513,Excelium,Hybrid,Active,19/6/2018,28/5/2018,Certified,Best 0-100 mph,This is a note,10/3/2018,9/13/2018
+389,258,4602,Standard,Residential,Active,10/6/2018,9/2/2019,Not Certified,This in an interesting information,Long note,7/18/2018,10/3/2018
+390,134,2585,Standard,Corporate,Active,11/7/2018,26/7/2018,Certified,Nice music,This is a note,11/22/2018,7/27/2018
+391,238,3565,Excelium,Commercial,Active,27/10/2018,13/2/2019,Certified,Best 0-100 mph,This is a note,2/18/2019,11/14/2018
+392,486,1065,Standard,Hybrid,Active,3/3/2019,10/5/2018,Not Certified,This in an interesting information,This is a note,8/15/2018,10/6/2018
+393,37,1162,Premium,Residential,Inactive,30/7/2018,9/8/2018,Certified,Nice music,Not an interesting note,9/29/2018,7/13/2018
+394,163,4890,Excelium,Corporate,Active,13/1/2019,14/8/2018,Certified,Shinny elevator,This is a note,11/11/2018,1/4/2019
+395,220,6735,Excelium,Commercial,Active,20/7/2018,7/3/2019,Certified,Nice music,Useless note,8/27/2018,6/27/2018
+396,392,6319,Standard,Hybrid,Active,15/7/2018,16/3/2018,Certified,This in an interesting information,Useless note,5/16/2018,9/8/2018
+397,400,2428,Excelium,Residential,Active,1/5/2018,5/12/2018,Certified,This in an interesting information,This is a note,12/15/2018,7/19/2018
+398,110,9574,Standard,Corporate,Active,17/2/2019,19/5/2018,Certified,Shinny elevator,Useless note,2/28/2019,9/5/2018
+399,41,2713,Premium,Commercial,Active,12/1/2019,4/8/2018,Certified,Look at me,Not an interesting note,11/20/2018,2/27/2019
+400,424,2356,Excelium,Hybrid,Active,17/4/2018,14/7/2018,Certified,This in an interesting information,Not an interesting note,2/13/2019,12/20/2018
+401,126,2828,Premium,Residential,Inactive,14/11/2018,3/5/2018,Certified,Look at me,This is a note,12/31/2018,11/15/2018
+402,41,9131,Standard,Corporate,Active,7/6/2018,22/4/2018,Certified,Look at me,Useless note,12/9/2018,4/20/2018
+403,458,3940,Excelium,Commercial,Active,6/6/2018,12/1/2019,Certified,Look at me,This is a note,6/28/2018,7/21/2018
+404,330,5218,Excelium,Hybrid,Active,20/5/2018,12/12/2018,Certified,Best 0-100 mph,This is a note,3/27/2018,5/7/2018
+405,128,8575,Premium,Residential,Active,19/6/2018,17/4/2018,Certified,This in an interesting information,Not an interesting note,7/4/2018,4/23/2018
+406,166,4918,Standard,Corporate,Active,7/3/2019,11/1/2019,Certified,This in an interesting information,Useless note,12/12/2018,1/18/2019
+407,243,5007,Excelium,Commercial,Active,31/7/2018,10/2/2019,Certified,This in an interesting information,This is a note,3/31/2018,10/24/2018
+408,478,6719,Premium,Hybrid,Active,9/1/2019,17/10/2018,Certified,Best 0-100 mph,Not an interesting note,4/6/2018,5/3/2018
+409,391,6605,Standard,Residential,Active,15/12/2018,7/4/2018,Certified,Nice music,Long note,3/22/2018,4/29/2018
+410,481,6566,Standard,Corporate,Active,1/1/2019,27/1/2019,Certified,This in an interesting information,Not an interesting note,4/19/2018,12/2/2018
+411,435,5551,Premium,Commercial,Active,20/9/2018,19/8/2018,Certified,This in an interesting information,Not an interesting note,7/24/2018,4/11/2018
+412,443,5954,Excelium,Hybrid,Active,3/11/2018,11/5/2018,Certified,Best 0-100 mph,Long note,1/20/2019,12/30/2018
+413,312,4835,Standard,Residential,Active,1/12/2018,11/3/2019,Certified,Shinny elevator,Not an interesting note,8/1/2018,7/20/2018
+414,71,7376,Standard,Corporate,Active,16/10/2018,8/1/2019,Certified,Nice music,Long note,8/5/2018,1/12/2019
+415,378,8334,Standard,Commercial,Inactive,9/7/2018,4/4/2018,Certified,Look at me,Useless note,6/2/2018,8/8/2018
+416,142,8364,Excelium,Hybrid,Inactive,19/9/2018,4/10/2018,Certified,Nice music,Not an interesting note,7/17/2018,6/24/2018
+417,392,8875,Excelium,Residential,Active,4/10/2018,26/7/2018,Certified,Nice music,Useless note,10/18/2018,9/23/2018
+418,302,6803,Standard,Corporate,Active,5/3/2019,17/7/2018,Certified,Shinny elevator,Useless note,4/11/2018,9/11/2018
+419,105,8501,Excelium,Commercial,Active,14/8/2018,5/1/2019,Certified,Look at me,Useless note,6/10/2018,11/29/2018
+420,271,6778,Premium,Hybrid,Active,7/8/2018,17/5/2018,Certified,Shinny elevator,Not an interesting note,6/20/2018,7/12/2018
+421,137,1526,Premium,Residential,Active,10/5/2018,14/5/2018,Certified,Look at me,Useless note,5/27/2018,9/28/2018
+422,278,4444,Excelium,Corporate,Active,11/11/2018,7/5/2018,Certified,Nice music,Long note,11/25/2018,7/25/2018
+423,430,2434,Excelium,Commercial,Active,17/6/2018,13/5/2018,Certified,Look at me,Useless note,3/24/2018,7/21/2018
+424,497,3228,Standard,Hybrid,Active,25/3/2018,17/1/2019,Certified,Nice music,Long note,3/11/2019,7/14/2018
+425,272,7333,Excelium,Residential,Active,11/11/2018,16/1/2019,Certified,Nice music,Long note,3/3/2019,1/1/2019
+426,352,9871,Excelium,Corporate,Active,17/4/2018,25/1/2019,Certified,Look at me,This is a note,5/14/2018,7/8/2018
+427,308,8430,Standard,Commercial,Active,23/12/2018,12/11/2018,Certified,Best 0-100 mph,Useless note,7/13/2018,11/13/2018
+428,277,3407,Excelium,Hybrid,Active,1/1/2019,4/6/2018,Certified,Shinny elevator,Useless note,12/13/2018,1/8/2019
+429,493,5780,Excelium,Residential,Active,6/8/2018,23/1/2019,Certified,Best 0-100 mph,Long note,11/15/2018,3/5/2019
+430,268,2536,Premium,Corporate,Active,13/7/2018,18/1/2019,Certified,Nice music,Useless note,1/26/2019,3/9/2019
+431,367,5537,Excelium,Commercial,Inactive,14/2/2019,1/5/2018,Certified,Shinny elevator,Useless note,10/19/2018,8/23/2018
+432,314,7165,Premium,Hybrid,Active,23/8/2018,14/10/2018,Certified,Nice music,Not an interesting note,4/28/2018,12/27/2018
+433,191,2196,Standard,Residential,Active,22/12/2018,25/10/2018,Certified,Shinny elevator,Not an interesting note,1/8/2019,3/12/2019
+434,282,8199,Standard,Corporate,Active,26/3/2018,14/11/2018,Certified,Best 0-100 mph,Long note,11/12/2018,3/23/2018
+435,30,9726,Standard,Commercial,Active,24/7/2018,26/12/2018,Certified,Nice music,Useless note,5/12/2018,1/3/2019
+436,25,4927,Premium,Hybrid,Active,19/10/2018,26/7/2018,Certified,Shinny elevator,Long note,10/7/2018,10/26/2018
+437,13,7059,Premium,Residential,Active,25/5/2018,3/8/2018,Certified,Look at me,This is a note,3/3/2019,8/7/2018
+438,71,8503,Premium,Corporate,Active,11/3/2019,7/12/2018,Certified,Best 0-100 mph,Long note,9/10/2018,6/8/2018
+439,78,1553,Excelium,Commercial,Inactive,20/4/2018,20/10/2018,Certified,This in an interesting information,Not an interesting note,3/18/2018,10/13/2018
+440,252,3719,Premium,Hybrid,Inactive,5/6/2018,6/1/2019,Certified,This in an interesting information,Long note,8/16/2018,7/27/2018
+441,296,8288,Standard,Residential,Active,13/11/2018,19/2/2019,Certified,Shinny elevator,This is a note,9/11/2018,9/17/2018
+442,296,6098,Premium,Corporate,Active,3/12/2018,5/12/2018,Certified,Best 0-100 mph,Useless note,3/16/2018,8/24/2018
+443,154,9642,Premium,Commercial,Active,3/10/2018,24/12/2018,Certified,Shinny elevator,Useless note,11/14/2018,1/8/2019
+444,492,7463,Premium,Hybrid,Active,12/7/2018,17/3/2018,Certified,Shinny elevator,Useless note,2/15/2019,2/10/2019
+445,271,1319,Standard,Residential,Active,12/3/2019,11/10/2018,Certified,This in an interesting information,Long note,5/8/2018,6/10/2018
+446,283,5165,Excelium,Corporate,Active,28/8/2018,26/7/2018,Certified,Shinny elevator,Long note,10/13/2018,5/8/2018
+447,449,6796,Excelium,Commercial,Inactive,18/12/2018,23/9/2018,Not Certified,Nice music,Long note,12/25/2018,5/4/2018
+448,324,8437,Premium,Hybrid,Active,28/2/2019,16/7/2018,Certified,Nice music,Useless note,5/31/2018,7/21/2018
+449,406,4271,Standard,Residential,Active,14/10/2018,23/7/2018,Certified,Best 0-100 mph,Not an interesting note,12/25/2018,8/26/2018
+450,130,7605,Premium,Corporate,Inactive,25/5/2018,24/9/2018,Not Certified,Best 0-100 mph,This is a note,4/1/2018,1/24/2019
+451,276,6919,Premium,Commercial,Active,3/7/2018,12/5/2018,Certified,Shinny elevator,Not an interesting note,6/18/2018,4/26/2018
+452,276,4527,Standard,Hybrid,Active,3/12/2018,26/2/2019,Certified,Look at me,Not an interesting note,3/14/2018,5/26/2018
+453,168,7012,Standard,Residential,Inactive,5/10/2018,29/7/2018,Certified,Best 0-100 mph,Useless note,11/6/2018,7/19/2018
+454,186,5972,Standard,Corporate,Active,14/9/2018,30/5/2018,Certified,Nice music,Long note,5/13/2018,1/22/2019
+455,56,6548,Excelium,Commercial,Active,15/9/2018,7/11/2018,Certified,Shinny elevator,Long note,12/22/2018,7/15/2018
+456,264,3876,Standard,Hybrid,Active,25/7/2018,29/9/2018,Not Certified,Best 0-100 mph,This is a note,6/15/2018,5/5/2018
+457,322,2210,Standard,Residential,Active,8/1/2019,11/8/2018,Not Certified,Shinny elevator,This is a note,12/10/2018,2/2/2019
+458,113,2126,Standard,Corporate,Active,3/4/2018,6/6/2018,Certified,Look at me,Long note,7/17/2018,12/10/2018
+459,257,5781,Standard,Commercial,Active,7/8/2018,17/4/2018,Certified,Nice music,Useless note,12/28/2018,1/12/2019
+460,222,3977,Premium,Hybrid,Active,19/8/2018,22/6/2018,Certified,Shinny elevator,Long note,1/21/2019,12/28/2018
+461,7,1128,Premium,Residential,Active,24/8/2018,22/8/2018,Certified,Best 0-100 mph,Useless note,3/22/2018,11/1/2018
+462,42,1005,Excelium,Corporate,Active,8/9/2018,25/1/2019,Certified,Nice music,Not an interesting note,8/8/2018,9/29/2018
+463,255,9041,Premium,Commercial,Active,9/11/2018,20/12/2018,Certified,Nice music,This is a note,1/19/2019,5/7/2018
+464,489,1618,Premium,Hybrid,Active,9/1/2019,15/6/2018,Certified,Best 0-100 mph,This is a note,9/25/2018,11/3/2018
+465,115,8853,Excelium,Residential,Active,11/7/2018,18/9/2018,Certified,Nice music,This is a note,1/6/2019,3/12/2019
+466,376,6505,Excelium,Corporate,Active,18/2/2019,18/2/2019,Certified,Shinny elevator,Long note,10/12/2018,4/26/2018
+467,485,4846,Premium,Commercial,Active,8/7/2018,14/11/2018,Certified,Shinny elevator,Not an interesting note,8/31/2018,5/25/2018
+468,155,2625,Standard,Hybrid,Active,19/6/2018,25/9/2018,Certified,Shinny elevator,This is a note,10/3/2018,1/8/2019
+469,421,6960,Excelium,Residential,Active,19/11/2018,8/1/2019,Certified,Nice music,Useless note,7/24/2018,3/27/2018
+470,193,5876,Excelium,Corporate,Active,27/7/2018,9/1/2019,Certified,This in an interesting information,Useless note,10/2/2018,8/9/2018
+471,485,1077,Premium,Commercial,Active,21/10/2018,13/2/2019,Certified,This in an interesting information,Useless note,3/24/2018,11/21/2018
+472,345,3926,Premium,Hybrid,Active,20/3/2018,3/10/2018,Certified,Nice music,This is a note,10/27/2018,8/2/2018
+473,68,2210,Standard,Residential,Active,22/5/2018,20/1/2019,Certified,This in an interesting information,Useless note,11/18/2018,3/24/2018
+474,263,1756,Excelium,Corporate,Active,1/5/2018,13/3/2018,Certified,Best 0-100 mph,This is a note,10/8/2018,10/30/2018
+475,427,8730,Standard,Commercial,Active,9/9/2018,7/8/2018,Certified,Look at me,This is a note,5/26/2018,2/13/2019
+476,345,2106,Excelium,Hybrid,Active,26/1/2019,19/7/2018,Certified,Nice music,This is a note,11/21/2018,9/6/2018
+477,169,2859,Excelium,Residential,Active,6/9/2018,29/8/2018,Certified,This in an interesting information,Long note,3/26/2018,7/28/2018
+478,3,1563,Excelium,Corporate,Active,6/2/2019,9/7/2018,Certified,Nice music,Not an interesting note,9/4/2018,11/21/2018
+479,378,4063,Excelium,Commercial,Active,11/8/2018,23/10/2018,Certified,Best 0-100 mph,Useless note,4/23/2018,12/5/2018
+480,443,2467,Premium,Hybrid,Active,31/5/2018,29/8/2018,Certified,Nice music,Useless note,5/6/2018,5/1/2018
+481,212,8612,Excelium,Residential,Active,1/3/2019,25/9/2018,Certified,Shinny elevator,This is a note,3/3/2019,4/14/2018
+482,227,6406,Excelium,Corporate,Active,30/1/2019,2/9/2018,Certified,Nice music,Not an interesting note,1/19/2019,2/4/2019
+483,413,3306,Premium,Commercial,Active,7/5/2018,29/1/2019,Certified,This in an interesting information,Not an interesting note,3/8/2019,8/7/2018
+484,419,2958,Premium,Hybrid,Active,3/2/2019,21/4/2018,Certified,This in an interesting information,Long note,7/21/2018,3/3/2019
+485,473,8715,Standard,Residential,Active,23/4/2018,4/8/2018,Certified,Best 0-100 mph,This is a note,11/1/2018,8/4/2018
+486,492,5382,Standard,Corporate,Active,6/5/2018,26/8/2018,Certified,Nice music,Useless note,1/5/2019,12/17/2018
+487,219,4266,Premium,Commercial,Active,14/2/2019,29/10/2018,Certified,Look at me,Not an interesting note,8/14/2018,11/18/2018
+488,359,1534,Premium,Hybrid,Active,17/5/2018,8/10/2018,Not Certified,Best 0-100 mph,Long note,6/14/2018,7/8/2018
+489,455,7625,Premium,Residential,Active,7/2/2019,29/6/2018,Certified,Shinny elevator,Long note,1/13/2019,8/7/2018
+490,386,6817,Standard,Corporate,Active,20/3/2018,30/9/2018,Certified,Best 0-100 mph,Useless note,4/6/2018,9/27/2018
+491,297,2422,Excelium,Commercial,Inactive,3/12/2018,25/3/2018,Not Certified,Nice music,Not an interesting note,11/28/2018,7/5/2018
+492,59,2367,Standard,Hybrid,Active,24/4/2018,15/3/2018,Certified,Nice music,Long note,11/21/2018,4/21/2018
+493,249,3676,Premium,Residential,Active,4/9/2018,11/7/2018,Certified,Best 0-100 mph,Useless note,8/11/2018,6/3/2018
+494,266,3256,Premium,Corporate,Active,21/6/2018,6/4/2018,Certified,Nice music,Long note,12/24/2018,4/7/2018
+495,353,1964,Premium,Commercial,Active,24/4/2018,3/4/2018,Not Certified,Nice music,Useless note,1/5/2019,10/27/2018
+496,15,2162,Excelium,Hybrid,Active,16/7/2018,14/5/2018,Certified,Nice music,This is a note,10/26/2018,5/20/2018
+497,116,4061,Standard,Residential,Active,14/8/2018,22/10/2018,Certified,Nice music,Useless note,1/6/2019,5/31/2018
+498,73,1732,Standard,Corporate,Inactive,27/7/2018,22/10/2018,Not Certified,This in an interesting information,Long note,3/7/2019,12/17/2018
+499,121,2769,Standard,Commercial,Active,21/5/2018,16/10/2018,Certified,Nice music,Long note,7/26/2018,12/15/2018
+500,401,7518,Premium,Hybrid,Active,5/4/2018,23/2/2019,Certified,Nice music,Useless note,5/24/2018,9/5/2018
+501,148,8194,Standard,Residential,Active,30/9/2018,11/12/2018,Certified,Nice music,This is a note,10/9/2018,10/28/2018
+502,275,9186,Standard,Corporate,Active,7/6/2018,22/2/2019,Certified,Nice music,Long note,11/5/2018,6/4/2018
+503,79,3612,Premium,Commercial,Active,28/8/2018,13/1/2019,Certified,Look at me,This is a note,7/21/2018,4/17/2018
+504,57,3696,Excelium,Hybrid,Active,14/4/2018,27/3/2018,Certified,Best 0-100 mph,Not an interesting note,12/26/2018,6/23/2018
+505,178,8838,Excelium,Residential,Active,16/7/2018,30/7/2018,Certified,Shinny elevator,This is a note,5/30/2018,4/20/2018
+506,151,4507,Premium,Corporate,Active,11/10/2018,20/8/2018,Certified,Look at me,This is a note,2/23/2019,10/6/2018
+507,191,8646,Standard,Commercial,Active,21/1/2019,1/6/2018,Certified,Look at me,Useless note,2/3/2019,9/6/2018
+508,145,5654,Excelium,Hybrid,Active,3/3/2019,7/8/2018,Certified,Look at me,This is a note,2/16/2019,12/29/2018
+509,408,4491,Standard,Residential,Active,13/10/2018,22/8/2018,Certified,Nice music,Useless note,1/10/2019,6/20/2018
+510,469,3316,Excelium,Corporate,Active,5/10/2018,1/4/2018,Certified,Best 0-100 mph,This is a note,12/9/2018,1/14/2019
+511,52,5176,Premium,Commercial,Active,9/4/2018,9/5/2018,Certified,Best 0-100 mph,Not an interesting note,5/28/2018,7/14/2018
+512,474,2013,Standard,Hybrid,Active,18/2/2019,8/1/2019,Certified,Best 0-100 mph,Not an interesting note,9/16/2018,10/10/2018
+513,142,3132,Premium,Residential,Inactive,12/10/2018,15/9/2018,Certified,Nice music,Useless note,8/21/2018,8/31/2018
+514,86,7968,Premium,Corporate,Active,14/10/2018,5/11/2018,Certified,Nice music,Not an interesting note,10/8/2018,3/25/2018
+515,329,3150,Excelium,Commercial,Active,8/4/2018,6/2/2019,Certified,Best 0-100 mph,Long note,10/27/2018,2/6/2019
+516,47,6477,Standard,Hybrid,Active,11/5/2018,23/1/2019,Certified,Nice music,Long note,2/5/2019,12/21/2018
+517,425,7908,Premium,Residential,Active,6/2/2019,13/2/2019,Certified,Shinny elevator,Useless note,4/3/2018,8/18/2018
+518,150,6307,Standard,Corporate,Active,13/11/2018,21/11/2018,Certified,Look at me,Long note,10/16/2018,2/17/2019
+519,319,1152,Standard,Commercial,Active,15/5/2018,16/3/2018,Certified,This in an interesting information,Useless note,6/28/2018,1/22/2019
+520,221,8055,Standard,Hybrid,Active,22/12/2018,10/11/2018,Certified,Nice music,Long note,7/4/2018,7/18/2018
+521,84,4841,Premium,Residential,Active,3/6/2018,1/2/2019,Certified,Look at me,Not an interesting note,3/7/2019,1/19/2019
+522,68,8110,Excelium,Corporate,Inactive,2/1/2019,8/4/2018,Certified,This in an interesting information,Long note,1/12/2019,11/28/2018
+523,247,4915,Premium,Commercial,Active,29/1/2019,21/1/2019,Certified,Nice music,Long note,11/13/2018,10/31/2018
+524,43,2469,Standard,Hybrid,Active,15/5/2018,12/8/2018,Certified,This in an interesting information,Not an interesting note,7/11/2018,2/15/2019
+525,137,5067,Excelium,Residential,Active,29/3/2018,15/5/2018,Certified,Nice music,Long note,12/3/2018,6/3/2018
+526,106,6361,Excelium,Corporate,Active,23/1/2019,21/1/2019,Certified,Look at me,Not an interesting note,12/25/2018,3/24/2018
+527,202,2766,Standard,Commercial,Active,5/5/2018,16/2/2019,Certified,Nice music,Useless note,2/23/2019,4/19/2018
+528,374,7571,Excelium,Hybrid,Inactive,7/10/2018,14/11/2018,Certified,This in an interesting information,Long note,10/4/2018,11/22/2018
+529,132,7030,Standard,Residential,Active,27/10/2018,11/5/2018,Certified,Nice music,Long note,4/24/2018,9/13/2018
+530,424,2507,Excelium,Corporate,Active,18/2/2019,30/3/2018,Certified,Nice music,Long note,8/4/2018,9/27/2018
+531,102,8796,Premium,Commercial,Active,29/8/2018,19/8/2018,Certified,Nice music,Useless note,1/25/2019,3/7/2019
+532,241,8370,Standard,Hybrid,Active,4/3/2019,20/8/2018,Certified,Shinny elevator,Long note,11/27/2018,11/11/2018
+533,92,5508,Excelium,Residential,Active,11/2/2019,13/7/2018,Certified,Nice music,Not an interesting note,10/26/2018,5/4/2018
+534,239,2421,Excelium,Corporate,Inactive,25/10/2018,13/8/2018,Certified,Nice music,Not an interesting note,12/16/2018,6/30/2018
+535,181,2865,Excelium,Commercial,Active,5/10/2018,17/9/2018,Certified,Best 0-100 mph,This is a note,1/16/2019,7/18/2018
+536,269,2045,Excelium,Hybrid,Active,7/11/2018,12/5/2018,Certified,Shinny elevator,This is a note,9/14/2018,6/3/2018
+537,425,2249,Premium,Residential,Inactive,25/11/2018,13/1/2019,Certified,Shinny elevator,Useless note,2/21/2019,7/8/2018
+538,323,1337,Standard,Corporate,Active,1/1/2019,15/4/2018,Certified,Best 0-100 mph,Useless note,8/3/2018,1/18/2019
+539,436,8626,Standard,Commercial,Active,9/10/2018,3/6/2018,Certified,Shinny elevator,Useless note,8/13/2018,11/15/2018
+540,461,6145,Excelium,Hybrid,Active,3/3/2019,10/7/2018,Certified,Nice music,Not an interesting note,1/18/2019,9/21/2018
+541,486,5704,Premium,Residential,Active,9/9/2018,13/4/2018,Certified,Shinny elevator,This is a note,6/7/2018,7/27/2018
+542,442,3047,Standard,Corporate,Active,7/6/2018,23/5/2018,Certified,Shinny elevator,Not an interesting note,1/30/2019,3/1/2019
+543,387,4193,Excelium,Commercial,Active,30/1/2019,17/12/2018,Certified,Best 0-100 mph,Long note,6/11/2018,2/10/2019
+544,405,8863,Premium,Hybrid,Active,23/4/2018,5/8/2018,Certified,Best 0-100 mph,Not an interesting note,5/31/2018,3/7/2019
+545,88,3317,Excelium,Residential,Inactive,5/1/2019,9/2/2019,Certified,Shinny elevator,Not an interesting note,9/14/2018,5/5/2018
+546,441,1109,Excelium,Corporate,Active,3/3/2019,30/5/2018,Certified,Shinny elevator,Useless note,1/10/2019,12/3/2018
+547,488,3287,Excelium,Commercial,Active,31/5/2018,14/2/2019,Certified,This in an interesting information,This is a note,6/9/2018,1/21/2019
+548,315,3764,Premium,Hybrid,Active,13/10/2018,13/9/2018,Not Certified,Nice music,Long note,5/5/2018,11/4/2018
+549,451,2800,Excelium,Residential,Active,16/5/2018,6/10/2018,Certified,This in an interesting information,Useless note,10/7/2018,6/3/2018
+550,447,9505,Excelium,Corporate,Active,18/2/2019,11/7/2018,Certified,This in an interesting information,Useless note,11/17/2018,3/3/2019
+551,123,8470,Standard,Commercial,Active,27/11/2018,2/2/2019,Certified,Shinny elevator,Useless note,3/22/2018,10/17/2018
+552,91,7681,Standard,Hybrid,Active,3/3/2019,10/7/2018,Certified,Nice music,Long note,1/14/2019,7/19/2018
+553,304,9634,Excelium,Residential,Active,1/9/2018,31/5/2018,Certified,Look at me,Not an interesting note,6/10/2018,9/20/2018
+554,257,3923,Standard,Corporate,Active,15/7/2018,28/6/2018,Certified,Look at me,Long note,7/29/2018,1/6/2019
+555,176,6340,Standard,Commercial,Active,22/5/2018,1/1/2019,Certified,Nice music,Not an interesting note,11/7/2018,1/28/2019
+556,235,1252,Standard,Hybrid,Active,30/11/2018,15/4/2018,Certified,Best 0-100 mph,Long note,11/2/2018,8/1/2018
+557,220,8867,Standard,Residential,Inactive,1/10/2018,3/1/2019,Certified,This in an interesting information,Long note,9/11/2018,9/18/2018
+558,103,1617,Standard,Corporate,Active,6/4/2018,17/6/2018,Certified,Look at me,This is a note,5/22/2018,3/11/2019
+559,280,1176,Excelium,Commercial,Active,20/7/2018,31/7/2018,Certified,Shinny elevator,This is a note,1/3/2019,10/3/2018
+560,15,2461,Excelium,Hybrid,Active,7/12/2018,24/8/2018,Certified,This in an interesting information,Long note,3/23/2018,1/29/2019
+561,41,7759,Excelium,Residential,Inactive,19/11/2018,25/9/2018,Certified,This in an interesting information,This is a note,2/24/2019,10/26/2018
+562,88,7228,Premium,Corporate,Active,25/8/2018,12/12/2018,Certified,Shinny elevator,This is a note,10/1/2018,12/22/2018
+563,444,8343,Excelium,Commercial,Active,5/6/2018,1/5/2018,Certified,This in an interesting information,Useless note,2/4/2019,1/7/2019
+564,150,6177,Standard,Hybrid,Active,9/6/2018,15/9/2018,Certified,Look at me,This is a note,12/26/2018,10/26/2018
+565,308,5565,Excelium,Residential,Active,3/6/2018,14/9/2018,Not Certified,Shinny elevator,This is a note,3/6/2019,2/28/2019
+566,152,5958,Premium,Corporate,Active,9/11/2018,21/4/2018,Certified,Nice music,This is a note,10/4/2018,10/8/2018
+567,455,2928,Premium,Commercial,Active,17/11/2018,24/8/2018,Certified,Look at me,Useless note,12/2/2018,4/17/2018
+568,416,1097,Standard,Hybrid,Inactive,1/6/2018,30/3/2018,Certified,Look at me,Not an interesting note,5/4/2018,11/27/2018
+569,146,2481,Excelium,Residential,Active,6/8/2018,10/5/2018,Certified,Look at me,Useless note,3/24/2018,11/13/2018
+570,155,2186,Excelium,Corporate,Active,18/5/2018,8/3/2019,Certified,This in an interesting information,Long note,7/11/2018,12/26/2018
+571,172,3031,Premium,Commercial,Active,25/8/2018,12/3/2019,Certified,Look at me,Not an interesting note,4/13/2018,11/22/2018
+572,24,3404,Premium,Hybrid,Active,9/9/2018,1/1/2019,Certified,Best 0-100 mph,Not an interesting note,5/27/2018,1/21/2019
+573,356,2075,Standard,Residential,Active,1/1/2019,2/7/2018,Certified,Shinny elevator,Long note,4/30/2018,12/20/2018
+574,205,2596,Premium,Corporate,Inactive,11/6/2018,31/1/2019,Certified,Best 0-100 mph,Useless note,10/6/2018,10/18/2018
+575,190,7426,Excelium,Commercial,Active,5/4/2018,2/11/2018,Certified,Look at me,Not an interesting note,11/7/2018,2/16/2019
+576,156,4812,Standard,Hybrid,Active,21/11/2018,25/7/2018,Certified,Nice music,Not an interesting note,4/24/2018,12/8/2018
+577,311,3579,Premium,Residential,Inactive,14/12/2018,14/1/2019,Certified,This in an interesting information,Not an interesting note,9/30/2018,5/15/2018
+578,462,5869,Excelium,Corporate,Active,7/11/2018,10/10/2018,Certified,Look at me,Long note,10/2/2018,3/7/2019
+579,284,1367,Premium,Commercial,Active,20/11/2018,22/6/2018,Certified,Best 0-100 mph,This is a note,3/26/2018,2/8/2019
+580,454,6775,Excelium,Hybrid,Active,3/4/2018,18/8/2018,Certified,Best 0-100 mph,Long note,11/22/2018,6/24/2018
+581,277,3946,Excelium,Residential,Active,16/2/2019,20/12/2018,Not Certified,Look at me,This is a note,11/20/2018,6/2/2018
+582,418,7707,Premium,Corporate,Active,16/12/2018,8/2/2019,Certified,Look at me,Long note,10/25/2018,2/4/2019
+583,400,1936,Standard,Commercial,Active,28/6/2018,13/7/2018,Not Certified,Look at me,This is a note,10/25/2018,5/1/2018
+584,493,6609,Premium,Hybrid,Inactive,2/12/2018,19/12/2018,Certified,Look at me,This is a note,8/2/2018,9/8/2018
+585,133,3865,Premium,Residential,Active,7/2/2019,4/6/2018,Certified,Shinny elevator,Not an interesting note,6/16/2018,1/16/2019
+586,471,1330,Standard,Corporate,Inactive,4/5/2018,19/2/2019,Certified,This in an interesting information,Useless note,7/14/2018,12/3/2018
+587,260,1405,Excelium,Commercial,Active,27/4/2018,16/10/2018,Certified,Best 0-100 mph,Long note,8/22/2018,7/31/2018
+588,473,9777,Excelium,Hybrid,Active,20/7/2018,31/3/2018,Not Certified,Nice music,Long note,3/30/2018,7/14/2018
+589,291,7151,Standard,Residential,Active,15/3/2018,26/3/2018,Certified,Best 0-100 mph,Not an interesting note,10/26/2018,8/24/2018
+590,268,8232,Excelium,Corporate,Active,12/7/2018,3/12/2018,Certified,Shinny elevator,This is a note,9/3/2018,7/6/2018
+591,417,6557,Excelium,Commercial,Active,22/8/2018,23/7/2018,Certified,Best 0-100 mph,Not an interesting note,4/13/2018,6/23/2018
+592,310,5597,Standard,Hybrid,Active,16/6/2018,5/11/2018,Certified,Shinny elevator,Not an interesting note,2/24/2019,9/21/2018
+593,185,5656,Excelium,Residential,Active,18/5/2018,6/8/2018,Certified,Nice music,Useless note,10/14/2018,4/1/2018
+594,397,6079,Premium,Corporate,Active,7/4/2018,1/3/2019,Certified,Look at me,Useless note,3/11/2019,6/16/2018
+595,474,1855,Excelium,Commercial,Active,6/8/2018,28/7/2018,Certified,Look at me,Useless note,8/28/2018,8/22/2018
+596,145,9862,Standard,Hybrid,Active,18/2/2019,15/11/2018,Certified,This in an interesting information,Useless note,4/15/2018,12/6/2018
+597,210,7639,Premium,Residential,Active,2/5/2018,27/11/2018,Certified,Best 0-100 mph,Useless note,3/20/2018,4/26/2018
+598,174,1104,Standard,Corporate,Active,24/3/2018,20/11/2018,Certified,Shinny elevator,Long note,8/4/2018,8/13/2018
+599,345,1436,Excelium,Commercial,Active,9/4/2018,9/12/2018,Certified,Nice music,This is a note,12/31/2018,6/8/2018
+600,306,4013,Standard,Hybrid,Active,15/10/2018,31/12/2018,Certified,Look at me,This is a note,2/25/2019,12/28/2018
+601,338,6065,Standard,Residential,Active,25/6/2018,18/6/2018,Certified,This in an interesting information,Not an interesting note,1/9/2019,9/21/2018
+602,404,7823,Standard,Corporate,Active,28/5/2018,11/7/2018,Certified,This in an interesting information,This is a note,6/22/2018,12/21/2018
+603,186,7534,Excelium,Commercial,Active,30/3/2018,24/5/2018,Certified,Look at me,Long note,9/20/2018,9/21/2018
+604,295,2227,Premium,Hybrid,Active,27/9/2018,2/3/2019,Certified,Look at me,This is a note,7/8/2018,4/30/2018
+605,281,2540,Standard,Residential,Active,19/11/2018,6/10/2018,Certified,Look at me,This is a note,7/9/2018,11/30/2018
+606,227,6169,Premium,Corporate,Active,15/6/2018,10/9/2018,Certified,Shinny elevator,This is a note,1/9/2019,10/29/2018
+607,218,5388,Standard,Commercial,Active,14/5/2018,12/7/2018,Certified,Nice music,Useless note,10/15/2018,2/19/2019
+608,117,9717,Standard,Hybrid,Active,16/3/2018,5/3/2019,Certified,Look at me,This is a note,10/2/2018,4/8/2018
+609,173,5004,Standard,Residential,Active,7/3/2019,21/7/2018,Certified,Best 0-100 mph,Not an interesting note,10/18/2018,1/14/2019
+610,252,3761,Premium,Corporate,Active,9/11/2018,3/5/2018,Certified,Nice music,Long note,6/28/2018,12/4/2018
+611,19,1261,Premium,Commercial,Active,5/8/2018,6/6/2018,Certified,Shinny elevator,Long note,2/27/2019,5/18/2018
+612,473,4501,Excelium,Hybrid,Active,15/6/2018,21/2/2019,Certified,Shinny elevator,This is a note,6/23/2018,1/12/2019
+613,55,8220,Excelium,Residential,Active,28/10/2018,5/9/2018,Certified,Best 0-100 mph,This is a note,9/7/2018,12/25/2018
+614,421,6624,Premium,Corporate,Active,21/1/2019,11/9/2018,Certified,Best 0-100 mph,Useless note,6/17/2018,5/25/2018
+615,379,9886,Excelium,Commercial,Active,10/12/2018,16/2/2019,Certified,This in an interesting information,Long note,9/7/2018,1/15/2019
+616,69,6967,Excelium,Hybrid,Active,24/6/2018,18/11/2018,Certified,Best 0-100 mph,This is a note,12/11/2018,10/20/2018
+617,9,3279,Premium,Residential,Active,20/7/2018,11/12/2018,Certified,Look at me,Not an interesting note,2/26/2019,9/20/2018
+618,186,9397,Standard,Corporate,Active,23/2/2019,5/4/2018,Not Certified,This in an interesting information,Useless note,1/11/2019,11/21/2018
+619,91,9090,Premium,Commercial,Active,7/1/2019,28/4/2018,Certified,Best 0-100 mph,Useless note,11/14/2018,4/2/2018
+620,241,6747,Premium,Hybrid,Active,20/9/2018,31/5/2018,Certified,Look at me,Long note,8/13/2018,4/9/2018
+621,357,8470,Premium,Residential,Active,12/12/2018,4/7/2018,Certified,Look at me,Not an interesting note,6/7/2018,9/21/2018
+622,70,3134,Excelium,Corporate,Active,16/2/2019,14/6/2018,Certified,Look at me,Long note,8/8/2018,11/24/2018
+623,188,6644,Excelium,Commercial,Active,14/3/2018,5/3/2019,Certified,Look at me,Not an interesting note,10/7/2018,5/9/2018
+624,152,1432,Standard,Hybrid,Active,7/6/2018,21/4/2018,Certified,Look at me,Long note,8/31/2018,5/18/2018
+625,362,7782,Premium,Residential,Inactive,14/1/2019,25/9/2018,Certified,Shinny elevator,Useless note,10/25/2018,6/29/2018
+626,234,4904,Premium,Corporate,Active,31/10/2018,18/4/2018,Certified,This in an interesting information,Useless note,4/20/2018,7/24/2018
+627,413,6271,Premium,Commercial,Active,30/4/2018,17/9/2018,Certified,Look at me,Useless note,4/14/2018,4/7/2018
+628,455,4708,Standard,Hybrid,Active,15/6/2018,18/9/2018,Certified,This in an interesting information,Long note,4/30/2018,8/22/2018
+629,55,6961,Standard,Residential,Active,9/9/2018,17/5/2018,Certified,Nice music,This is a note,3/27/2018,4/5/2018
+630,13,6571,Standard,Corporate,Active,19/3/2018,28/5/2018,Certified,Best 0-100 mph,Long note,11/24/2018,5/24/2018
+631,151,3662,Standard,Commercial,Active,13/1/2019,20/5/2018,Certified,Shinny elevator,Useless note,9/27/2018,8/5/2018
+632,388,4770,Premium,Hybrid,Active,14/5/2018,10/7/2018,Certified,Nice music,This is a note,10/6/2018,10/1/2018
+633,130,3548,Premium,Residential,Active,17/10/2018,10/8/2018,Certified,Look at me,Useless note,8/5/2018,8/5/2018
+634,69,6073,Premium,Corporate,Active,2/6/2018,24/2/2019,Certified,This in an interesting information,Not an interesting note,3/4/2019,7/29/2018
+635,493,4867,Excelium,Commercial,Active,13/2/2019,24/4/2018,Certified,Best 0-100 mph,Long note,8/11/2018,4/20/2018
+636,62,4709,Excelium,Hybrid,Active,24/6/2018,11/3/2019,Certified,Look at me,Long note,3/29/2018,5/4/2018
+637,239,4588,Excelium,Residential,Active,12/12/2018,5/7/2018,Certified,Shinny elevator,This is a note,12/4/2018,2/16/2019
+638,93,3761,Standard,Corporate,Active,19/12/2018,25/7/2018,Certified,Shinny elevator,Useless note,4/20/2018,12/19/2018
+639,256,6289,Premium,Commercial,Active,2/11/2018,15/1/2019,Certified,Nice music,Long note,11/17/2018,9/3/2018
+640,29,7741,Premium,Hybrid,Active,4/11/2018,23/9/2018,Certified,Shinny elevator,This is a note,10/23/2018,9/23/2018
+641,46,5676,Standard,Residential,Active,19/5/2018,9/5/2018,Certified,Best 0-100 mph,Long note,4/30/2018,10/19/2018
+642,423,1973,Excelium,Corporate,Inactive,16/12/2018,18/6/2018,Certified,Best 0-100 mph,This is a note,5/22/2018,10/26/2018
+643,173,6391,Premium,Commercial,Active,26/3/2018,27/4/2018,Certified,Shinny elevator,Useless note,6/3/2018,8/18/2018
+644,42,9400,Standard,Hybrid,Inactive,4/2/2019,1/11/2018,Certified,Look at me,This is a note,8/5/2018,4/7/2018
+645,496,2235,Excelium,Residential,Inactive,9/4/2018,28/8/2018,Not Certified,This in an interesting information,Not an interesting note,1/25/2019,7/9/2018
+646,446,2232,Premium,Corporate,Active,3/4/2018,1/4/2018,Certified,This in an interesting information,This is a note,4/24/2018,1/7/2019
+647,383,3518,Premium,Commercial,Active,24/10/2018,13/5/2018,Certified,Best 0-100 mph,This is a note,3/8/2019,8/27/2018
+648,494,9026,Premium,Hybrid,Active,24/5/2018,3/11/2018,Not Certified,This in an interesting information,Not an interesting note,3/19/2018,8/27/2018
+649,81,6564,Excelium,Residential,Active,6/11/2018,24/6/2018,Certified,This in an interesting information,This is a note,11/6/2018,3/28/2018
+650,385,5376,Standard,Corporate,Active,21/12/2018,21/2/2019,Certified,This in an interesting information,Long note,3/6/2019,11/12/2018
+651,440,5695,Standard,Commercial,Active,25/12/2018,14/3/2018,Certified,Look at me,Long note,4/28/2018,3/10/2019
+652,417,8695,Premium,Hybrid,Active,10/12/2018,13/7/2018,Certified,Nice music,Not an interesting note,3/24/2018,11/1/2018
+653,251,2769,Excelium,Residential,Active,6/12/2018,28/3/2018,Certified,This in an interesting information,Long note,10/5/2018,2/27/2019
+654,276,7895,Excelium,Corporate,Active,8/10/2018,25/10/2018,Not Certified,Shinny elevator,This is a note,6/1/2018,11/10/2018
+655,202,9706,Standard,Commercial,Active,9/4/2018,20/4/2018,Not Certified,This in an interesting information,This is a note,11/6/2018,5/1/2018
+656,44,7176,Standard,Hybrid,Active,1/3/2019,23/1/2019,Certified,Shinny elevator,This is a note,9/9/2018,6/20/2018
+657,284,6688,Excelium,Residential,Active,20/10/2018,1/2/2019,Certified,This in an interesting information,Long note,5/11/2018,6/28/2018
+658,432,5132,Excelium,Corporate,Active,1/3/2019,10/6/2018,Certified,Look at me,This is a note,8/22/2018,5/30/2018
+659,323,2085,Premium,Commercial,Inactive,19/8/2018,1/9/2018,Certified,Look at me,Long note,8/5/2018,9/13/2018
+660,399,7623,Excelium,Hybrid,Active,17/7/2018,4/1/2019,Certified,This in an interesting information,Useless note,10/31/2018,3/6/2019
+661,152,8389,Excelium,Residential,Active,14/9/2018,31/7/2018,Certified,Nice music,Not an interesting note,8/23/2018,6/19/2018
+662,482,1113,Standard,Corporate,Active,7/5/2018,1/3/2019,Certified,Look at me,This is a note,4/3/2018,7/6/2018
+663,449,7533,Standard,Commercial,Active,29/12/2018,10/12/2018,Certified,Look at me,Long note,2/1/2019,5/1/2018
+664,348,3795,Premium,Hybrid,Inactive,1/11/2018,23/1/2019,Certified,This in an interesting information,Long note,7/10/2018,8/24/2018
+665,195,7096,Excelium,Residential,Inactive,12/12/2018,21/6/2018,Certified,Best 0-100 mph,This is a note,11/7/2018,5/14/2018
+666,69,3913,Excelium,Corporate,Active,8/7/2018,8/6/2018,Certified,This in an interesting information,Long note,11/4/2018,12/19/2018
+667,37,9534,Excelium,Commercial,Active,20/10/2018,17/5/2018,Certified,Best 0-100 mph,Not an interesting note,7/16/2018,3/20/2018
+668,125,3872,Excelium,Hybrid,Inactive,20/3/2018,20/2/2019,Certified,This in an interesting information,Long note,11/11/2018,11/6/2018
+669,412,3591,Premium,Residential,Active,15/8/2018,21/7/2018,Certified,Best 0-100 mph,This is a note,4/29/2018,9/2/2018
+670,73,2356,Standard,Corporate,Inactive,30/1/2019,30/9/2018,Certified,Nice music,This is a note,12/4/2018,10/30/2018
+671,180,5596,Excelium,Commercial,Active,17/10/2018,16/9/2018,Certified,This in an interesting information,Long note,5/19/2018,6/13/2018
+672,324,8080,Standard,Hybrid,Active,18/11/2018,12/3/2019,Certified,Shinny elevator,Long note,7/26/2018,10/20/2018
+673,101,5904,Standard,Residential,Active,21/4/2018,21/4/2018,Certified,Shinny elevator,This is a note,4/12/2018,3/10/2019
+674,318,5115,Excelium,Corporate,Active,25/10/2018,2/10/2018,Certified,Best 0-100 mph,Long note,6/23/2018,12/20/2018
+675,158,8847,Premium,Commercial,Active,20/2/2019,24/11/2018,Certified,Best 0-100 mph,Not an interesting note,11/17/2018,6/12/2018
+676,340,8822,Premium,Hybrid,Active,23/10/2018,1/7/2018,Certified,This in an interesting information,This is a note,7/30/2018,3/25/2018
+677,393,3295,Excelium,Residential,Active,18/2/2019,27/9/2018,Certified,Nice music,Long note,10/12/2018,3/18/2018
+678,377,1186,Standard,Corporate,Active,9/6/2018,6/7/2018,Certified,Nice music,Useless note,6/12/2018,1/31/2019
+679,41,8748,Excelium,Commercial,Active,26/3/2018,30/1/2019,Certified,Look at me,Useless note,10/9/2018,2/14/2019
+680,105,7387,Standard,Hybrid,Active,1/4/2018,30/11/2018,Certified,This in an interesting information,Not an interesting note,5/14/2018,2/15/2019
+681,460,3177,Excelium,Residential,Active,1/10/2018,27/9/2018,Certified,Best 0-100 mph,Long note,5/30/2018,8/7/2018
+682,62,1489,Premium,Corporate,Active,19/2/2019,7/12/2018,Certified,Shinny elevator,Useless note,7/31/2018,7/18/2018
+683,18,6538,Premium,Commercial,Active,27/5/2018,14/11/2018,Certified,Nice music,Long note,5/27/2018,4/20/2018
+684,394,9804,Standard,Hybrid,Active,21/6/2018,31/8/2018,Certified,Nice music,Useless note,12/2/2018,9/26/2018
+685,446,5818,Excelium,Residential,Inactive,20/10/2018,18/11/2018,Certified,Shinny elevator,Useless note,7/20/2018,1/7/2019
+686,258,9932,Premium,Corporate,Active,29/9/2018,26/9/2018,Certified,Nice music,Not an interesting note,4/29/2018,8/23/2018
+687,483,2230,Standard,Commercial,Active,17/5/2018,10/10/2018,Certified,Look at me,This is a note,12/8/2018,12/27/2018
+688,32,2275,Standard,Hybrid,Active,18/11/2018,14/3/2018,Certified,Shinny elevator,Not an interesting note,12/20/2018,8/25/2018
+689,299,7311,Premium,Residential,Active,8/12/2018,30/4/2018,Certified,Look at me,Not an interesting note,1/13/2019,8/1/2018
+690,481,9278,Premium,Corporate,Active,28/1/2019,2/6/2018,Certified,Nice music,This is a note,8/20/2018,2/5/2019
+691,192,9188,Premium,Commercial,Inactive,29/3/2018,27/2/2019,Certified,Shinny elevator,Long note,9/3/2018,1/23/2019
+692,160,1818,Premium,Hybrid,Active,23/9/2018,4/6/2018,Certified,This in an interesting information,Not an interesting note,8/7/2018,5/18/2018
+693,429,2071,Premium,Residential,Active,11/9/2018,14/6/2018,Certified,Best 0-100 mph,Long note,11/24/2018,7/6/2018
+694,227,4726,Standard,Corporate,Active,14/7/2018,27/12/2018,Certified,Shinny elevator,Useless note,12/10/2018,8/19/2018
+695,331,3457,Excelium,Commercial,Active,17/8/2018,20/8/2018,Certified,Best 0-100 mph,This is a note,12/22/2018,9/29/2018
+696,271,1736,Standard,Hybrid,Active,11/2/2019,19/10/2018,Certified,Shinny elevator,This is a note,12/2/2018,9/17/2018
+697,402,2010,Excelium,Residential,Active,18/9/2018,15/5/2018,Not Certified,This in an interesting information,Long note,6/9/2018,4/28/2018
+698,332,5737,Excelium,Corporate,Active,3/1/2019,11/2/2019,Certified,Shinny elevator,Useless note,9/16/2018,7/8/2018
+699,309,6115,Premium,Commercial,Active,19/3/2018,31/10/2018,Not Certified,Nice music,Not an interesting note,3/5/2019,1/24/2019
+700,274,3614,Excelium,Hybrid,Inactive,25/4/2018,14/4/2018,Certified,Best 0-100 mph,This is a note,10/13/2018,12/30/2018
+701,496,3480,Premium,Residential,Active,28/5/2018,11/5/2018,Not Certified,This in an interesting information,This is a note,6/3/2018,3/31/2018
+702,377,2280,Premium,Corporate,Active,18/10/2018,20/6/2018,Certified,Best 0-100 mph,This is a note,7/20/2018,10/16/2018
+703,483,1888,Premium,Commercial,Active,27/9/2018,30/5/2018,Certified,Best 0-100 mph,Long note,8/25/2018,5/26/2018
+704,309,3368,Excelium,Hybrid,Active,4/2/2019,20/1/2019,Certified,This in an interesting information,Long note,4/19/2018,9/22/2018
+705,234,9758,Premium,Residential,Inactive,30/4/2018,10/7/2018,Certified,Nice music,Useless note,9/4/2018,1/28/2019
+706,218,8576,Standard,Corporate,Active,19/2/2019,25/5/2018,Certified,Nice music,Not an interesting note,7/13/2018,9/2/2018
+707,39,7902,Excelium,Commercial,Active,11/12/2018,7/8/2018,Certified,This in an interesting information,Not an interesting note,3/11/2019,8/20/2018
+708,241,9414,Premium,Hybrid,Active,24/7/2018,19/7/2018,Certified,This in an interesting information,Not an interesting note,10/1/2018,8/12/2018
+709,26,8208,Standard,Residential,Active,26/2/2019,21/11/2018,Certified,Best 0-100 mph,Long note,4/16/2018,7/27/2018
+710,160,4449,Premium,Corporate,Inactive,7/7/2018,3/2/2019,Not Certified,This in an interesting information,Not an interesting note,8/10/2018,2/17/2019
+711,415,2868,Premium,Commercial,Active,4/10/2018,6/10/2018,Certified,Nice music,Not an interesting note,10/9/2018,9/29/2018
+712,331,3553,Excelium,Hybrid,Active,1/6/2018,24/4/2018,Certified,Best 0-100 mph,Useless note,10/6/2018,2/26/2019
+713,359,4304,Premium,Residential,Active,4/11/2018,9/6/2018,Certified,Best 0-100 mph,This is a note,6/28/2018,11/8/2018
+714,343,2185,Standard,Corporate,Inactive,21/12/2018,14/1/2019,Certified,Best 0-100 mph,This is a note,2/11/2019,5/30/2018
+715,279,8949,Premium,Commercial,Active,19/5/2018,28/5/2018,Certified,Nice music,Long note,4/16/2018,3/24/2018
+716,248,2913,Excelium,Hybrid,Active,17/5/2018,25/2/2019,Not Certified,Best 0-100 mph,Useless note,10/20/2018,8/12/2018
+717,364,1337,Excelium,Residential,Inactive,15/11/2018,27/5/2018,Certified,This in an interesting information,Long note,2/23/2019,8/30/2018
+718,479,7288,Premium,Corporate,Active,24/4/2018,4/1/2019,Certified,Best 0-100 mph,Not an interesting note,8/15/2018,3/29/2018
+719,17,1292,Premium,Commercial,Active,6/10/2018,6/9/2018,Certified,Look at me,This is a note,3/13/2018,3/12/2019
+720,478,2798,Standard,Hybrid,Active,5/12/2018,3/5/2018,Certified,This in an interesting information,Useless note,4/27/2018,2/19/2019
+721,48,9562,Standard,Residential,Active,9/10/2018,28/4/2018,Certified,This in an interesting information,Long note,4/16/2018,8/21/2018
+722,221,4456,Excelium,Corporate,Active,25/2/2019,29/3/2018,Certified,Shinny elevator,This is a note,7/25/2018,11/8/2018
+723,221,9190,Premium,Commercial,Active,2/5/2018,4/1/2019,Certified,This in an interesting information,Long note,7/6/2018,6/2/2018
+724,327,1759,Excelium,Hybrid,Active,14/4/2018,30/12/2018,Certified,Nice music,Not an interesting note,1/20/2019,6/10/2018
+725,345,8526,Excelium,Residential,Inactive,12/12/2018,19/9/2018,Not Certified,Shinny elevator,Long note,10/8/2018,5/23/2018
+726,287,9028,Premium,Corporate,Active,8/8/2018,30/9/2018,Certified,This in an interesting information,This is a note,1/23/2019,1/23/2019
+727,447,5310,Excelium,Commercial,Active,3/8/2018,17/1/2019,Not Certified,Look at me,Useless note,1/2/2019,8/5/2018
+728,378,1253,Excelium,Hybrid,Active,8/10/2018,26/11/2018,Certified,Nice music,Long note,3/23/2018,9/13/2018
+729,181,1460,Premium,Residential,Active,21/8/2018,30/4/2018,Certified,Nice music,This is a note,4/4/2018,5/12/2018
+730,207,9570,Standard,Corporate,Active,14/8/2018,12/10/2018,Certified,This in an interesting information,Not an interesting note,12/28/2018,2/1/2019
+731,193,3906,Premium,Commercial,Active,18/5/2018,29/6/2018,Certified,Look at me,This is a note,11/16/2018,11/2/2018
+732,218,7486,Excelium,Hybrid,Inactive,23/4/2018,11/9/2018,Certified,Look at me,This is a note,10/11/2018,9/16/2018
+733,154,8987,Excelium,Residential,Active,6/2/2019,14/3/2018,Not Certified,Best 0-100 mph,This is a note,5/18/2018,7/23/2018
+734,9,9488,Standard,Corporate,Active,2/9/2018,16/2/2019,Certified,Look at me,Useless note,11/15/2018,8/30/2018
+735,240,8515,Premium,Commercial,Active,28/11/2018,13/8/2018,Certified,Best 0-100 mph,Useless note,1/18/2019,3/20/2018
+736,29,5095,Premium,Hybrid,Active,1/9/2018,18/1/2019,Certified,Best 0-100 mph,Not an interesting note,5/19/2018,6/18/2018
+737,226,2928,Premium,Residential,Active,2/10/2018,6/2/2019,Certified,Shinny elevator,Long note,5/31/2018,7/8/2018
+738,356,8663,Excelium,Corporate,Active,20/2/2019,12/4/2018,Not Certified,Nice music,Long note,4/27/2018,4/29/2018
+739,329,9347,Premium,Commercial,Active,14/8/2018,18/7/2018,Certified,Nice music,Useless note,11/8/2018,10/18/2018
+740,14,7498,Excelium,Hybrid,Active,29/5/2018,18/11/2018,Certified,This in an interesting information,Useless note,12/25/2018,1/20/2019
+741,462,2496,Excelium,Residential,Active,24/6/2018,26/7/2018,Certified,Look at me,Long note,8/9/2018,3/3/2019
+742,373,7847,Excelium,Corporate,Active,10/1/2019,11/7/2018,Certified,Shinny elevator,This is a note,5/7/2018,7/19/2018
+743,292,6728,Premium,Commercial,Active,14/4/2018,14/1/2019,Certified,This in an interesting information,Useless note,12/5/2018,8/6/2018
+744,478,7082,Premium,Hybrid,Active,1/12/2018,12/6/2018,Certified,This in an interesting information,Long note,7/22/2018,6/23/2018
+745,384,9842,Excelium,Residential,Active,12/3/2019,17/1/2019,Certified,Best 0-100 mph,Long note,8/17/2018,2/10/2019
+746,423,4754,Excelium,Corporate,Active,7/9/2018,14/12/2018,Certified,Shinny elevator,Long note,4/22/2018,7/11/2018
+747,73,9808,Excelium,Commercial,Active,18/4/2018,24/12/2018,Not Certified,Shinny elevator,Useless note,8/7/2018,1/10/2019
+748,73,7669,Premium,Hybrid,Active,14/9/2018,15/5/2018,Certified,Best 0-100 mph,Useless note,3/6/2019,12/5/2018
+749,278,6857,Excelium,Residential,Active,19/6/2018,20/3/2018,Certified,Look at me,Long note,5/22/2018,1/23/2019
+750,26,7939,Excelium,Corporate,Active,15/7/2018,6/7/2018,Not Certified,Nice music,Not an interesting note,4/26/2018,4/10/2018
+751,468,9593,Excelium,Commercial,Inactive,12/11/2018,15/2/2019,Certified,Best 0-100 mph,Useless note,12/1/2018,7/13/2018
+752,118,5121,Standard,Hybrid,Active,31/5/2018,5/10/2018,Certified,Look at me,This is a note,11/21/2018,6/20/2018
+753,120,2711,Standard,Residential,Active,9/6/2018,19/8/2018,Certified,Nice music,Useless note,10/13/2018,4/14/2018
+754,46,6994,Premium,Corporate,Active,2/6/2018,28/11/2018,Not Certified,Best 0-100 mph,This is a note,11/27/2018,3/29/2018
+755,446,7709,Premium,Commercial,Active,1/8/2018,8/1/2019,Certified,This in an interesting information,Useless note,11/19/2018,2/27/2019
+756,126,5394,Excelium,Hybrid,Active,19/4/2018,27/8/2018,Certified,Look at me,Useless note,1/19/2019,8/14/2018
+757,90,2939,Excelium,Residential,Active,2/10/2018,7/10/2018,Certified,This in an interesting information,Not an interesting note,7/13/2018,1/13/2019
+758,346,8030,Premium,Corporate,Active,11/5/2018,8/4/2018,Certified,This in an interesting information,Long note,9/23/2018,2/4/2019
+759,357,5222,Standard,Commercial,Inactive,30/12/2018,29/10/2018,Certified,This in an interesting information,This is a note,6/9/2018,3/13/2018
+760,303,9451,Standard,Hybrid,Inactive,15/1/2019,13/12/2018,Certified,Nice music,Useless note,11/2/2018,9/9/2018
+761,284,7641,Standard,Residential,Active,20/6/2018,20/8/2018,Certified,Look at me,Useless note,10/29/2018,1/28/2019
+762,361,4652,Standard,Corporate,Active,16/5/2018,21/8/2018,Certified,Shinny elevator,Useless note,10/7/2018,10/20/2018
+763,82,2984,Standard,Commercial,Active,4/4/2018,6/10/2018,Certified,Best 0-100 mph,Useless note,3/19/2018,4/9/2018
+764,287,8096,Excelium,Hybrid,Active,12/9/2018,30/6/2018,Not Certified,Nice music,Not an interesting note,12/25/2018,5/22/2018
+765,246,5456,Excelium,Residential,Active,17/12/2018,10/11/2018,Certified,Nice music,Long note,9/7/2018,11/24/2018
+766,377,2082,Excelium,Corporate,Active,27/3/2018,19/7/2018,Certified,Shinny elevator,Useless note,5/11/2018,12/7/2018
+767,330,3425,Premium,Commercial,Active,8/11/2018,24/1/2019,Certified,This in an interesting information,Long note,10/9/2018,3/31/2018
+768,314,3131,Excelium,Hybrid,Active,8/3/2019,23/9/2018,Certified,Shinny elevator,Long note,1/26/2019,12/25/2018
+769,463,5920,Premium,Residential,Active,29/3/2018,11/7/2018,Certified,Nice music,Useless note,8/31/2018,12/16/2018
+770,478,6211,Excelium,Corporate,Active,3/10/2018,9/7/2018,Certified,This in an interesting information,Useless note,4/8/2018,4/1/2018
+771,462,2309,Standard,Commercial,Active,8/11/2018,10/12/2018,Certified,Best 0-100 mph,Not an interesting note,8/22/2018,1/21/2019
+772,498,4915,Premium,Hybrid,Active,1/3/2019,21/11/2018,Certified,Nice music,Not an interesting note,9/10/2018,2/15/2019
+773,338,8990,Standard,Residential,Active,26/4/2018,16/2/2019,Certified,This in an interesting information,Useless note,11/24/2018,11/1/2018
+774,346,1376,Premium,Corporate,Active,22/5/2018,13/11/2018,Certified,Nice music,This is a note,5/22/2018,12/25/2018
+775,252,4344,Premium,Commercial,Active,2/11/2018,26/10/2018,Certified,Look at me,Not an interesting note,7/28/2018,9/21/2018
+776,114,4645,Standard,Hybrid,Active,6/10/2018,27/11/2018,Certified,Nice music,This is a note,1/21/2019,7/17/2018
+777,340,8020,Standard,Residential,Active,23/5/2018,9/1/2019,Certified,Nice music,Useless note,10/21/2018,2/16/2019
+778,134,1451,Excelium,Corporate,Active,11/1/2019,4/11/2018,Certified,Shinny elevator,Not an interesting note,11/22/2018,5/31/2018
+779,408,1549,Premium,Commercial,Active,11/3/2019,3/10/2018,Certified,Look at me,This is a note,3/29/2018,11/14/2018
+780,430,9440,Standard,Hybrid,Active,19/12/2018,14/12/2018,Certified,Shinny elevator,Useless note,5/31/2018,11/5/2018
+781,349,3722,Excelium,Residential,Active,21/6/2018,26/10/2018,Certified,Best 0-100 mph,This is a note,2/1/2019,10/30/2018
+782,118,3321,Standard,Corporate,Active,15/11/2018,22/2/2019,Certified,Nice music,Long note,5/14/2018,12/9/2018
+783,464,4584,Excelium,Commercial,Inactive,27/10/2018,24/6/2018,Certified,Shinny elevator,This is a note,10/16/2018,8/11/2018
+784,237,9036,Excelium,Hybrid,Active,19/9/2018,13/4/2018,Certified,This in an interesting information,Long note,1/14/2019,4/5/2018
+785,253,4070,Premium,Residential,Active,19/5/2018,11/9/2018,Certified,Best 0-100 mph,This is a note,4/15/2018,4/27/2018
+786,54,1436,Excelium,Corporate,Active,20/12/2018,26/11/2018,Certified,Look at me,Useless note,7/26/2018,9/11/2018
+787,268,7059,Excelium,Commercial,Active,19/7/2018,12/5/2018,Certified,Nice music,Long note,9/15/2018,8/12/2018
+788,257,7733,Premium,Hybrid,Active,30/6/2018,30/3/2018,Certified,This in an interesting information,This is a note,2/20/2019,3/27/2018
+789,25,9972,Excelium,Residential,Active,9/12/2018,17/11/2018,Certified,This in an interesting information,This is a note,2/26/2019,5/11/2018
+790,432,4178,Premium,Corporate,Inactive,16/5/2018,30/10/2018,Certified,Look at me,Useless note,12/9/2018,12/4/2018
+791,495,2419,Excelium,Commercial,Active,16/4/2018,20/10/2018,Not Certified,This in an interesting information,Useless note,7/9/2018,4/8/2018
+792,71,9289,Standard,Hybrid,Active,9/9/2018,31/3/2018,Certified,Shinny elevator,This is a note,10/4/2018,9/15/2018
+793,440,1118,Standard,Residential,Active,10/3/2019,10/4/2018,Certified,This in an interesting information,Long note,1/17/2019,10/7/2018
+794,116,6557,Premium,Corporate,Inactive,17/12/2018,26/8/2018,Certified,Shinny elevator,This is a note,7/18/2018,5/1/2018
+795,486,3201,Standard,Commercial,Active,29/10/2018,7/1/2019,Certified,Nice music,Not an interesting note,2/28/2019,9/19/2018
+796,272,9102,Standard,Hybrid,Active,23/9/2018,18/11/2018,Certified,Nice music,Useless note,3/20/2018,12/12/2018
+797,270,5616,Standard,Residential,Active,28/6/2018,4/10/2018,Not Certified,This in an interesting information,This is a note,1/19/2019,6/2/2018
+798,171,7427,Excelium,Corporate,Active,19/9/2018,25/1/2019,Certified,Look at me,This is a note,4/7/2018,3/22/2018
+799,410,7403,Standard,Commercial,Inactive,17/4/2018,20/4/2018,Certified,Best 0-100 mph,Useless note,11/8/2018,9/26/2018
+800,420,8871,Excelium,Hybrid,Active,14/5/2018,2/4/2018,Certified,This in an interesting information,Useless note,4/15/2018,12/19/2018
+801,477,4621,Premium,Residential,Active,21/12/2018,8/7/2018,Certified,Look at me,Long note,9/6/2018,10/16/2018
+802,48,1015,Standard,Corporate,Active,17/9/2018,12/2/2019,Certified,Best 0-100 mph,Useless note,4/11/2018,3/4/2019
+803,115,7199,Excelium,Commercial,Inactive,8/7/2018,23/3/2018,Certified,Look at me,Long note,11/28/2018,11/4/2018
+804,230,1768,Standard,Hybrid,Active,17/6/2018,15/12/2018,Certified,This in an interesting information,Long note,11/9/2018,3/24/2018
+805,139,8732,Excelium,Residential,Active,23/2/2019,10/2/2019,Certified,Best 0-100 mph,Long note,3/20/2018,10/2/2018
+806,406,9251,Standard,Corporate,Active,6/3/2019,19/1/2019,Certified,This in an interesting information,Long note,10/12/2018,4/20/2018
+807,103,2718,Premium,Commercial,Active,23/9/2018,22/11/2018,Certified,Look at me,Useless note,9/4/2018,5/23/2018
+808,445,1669,Premium,Hybrid,Active,21/7/2018,20/12/2018,Certified,Best 0-100 mph,Long note,9/20/2018,8/10/2018
+809,165,6219,Premium,Residential,Inactive,2/8/2018,12/10/2018,Certified,Shinny elevator,Long note,7/5/2018,8/22/2018
+810,426,8235,Premium,Corporate,Active,27/7/2018,1/1/2019,Certified,Look at me,Useless note,9/20/2018,12/19/2018
+811,271,2012,Premium,Commercial,Active,27/6/2018,7/1/2019,Certified,Shinny elevator,Useless note,7/2/2018,7/12/2018
+812,207,9539,Excelium,Hybrid,Inactive,15/2/2019,23/9/2018,Certified,Best 0-100 mph,Not an interesting note,1/1/2019,5/4/2018
+813,445,5717,Standard,Residential,Inactive,20/4/2018,25/9/2018,Certified,This in an interesting information,Long note,9/9/2018,9/27/2018
+814,424,1958,Excelium,Corporate,Active,11/1/2019,11/2/2019,Certified,Nice music,Long note,11/25/2018,11/24/2018
+815,99,9308,Standard,Commercial,Active,22/4/2018,25/10/2018,Certified,Nice music,This is a note,6/27/2018,5/6/2018
+816,443,8072,Excelium,Hybrid,Active,27/7/2018,27/4/2018,Not Certified,Nice music,This is a note,1/25/2019,12/4/2018
+817,28,9645,Excelium,Residential,Active,19/4/2018,26/7/2018,Certified,This in an interesting information,This is a note,8/1/2018,1/28/2019
+818,184,3240,Premium,Corporate,Active,9/6/2018,15/2/2019,Certified,Look at me,Long note,8/3/2018,11/4/2018
+819,125,8000,Standard,Commercial,Active,8/10/2018,23/2/2019,Certified,This in an interesting information,This is a note,6/21/2018,1/25/2019
+820,354,5649,Excelium,Hybrid,Active,12/2/2019,15/3/2018,Certified,Look at me,Useless note,6/11/2018,7/6/2018
+821,105,1475,Premium,Residential,Active,29/7/2018,26/6/2018,Certified,Look at me,Useless note,2/22/2019,2/1/2019
+822,380,2451,Standard,Corporate,Active,3/10/2018,4/12/2018,Certified,This in an interesting information,Long note,8/25/2018,9/23/2018
+823,485,3457,Premium,Commercial,Active,10/12/2018,10/1/2019,Certified,Best 0-100 mph,Not an interesting note,6/4/2018,7/1/2018
+824,129,6992,Premium,Hybrid,Active,14/5/2018,26/7/2018,Certified,Look at me,This is a note,4/29/2018,5/29/2018
+825,483,8632,Excelium,Residential,Active,6/3/2019,4/9/2018,Not Certified,Best 0-100 mph,Long note,9/7/2018,6/13/2018
+826,221,8568,Excelium,Corporate,Active,18/1/2019,18/3/2018,Certified,Best 0-100 mph,Useless note,4/25/2018,3/18/2018
+827,232,5917,Premium,Commercial,Active,4/11/2018,13/8/2018,Certified,Nice music,Not an interesting note,12/28/2018,5/31/2018
+828,164,4266,Premium,Hybrid,Active,2/3/2019,11/12/2018,Certified,Best 0-100 mph,This is a note,8/27/2018,1/20/2019
+829,150,1791,Premium,Residential,Active,7/8/2018,22/11/2018,Certified,Nice music,Not an interesting note,10/23/2018,7/24/2018
+830,252,9264,Premium,Corporate,Active,20/6/2018,3/4/2018,Certified,Shinny elevator,Useless note,2/17/2019,4/20/2018
+831,124,6462,Premium,Commercial,Active,13/9/2018,21/5/2018,Certified,Shinny elevator,Not an interesting note,4/25/2018,4/7/2018
+832,201,5422,Excelium,Hybrid,Active,8/2/2019,30/1/2019,Certified,This in an interesting information,This is a note,8/18/2018,8/23/2018
+833,433,7794,Excelium,Residential,Active,7/7/2018,29/8/2018,Certified,Shinny elevator,This is a note,2/12/2019,7/1/2018
+834,145,2043,Excelium,Corporate,Active,13/9/2018,1/9/2018,Certified,Best 0-100 mph,This is a note,7/26/2018,8/23/2018
+835,185,2930,Premium,Commercial,Active,5/8/2018,11/11/2018,Certified,Look at me,This is a note,9/24/2018,7/1/2018
+836,497,7435,Standard,Hybrid,Active,17/8/2018,2/11/2018,Certified,Shinny elevator,Useless note,7/27/2018,6/28/2018
+837,256,6734,Excelium,Residential,Inactive,27/9/2018,15/5/2018,Certified,Look at me,Long note,7/30/2018,2/15/2019
+838,498,8181,Premium,Corporate,Active,3/8/2018,3/9/2018,Certified,This in an interesting information,Long note,10/27/2018,8/4/2018
+839,258,4642,Premium,Commercial,Inactive,25/4/2018,24/12/2018,Certified,This in an interesting information,Not an interesting note,12/19/2018,3/10/2019
+840,227,9063,Excelium,Hybrid,Active,31/3/2018,25/1/2019,Certified,Best 0-100 mph,Useless note,12/17/2018,1/18/2019
+841,373,4115,Excelium,Residential,Active,8/10/2018,1/5/2018,Certified,This in an interesting information,This is a note,2/10/2019,1/22/2019
+842,111,3177,Standard,Corporate,Inactive,31/1/2019,17/4/2018,Certified,Look at me,This is a note,9/3/2018,12/1/2018
+843,240,2020,Excelium,Commercial,Active,23/9/2018,8/8/2018,Certified,Shinny elevator,Not an interesting note,5/17/2018,7/29/2018
+844,486,6719,Premium,Hybrid,Active,15/1/2019,15/11/2018,Certified,Nice music,Useless note,4/2/2018,3/26/2018
+845,379,5466,Excelium,Residential,Active,21/10/2018,21/7/2018,Certified,Shinny elevator,Useless note,6/12/2018,10/7/2018
+846,364,9615,Standard,Corporate,Active,21/12/2018,8/3/2019,Certified,Best 0-100 mph,Not an interesting note,5/3/2018,10/17/2018
+847,404,8256,Premium,Commercial,Active,31/3/2018,28/1/2019,Certified,Best 0-100 mph,Long note,2/12/2019,4/6/2018
+848,193,1716,Excelium,Hybrid,Active,17/3/2018,25/6/2018,Certified,Shinny elevator,Long note,4/10/2018,6/15/2018
+849,230,6635,Excelium,Residential,Active,19/7/2018,28/4/2018,Certified,Best 0-100 mph,Useless note,9/15/2018,8/23/2018
+850,369,8961,Excelium,Corporate,Active,23/4/2018,12/1/2019,Certified,Shinny elevator,Long note,11/27/2018,4/8/2018
+851,259,8757,Standard,Commercial,Active,24/5/2018,9/6/2018,Certified,Shinny elevator,Useless note,7/23/2018,11/11/2018
+852,164,9801,Standard,Hybrid,Active,26/1/2019,10/7/2018,Certified,Nice music,Useless note,11/2/2018,4/8/2018
+853,385,8412,Excelium,Residential,Active,14/6/2018,13/4/2018,Certified,Look at me,Useless note,10/2/2018,5/23/2018
+854,411,2825,Premium,Corporate,Inactive,16/3/2018,24/7/2018,Certified,Nice music,This is a note,1/21/2019,10/26/2018
+855,413,3970,Excelium,Commercial,Active,8/6/2018,11/10/2018,Certified,Best 0-100 mph,Useless note,10/10/2018,3/27/2018
+856,56,3654,Premium,Hybrid,Active,27/6/2018,6/9/2018,Certified,Nice music,This is a note,11/27/2018,11/21/2018
+857,188,5245,Standard,Residential,Active,12/8/2018,2/1/2019,Certified,Best 0-100 mph,This is a note,8/10/2018,3/22/2018
+858,480,9456,Excelium,Corporate,Active,20/12/2018,9/3/2019,Certified,Nice music,Useless note,1/16/2019,1/25/2019
+859,321,5796,Premium,Commercial,Active,27/11/2018,12/12/2018,Certified,Nice music,This is a note,4/19/2018,7/7/2018
+860,212,1064,Excelium,Hybrid,Active,9/5/2018,30/3/2018,Certified,Nice music,Long note,9/7/2018,7/9/2018
+861,14,8113,Excelium,Residential,Active,5/3/2019,20/3/2018,Certified,Best 0-100 mph,Useless note,6/17/2018,3/15/2018
+862,434,1792,Premium,Corporate,Active,6/5/2018,23/9/2018,Certified,Best 0-100 mph,Long note,12/7/2018,3/9/2019
+863,92,5034,Excelium,Commercial,Inactive,11/4/2018,21/3/2018,Certified,Shinny elevator,Useless note,3/4/2019,12/24/2018
+864,29,4579,Premium,Hybrid,Active,24/3/2018,30/9/2018,Certified,Shinny elevator,Not an interesting note,9/6/2018,5/28/2018
+865,238,9080,Premium,Residential,Active,22/4/2018,27/4/2018,Certified,Best 0-100 mph,Useless note,10/21/2018,11/4/2018
+866,54,4743,Premium,Corporate,Active,8/5/2018,29/1/2019,Certified,Shinny elevator,Not an interesting note,4/1/2018,4/10/2018
+867,231,9446,Premium,Commercial,Active,28/11/2018,12/6/2018,Certified,Best 0-100 mph,This is a note,6/26/2018,6/22/2018
+868,85,6933,Excelium,Hybrid,Active,13/2/2019,12/11/2018,Certified,Shinny elevator,Useless note,1/21/2019,12/29/2018
+869,248,5115,Standard,Residential,Active,30/7/2018,29/10/2018,Certified,Shinny elevator,This is a note,7/23/2018,9/14/2018
+870,24,3349,Excelium,Corporate,Active,9/11/2018,15/5/2018,Certified,Best 0-100 mph,Not an interesting note,8/21/2018,6/17/2018
+871,110,4185,Premium,Commercial,Active,16/11/2018,2/2/2019,Certified,Shinny elevator,This is a note,4/7/2018,1/10/2019
+872,36,5140,Standard,Hybrid,Active,26/9/2018,20/2/2019,Certified,This in an interesting information,This is a note,4/12/2018,2/6/2019
+873,201,3690,Premium,Residential,Active,25/1/2019,9/11/2018,Certified,Look at me,This is a note,6/19/2018,1/19/2019
+874,113,5927,Standard,Corporate,Active,4/1/2019,2/4/2018,Certified,This in an interesting information,Long note,9/2/2018,3/24/2018
+875,474,6219,Premium,Commercial,Active,23/1/2019,29/10/2018,Certified,Shinny elevator,Long note,11/8/2018,4/23/2018
+876,291,2413,Standard,Hybrid,Inactive,27/2/2019,8/4/2018,Certified,Look at me,Useless note,6/12/2018,11/26/2018
+877,214,7630,Excelium,Residential,Active,3/2/2019,13/3/2018,Certified,This in an interesting information,Not an interesting note,2/7/2019,10/3/2018
+878,314,9993,Standard,Corporate,Active,23/4/2018,1/10/2018,Certified,Nice music,Long note,10/6/2018,12/16/2018
+879,250,9807,Standard,Commercial,Active,3/5/2018,6/6/2018,Certified,This in an interesting information,Useless note,5/2/2018,7/30/2018
+880,245,5631,Premium,Hybrid,Active,9/8/2018,30/1/2019,Certified,Nice music,Long note,4/1/2018,1/28/2019
+881,473,1761,Standard,Residential,Active,17/1/2019,23/1/2019,Certified,This in an interesting information,Not an interesting note,10/8/2018,3/29/2018
+882,316,4236,Excelium,Corporate,Active,25/6/2018,18/11/2018,Certified,This in an interesting information,This is a note,1/20/2019,12/18/2018
+883,276,3872,Premium,Commercial,Active,1/4/2018,5/5/2018,Certified,Look at me,Long note,1/18/2019,3/21/2018
+884,28,6984,Premium,Hybrid,Active,25/12/2018,21/9/2018,Not Certified,Best 0-100 mph,Useless note,10/19/2018,9/27/2018
+885,249,1056,Premium,Residential,Active,30/6/2018,6/5/2018,Certified,Look at me,This is a note,8/19/2018,12/29/2018
+886,235,4283,Excelium,Corporate,Active,3/10/2018,21/11/2018,Certified,Shinny elevator,Not an interesting note,9/30/2018,8/21/2018
+887,297,1398,Standard,Commercial,Active,11/7/2018,20/12/2018,Certified,Best 0-100 mph,Long note,8/7/2018,5/8/2018
+888,367,3168,Excelium,Hybrid,Active,21/2/2019,21/1/2019,Certified,This in an interesting information,This is a note,1/23/2019,7/11/2018
+889,385,6657,Premium,Residential,Inactive,6/5/2018,4/4/2018,Certified,Look at me,Long note,8/17/2018,7/31/2018
+890,183,2137,Standard,Corporate,Active,23/10/2018,7/11/2018,Certified,Look at me,Long note,10/5/2018,8/24/2018
+891,358,3093,Standard,Commercial,Active,6/4/2018,6/8/2018,Certified,Nice music,Not an interesting note,11/10/2018,3/13/2018
+892,142,9603,Standard,Hybrid,Active,15/12/2018,14/8/2018,Certified,Nice music,Not an interesting note,2/10/2019,5/26/2018
+893,400,8530,Premium,Residential,Active,13/9/2018,28/1/2019,Certified,Nice music,Not an interesting note,1/21/2019,11/20/2018
+894,35,4699,Excelium,Corporate,Active,27/9/2018,18/11/2018,Not Certified,Look at me,Useless note,8/12/2018,4/29/2018
+895,240,9957,Excelium,Commercial,Active,18/5/2018,4/3/2019,Certified,This in an interesting information,Useless note,6/25/2018,3/10/2019
+896,159,9600,Excelium,Hybrid,Active,1/7/2018,25/8/2018,Certified,Nice music,This is a note,8/19/2018,7/8/2018
+897,285,3723,Standard,Residential,Active,3/10/2018,5/7/2018,Certified,Look at me,This is a note,3/17/2018,7/3/2018
+898,95,9787,Standard,Corporate,Active,31/3/2018,5/9/2018,Certified,Nice music,Useless note,2/9/2019,10/10/2018
+899,196,7334,Standard,Commercial,Active,8/5/2018,24/9/2018,Certified,Shinny elevator,Long note,12/4/2018,8/3/2018
+900,190,6661,Premium,Hybrid,Active,7/1/2019,4/11/2018,Certified,Shinny elevator,This is a note,5/17/2018,6/9/2018
+901,306,7898,Excelium,Residential,Active,19/12/2018,2/5/2018,Certified,Look at me,Long note,4/7/2018,10/5/2018
+902,144,2043,Excelium,Corporate,Active,5/3/2019,8/8/2018,Certified,Nice music,This is a note,12/12/2018,10/7/2018
+903,136,8958,Premium,Commercial,Active,19/2/2019,13/6/2018,Certified,Shinny elevator,Not an interesting note,9/11/2018,3/26/2018
+904,479,5468,Standard,Hybrid,Active,8/2/2019,22/6/2018,Certified,This in an interesting information,Long note,3/31/2018,1/20/2019
+905,338,5458,Standard,Residential,Active,24/6/2018,27/7/2018,Certified,Best 0-100 mph,Not an interesting note,12/23/2018,10/9/2018
+906,392,6556,Premium,Corporate,Active,23/8/2018,30/3/2018,Certified,This in an interesting information,Long note,10/13/2018,10/12/2018
+907,420,9604,Standard,Commercial,Active,18/2/2019,17/9/2018,Certified,Look at me,Useless note,1/14/2019,8/22/2018
+908,319,8651,Excelium,Hybrid,Active,3/8/2018,20/5/2018,Certified,Nice music,Not an interesting note,4/24/2018,10/14/2018
+909,416,8947,Standard,Residential,Active,6/10/2018,23/12/2018,Certified,Nice music,Useless note,7/2/2018,2/4/2019
+910,128,8265,Premium,Corporate,Active,1/5/2018,5/7/2018,Certified,Look at me,Useless note,4/8/2018,12/26/2018
+911,411,6398,Standard,Commercial,Active,8/2/2019,24/2/2019,Certified,Look at me,Useless note,3/22/2018,8/25/2018
+912,377,7654,Standard,Hybrid,Active,20/3/2018,30/5/2018,Certified,Look at me,Not an interesting note,11/26/2018,4/2/2018
+913,148,7453,Standard,Residential,Active,5/8/2018,3/6/2018,Certified,Nice music,Not an interesting note,9/25/2018,5/9/2018
+914,143,8796,Standard,Corporate,Active,9/1/2019,16/12/2018,Certified,This in an interesting information,Long note,7/20/2018,5/7/2018
+915,426,8360,Excelium,Commercial,Active,5/9/2018,28/8/2018,Certified,Nice music,This is a note,12/10/2018,3/9/2019
+916,368,9067,Excelium,Hybrid,Active,27/1/2019,29/5/2018,Certified,Best 0-100 mph,Useless note,3/3/2019,7/14/2018
+917,8,5357,Excelium,Residential,Active,12/10/2018,30/8/2018,Certified,This in an interesting information,This is a note,1/14/2019,3/5/2019
+918,198,6534,Excelium,Corporate,Active,26/12/2018,7/9/2018,Certified,Best 0-100 mph,Not an interesting note,1/23/2019,8/16/2018
+919,418,8025,Premium,Commercial,Inactive,4/8/2018,24/2/2019,Not Certified,Shinny elevator,Useless note,3/6/2019,7/26/2018
+920,407,9675,Premium,Hybrid,Inactive,12/11/2018,2/8/2018,Not Certified,Best 0-100 mph,Not an interesting note,2/23/2019,5/20/2018
+921,449,3199,Premium,Residential,Active,10/1/2019,10/5/2018,Certified,Shinny elevator,Not an interesting note,6/26/2018,4/7/2018
+922,146,3214,Standard,Corporate,Active,20/3/2018,15/4/2018,Certified,Best 0-100 mph,Useless note,7/19/2018,6/20/2018
+923,157,9258,Excelium,Commercial,Active,2/12/2018,12/7/2018,Certified,Nice music,Not an interesting note,7/9/2018,10/31/2018
+924,292,9927,Premium,Hybrid,Active,23/10/2018,30/5/2018,Certified,Nice music,This is a note,1/9/2019,3/26/2018
+925,493,7443,Premium,Residential,Active,29/5/2018,17/11/2018,Certified,Shinny elevator,Useless note,7/30/2018,10/6/2018
+926,63,9569,Excelium,Corporate,Active,23/3/2018,2/9/2018,Not Certified,This in an interesting information,Not an interesting note,4/5/2018,5/31/2018
+927,276,9611,Premium,Commercial,Active,18/5/2018,15/11/2018,Certified,Look at me,Useless note,5/13/2018,3/11/2019
+928,355,5721,Excelium,Hybrid,Active,23/1/2019,3/10/2018,Certified,This in an interesting information,Long note,7/17/2018,9/22/2018
+929,244,3909,Premium,Residential,Inactive,15/5/2018,8/12/2018,Not Certified,This in an interesting information,Useless note,1/15/2019,7/19/2018
+930,223,6437,Excelium,Corporate,Inactive,19/8/2018,27/1/2019,Certified,This in an interesting information,This is a note,2/1/2019,9/16/2018
+931,175,4115,Premium,Commercial,Active,1/10/2018,26/12/2018,Certified,Nice music,Useless note,9/8/2018,5/20/2018
+932,266,3174,Premium,Hybrid,Active,22/2/2019,19/7/2018,Certified,Nice music,Long note,4/23/2018,4/21/2018
+933,112,3640,Premium,Residential,Active,17/2/2019,20/10/2018,Certified,Look at me,Useless note,7/27/2018,12/26/2018
+934,67,9872,Standard,Corporate,Active,15/7/2018,21/2/2019,Certified,Shinny elevator,Useless note,7/30/2018,5/20/2018
+935,198,4007,Standard,Commercial,Active,13/6/2018,12/7/2018,Certified,Look at me,Long note,1/27/2019,6/5/2018
+936,302,9278,Premium,Hybrid,Active,16/7/2018,7/4/2018,Not Certified,Nice music,Long note,12/17/2018,8/25/2018
+937,251,6383,Standard,Residential,Active,15/1/2019,17/8/2018,Certified,Best 0-100 mph,This is a note,11/28/2018,6/15/2018
+938,248,6198,Standard,Corporate,Active,21/7/2018,24/8/2018,Not Certified,Look at me,Long note,11/25/2018,11/22/2018
+939,161,3942,Premium,Commercial,Active,26/5/2018,26/6/2018,Not Certified,Best 0-100 mph,Not an interesting note,3/17/2018,11/4/2018
+940,224,4507,Standard,Hybrid,Active,19/2/2019,17/2/2019,Certified,Nice music,Long note,10/10/2018,6/5/2018
+941,40,7467,Premium,Residential,Active,26/11/2018,6/12/2018,Certified,Shinny elevator,Not an interesting note,2/7/2019,5/26/2018
+942,357,5863,Standard,Corporate,Active,8/7/2018,12/6/2018,Certified,Look at me,Useless note,11/26/2018,4/8/2018
+943,413,4828,Standard,Commercial,Active,25/11/2018,17/6/2018,Certified,This in an interesting information,Useless note,8/11/2018,3/25/2018
+944,415,1740,Standard,Hybrid,Active,1/4/2018,12/3/2019,Certified,Nice music,This is a note,12/30/2018,5/23/2018
+945,38,7218,Standard,Residential,Active,16/9/2018,5/12/2018,Certified,This in an interesting information,Not an interesting note,2/27/2019,6/4/2018
+946,351,4323,Premium,Corporate,Active,14/5/2018,7/11/2018,Certified,Best 0-100 mph,Long note,2/15/2019,3/26/2018
+947,264,2136,Premium,Commercial,Active,4/1/2019,12/6/2018,Certified,Nice music,This is a note,9/6/2018,12/7/2018
+948,422,1600,Premium,Hybrid,Active,31/1/2019,8/4/2018,Certified,Shinny elevator,Useless note,6/8/2018,4/8/2018
+949,167,3857,Premium,Residential,Active,30/9/2018,18/5/2018,Certified,Look at me,This is a note,1/16/2019,5/11/2018
+950,137,4280,Premium,Corporate,Active,15/4/2018,12/10/2018,Certified,Best 0-100 mph,Useless note,5/23/2018,3/10/2019
+951,425,2811,Standard,Commercial,Inactive,19/4/2018,4/7/2018,Certified,Best 0-100 mph,Long note,5/3/2018,1/23/2019
+952,490,7411,Excelium,Hybrid,Active,23/3/2018,24/1/2019,Certified,Look at me,Long note,10/14/2018,7/1/2018
+953,80,9942,Premium,Residential,Inactive,19/12/2018,20/8/2018,Certified,Best 0-100 mph,Not an interesting note,9/12/2018,8/17/2018
+954,102,3938,Premium,Corporate,Active,16/3/2018,5/6/2018,Certified,Nice music,This is a note,10/17/2018,5/5/2018
+955,400,4980,Premium,Commercial,Active,21/7/2018,27/4/2018,Certified,This in an interesting information,This is a note,2/2/2019,12/24/2018
+956,461,3491,Excelium,Hybrid,Active,17/9/2018,4/6/2018,Certified,This in an interesting information,Not an interesting note,3/23/2018,1/19/2019
+957,11,4554,Excelium,Residential,Inactive,25/4/2018,24/5/2018,Certified,Shinny elevator,Long note,10/25/2018,12/22/2018
+958,21,9095,Excelium,Corporate,Active,19/3/2018,8/4/2018,Certified,This in an interesting information,Long note,5/27/2018,1/30/2019
+959,255,8358,Premium,Commercial,Active,25/12/2018,9/9/2018,Certified,Shinny elevator,Useless note,3/21/2018,10/16/2018
+960,344,5044,Excelium,Hybrid,Active,28/12/2018,29/12/2018,Certified,Shinny elevator,Useless note,2/2/2019,12/28/2018
+961,188,6390,Excelium,Residential,Active,11/11/2018,10/6/2018,Certified,This in an interesting information,Long note,8/2/2018,2/9/2019
+962,475,2874,Standard,Corporate,Active,1/5/2018,21/3/2018,Certified,Nice music,Useless note,1/6/2019,3/29/2018
+963,430,1987,Standard,Commercial,Active,14/7/2018,31/8/2018,Certified,Best 0-100 mph,Long note,5/23/2018,3/27/2018
+964,308,7324,Standard,Hybrid,Active,12/8/2018,23/5/2018,Certified,Best 0-100 mph,Not an interesting note,8/29/2018,12/13/2018
+965,99,5147,Excelium,Residential,Active,23/6/2018,13/9/2018,Certified,This in an interesting information,This is a note,11/2/2018,12/2/2018
+966,99,8107,Premium,Corporate,Active,27/7/2018,6/3/2019,Not Certified,Look at me,Long note,11/30/2018,12/24/2018
+967,443,6340,Excelium,Commercial,Active,8/1/2019,4/4/2018,Certified,Look at me,Long note,11/8/2018,2/4/2019
+968,48,8833,Excelium,Hybrid,Active,17/9/2018,6/9/2018,Certified,This in an interesting information,This is a note,11/29/2018,10/9/2018
+969,264,2800,Excelium,Residential,Inactive,29/7/2018,30/11/2018,Not Certified,Shinny elevator,This is a note,2/23/2019,9/8/2018
+970,247,8929,Excelium,Corporate,Active,25/2/2019,10/1/2019,Certified,This in an interesting information,Not an interesting note,7/30/2018,10/22/2018
+971,392,5000,Standard,Commercial,Active,6/12/2018,1/10/2018,Certified,This in an interesting information,Long note,3/12/2019,3/31/2018
+972,230,1202,Premium,Hybrid,Active,6/11/2018,7/7/2018,Certified,This in an interesting information,This is a note,1/6/2019,9/28/2018
+973,16,2621,Standard,Residential,Active,6/5/2018,11/8/2018,Certified,Best 0-100 mph,Useless note,2/24/2019,4/2/2018
+974,82,3870,Premium,Corporate,Active,22/10/2018,2/5/2018,Certified,Look at me,Useless note,5/4/2018,1/4/2019
+975,17,2391,Excelium,Commercial,Active,3/10/2018,11/10/2018,Certified,This in an interesting information,Useless note,12/11/2018,4/8/2018
+976,55,2602,Premium,Hybrid,Active,6/6/2018,19/5/2018,Not Certified,Best 0-100 mph,Not an interesting note,10/12/2018,3/21/2018
+977,261,6447,Premium,Residential,Active,31/12/2018,24/12/2018,Certified,This in an interesting information,This is a note,4/27/2018,4/1/2018
+978,335,2216,Standard,Corporate,Active,31/12/2018,31/3/2018,Certified,This in an interesting information,Not an interesting note,8/3/2018,4/12/2018
+979,430,8806,Excelium,Commercial,Active,21/8/2018,20/6/2018,Not Certified,Best 0-100 mph,Long note,7/30/2018,10/2/2018
+980,113,2703,Excelium,Hybrid,Active,18/10/2018,20/11/2018,Not Certified,This in an interesting information,Not an interesting note,2/15/2019,2/23/2019
+981,324,9196,Excelium,Residential,Active,7/2/2019,9/7/2018,Certified,Nice music,Useless note,10/25/2018,6/26/2018
+982,205,5477,Standard,Corporate,Active,25/9/2018,27/7/2018,Certified,Look at me,Useless note,5/9/2018,8/27/2018
+983,408,5488,Premium,Commercial,Active,10/1/2019,19/6/2018,Certified,Shinny elevator,Useless note,3/26/2018,2/7/2019
+984,259,6705,Standard,Hybrid,Active,3/3/2019,22/11/2018,Certified,This in an interesting information,Not an interesting note,6/24/2018,7/28/2018
+985,260,2036,Excelium,Residential,Active,23/8/2018,14/7/2018,Certified,This in an interesting information,Useless note,9/27/2018,4/27/2018
+986,346,4428,Standard,Corporate,Active,8/10/2018,24/4/2018,Certified,Shinny elevator,This is a note,7/4/2018,2/3/2019
+987,416,7397,Standard,Commercial,Active,9/10/2018,29/12/2018,Certified,Best 0-100 mph,Useless note,11/18/2018,3/29/2018
+988,93,1676,Excelium,Hybrid,Active,18/3/2018,19/7/2018,Certified,Shinny elevator,Useless note,2/3/2019,4/5/2018
+989,55,2419,Excelium,Residential,Active,11/12/2018,30/6/2018,Certified,This in an interesting information,Useless note,2/27/2019,8/15/2018
+990,449,4892,Standard,Corporate,Inactive,20/8/2018,5/8/2018,Certified,Best 0-100 mph,Useless note,6/29/2018,2/5/2019
+991,298,1061,Standard,Commercial,Active,6/10/2018,12/2/2019,Certified,Nice music,Useless note,12/18/2018,7/3/2018
+992,288,7312,Excelium,Hybrid,Active,31/12/2018,16/11/2018,Certified,Nice music,Not an interesting note,3/24/2018,4/16/2018
+993,51,5741,Excelium,Residential,Active,17/6/2018,29/10/2018,Certified,Look at me,Useless note,9/27/2018,12/1/2018
+994,222,2513,Premium,Corporate,Active,1/3/2019,23/12/2018,Certified,Nice music,Long note,10/21/2018,5/5/2018
+995,57,1255,Excelium,Commercial,Active,20/5/2018,28/8/2018,Certified,Nice music,Long note,9/29/2018,6/5/2018
+996,422,9880,Excelium,Hybrid,Active,31/10/2018,21/4/2018,Certified,Shinny elevator,Long note,12/17/2018,4/12/2018
+997,212,1967,Excelium,Residential,Active,9/11/2018,16/4/2018,Certified,Shinny elevator,Long note,10/26/2018,9/25/2018
+998,216,7012,Excelium,Corporate,Active,7/8/2018,11/7/2018,Certified,Best 0-100 mph,Useless note,11/28/2018,8/13/2018
+999,90,4136,Excelium,Commercial,Active,11/4/2018,14/4/2018,Certified,Look at me,This is a note,8/12/2018,10/14/2018
+1000,313,7087,Excelium,Hybrid,Active,4/12/2018,12/9/2018,Certified,Look at me,This is a note,9/2/2018,3/13/2018
