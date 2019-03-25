@@ -20,6 +20,15 @@ gem 'devise'
 gem 'pg', '~> 0.18.4'
 gem 'whenever', require: false
 
+# Gem for Slack Bot
+gem 'slack-ruby-client', '~> 0.14.1'
+#
+gem 'sinatra'
+#
+gem 'dotenv'
+#
+gem 'celluloid-io'
+
 # Added by Doum
 gem 'bootstrap-sass', '~> 3.4.1'
 #
@@ -68,6 +77,7 @@ group :development do
   # Spring speeds up development by keeping your application running in the background. Read more: https://github.com/rails/spring
   gem 'spring'
   gem 'spring-watcher-listen', '~> 2.0.0'
+  gem 'foreman'
 end
 
 group :test do
