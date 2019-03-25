@@ -26,11 +26,15 @@ class Elevator < ApplicationRecord
 
         from = '+13656590103' # Your Twilio number
         to = '+18193864838' # Your mobile phone number
+   
 
         client.messages.create(
         from: from,
         to: to,
-        body: "Warning, Elevator status changed to " + status
+        body: "Warning, Elevator ID: " + id.to_s + " in column: " + 
+        self.column.id.to_s + " in battery: " + self.column.battery.id.to_s + 
+        " status changed to " + status + " at " + self.column.battery.building.address.city + 
+        " City !!!"
         )
     end
 end
