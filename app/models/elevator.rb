@@ -20,12 +20,12 @@ class Elevator < ApplicationRecord
         # Download the twilio-ruby library from twilio.com/docs/libraries/ruby
         require 'twilio-ruby'
         
-        account_sid = 'ACd30711fd514e270258730099ffe62b62'
-        auth_token = 'e0a9eefca52202f36d935a61100b8cca'
+        account_sid = ENV['twilio_sid']
+        auth_token = ENV['twilio_auth_token']
         client = Twilio::REST::Client.new(account_sid, auth_token)
 
-        from = '+13656590103' # Your Twilio number
-        to = '+18193864838' # Your mobile phone number
+        from = ENV['p_twilio'] # Your Twilio number
+        to = ENV['p_doum'] # Your mobile phone number
    
 
         client.messages.create(
