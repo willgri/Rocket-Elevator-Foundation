@@ -1,19 +1,29 @@
 class Elevator < ApplicationRecord
+
+    before_save :elma_hook
+
     belongs_to :column
     
     after_commit do
 
         if status == "Active"
-            send_sms()
+            send_to_elma()
         end
 
         if status == "Inactive"
-            send_sms()
+            send_to_elma()
         end
       
         if status == "Intervention"
+            send_to_elma()
             send_sms()
         end
+    end
+
+    def elma_hook
+        value_before = status_was
+        value_after = status
+
     end
 
     def send_sms
@@ -37,4 +47,28 @@ class Elevator < ApplicationRecord
         " City !!!"
         )
     end
+
+    def send_to_elma
+        require 'net/http'
+        require 'uri'
+        require 'json'
+
+        uri = URI.parse("https://hooks.slack.com/services/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")
+        request = Net::HTTP::Post.new(uri)
+        request.content_type = "application/json"
+        request.body = JSON.dump({
+          "text" => "Hello, World!"
+        })
+        
+        req_options = {
+          use_ssl: uri.scheme == "https",
+        }
+        
+        response = Net::HTTP.start(uri.hostname, uri.port, req_options) do |http|
+          http.request(request)
+        end
+    end
+
+# response.code
+# response.body
 end

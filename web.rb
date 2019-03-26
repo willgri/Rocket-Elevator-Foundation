@@ -3,7 +3,7 @@ require 'sinatra/base'
 module SlackElmabot
   class Web < Sinatra::Base
     get '/' do
-      'Do you even elevate?'
+      'How may I assist you?'
     end
   end
 end
