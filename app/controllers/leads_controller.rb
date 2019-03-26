@@ -40,7 +40,7 @@ class LeadsController < ApplicationController
      
     respond_to do |format|
       if @lead.save
-        UserNotifier.send_signup_email(@lead).deliver
+        UserNotifier.send_email(@lead).deliver
         format.html { redirect_to @lead, notice: 'Lead was successfully created.' }
         format.json { render :show, status: :created, location: @lead }
       else
