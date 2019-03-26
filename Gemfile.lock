@@ -131,9 +131,9 @@ GEM
       railties (>= 4.1.0, < 6.0)
       responders
       warden (~> 1.2.3)
-    dotenv (2.7.1)
     domain_name (0.5.20180417)
       unf (>= 0.0.5, < 1.0.0)
+    dotenv (2.7.1)
     erubi (1.8.0)
     eventmachine (1.2.7)
     execjs (2.7.0)
