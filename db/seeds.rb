@@ -13,8 +13,8 @@ csv.each do |row|
     t.password = "123456"
     t.reset_password_sent_at = row['Reset password sent at']
     t.remember_created_at = row['Remember created at']
-    t.first_name = row['First Name']
-    t.last_name = row['Last Name']
+    t.first_name = row['first_name']
+    t.last_name = row['last_name']
     t.title = row['Title']
     t.save!
     puts "#{t.email}, #{t.created_at} saved"    

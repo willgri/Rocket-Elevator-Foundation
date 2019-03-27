@@ -3,13 +3,13 @@ class Elevator < ApplicationRecord
     
     after_commit do
 
-        if status == "Active"
-            send_sms()
-        end
+        # if status == "Active"
+        #     send_sms()
+        # end
 
-        if status == "Inactive"
-            send_sms()
-        end
+        # if status == "Inactive"
+        #     send_sms()
+        # end
       
         if status == "Intervention"
             send_sms()
