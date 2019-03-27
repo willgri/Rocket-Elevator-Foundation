@@ -20,6 +20,15 @@ gem 'devise'
 gem 'pg', '~> 0.18.4'
 gem 'whenever', require: false
 
+# Gem for Slack Bot
+gem 'slack-ruby-client', '~> 0.14.1'
+#
+gem 'sinatra'
+#
+gem 'dotenv'
+#
+gem 'celluloid-io'
+
 # Added by Doum
 gem 'bootstrap-sass', '~> 3.4.1'
 #
@@ -34,6 +43,10 @@ gem 'require_all'
 gem 'jquery-rails', '~> 4.3', '>= 4.3.3'
 #
 gem 'rails-ujs', '~> 0.1.0'
+# TWILIO
+gem 'twilio-ruby', '~> 5.21.2'
+# IBM WATSON
+gem 'ibm_watson', '~> 0.1.1'
 
 # Use CoffeeScript for .coffee assets and views
 gem 'coffee-rails', '~> 4.2'
@@ -68,6 +81,7 @@ group :development do
   # Spring speeds up development by keeping your application running in the background. Read more: https://github.com/rails/spring
   gem 'spring'
   gem 'spring-watcher-listen', '~> 2.0.0'
+  gem 'foreman'
 end
 
 group :test do
