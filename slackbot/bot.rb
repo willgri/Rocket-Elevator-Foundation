@@ -1,6 +1,6 @@
-require 'slack-ruby-bot'
+# require 'slack-ruby-bot'
 
-module SlackElmabot
-    class Bot < SlackRubyBot::Bot
-    end
-  end
+# module SlackElmabot
+#     class Bot < SlackRubyBot::Bot
+#     end
+#   end
