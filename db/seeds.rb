@@ -69,7 +69,7 @@ csv = CSV.parse(csv_text, :headers => true, :encoding => 'ISO-8859-1')
 csv.each do |row|   
     t = Customer.new
     t.id = row['Id']
-    t.leads_id = row ['leads_id']
+    t.lead_id = row ['lead_id']
     t.address_id = row['address_id']
     t.admins_id = row['admins_id']
     t.date_of_creation = row['date_of_creation']

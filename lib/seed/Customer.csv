@@ -1,4 +1,4 @@
-id,leads_id,address_id,admins_id,date_of_creation,business_name,full_name,phone_number,email,business_description,technical_ressource_phone_number,technical_ressource_email,created_at,updated_at
+id,lead_id,address_id,admins_id,date_of_creation,business_name,full_name,phone_number,email,business_description,technical_ressource_phone_number,technical_ressource_email,created_at,updated_at
 1,,1,129,4/6/2018,Bubblemix,Waylin Dalbey,9487475070,wdalbey0@parallels.com,This is a beautiful description,5752355320,wdalbey0@mysql.com,5/14/2018,2/18/2019
 2,,2,60,15/12/2018,Edgewire,Worden Pindar,3509148677,wpindar1@examiner.com,Well...,6287145497,wpindar1@time.com,11/11/2018,2/23/2019
 3,,3,63,27/7/2016,Thoughtworks,Alexandra Dene,6498239680,adene2@stumbleupon.com,Dont have time for this.,4836480541,adene2@google.nl,4/1/2016,2/1/2019

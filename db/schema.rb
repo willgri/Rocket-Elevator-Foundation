@@ -94,7 +94,7 @@ ActiveRecord::Schema.define(version: 2019_03_12_140444) do
   end
 
   create_table "customers", options: "ENGINE=InnoDB DEFAULT CHARSET=utf8", force: :cascade do |t|
-    t.bigint "leads_id"
+    t.bigint "lead_id"
     t.bigint "address_id", null: false
     t.bigint "admins_id"
     t.date "date_of_creation"
@@ -109,7 +109,7 @@ ActiveRecord::Schema.define(version: 2019_03_12_140444) do
     t.datetime "updated_at", null: false
     t.index ["address_id"], name: "index_customers_on_address_id"
     t.index ["admins_id"], name: "index_customers_on_admins_id"
-    t.index ["leads_id"], name: "index_customers_on_leads_id"
+    t.index ["lead_id"], name: "index_customers_on_lead_id"
   end
 
   create_table "elevators", options: "ENGINE=InnoDB DEFAULT CHARSET=utf8", force: :cascade do |t|
@@ -175,6 +175,6 @@ ActiveRecord::Schema.define(version: 2019_03_12_140444) do
   add_foreign_key "columns", "batteries", on_update: :cascade, on_delete: :cascade
   add_foreign_key "customers", "addresses", on_update: :cascade, on_delete: :cascade
   add_foreign_key "customers", "admins", column: "admins_id", on_update: :cascade, on_delete: :cascade
-  add_foreign_key "customers", "leads", column: "leads_id"
+  add_foreign_key "customers", "leads"
   add_foreign_key "elevators", "columns", on_update: :cascade, on_delete: :cascade
 end

@@ -8,13 +8,13 @@ class Customer < ApplicationRecord
 
     def manage_dropbox
         puts "manage_dropbox"
-        if self.leads_id
+        if self.lead_id
 
             client = DropboxApi::Client.new(ENV['dropbox2Api'])
 
             customerName = self.full_name
 
-            theLead = Lead.find(self.leads_id)
+            theLead = Lead.find(self.lead_id)
             leadFile = theLead.attached_file
             
             client.create_folder("/#{customerName}")
