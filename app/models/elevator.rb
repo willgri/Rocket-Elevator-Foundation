@@ -1,28 +1,15 @@
 class Elevator < ApplicationRecord
 
     before_save :elma_hook
-
     belongs_to :column
-    
-    after_commit do
-
-
-        # if status == "Active"
-        #     send_sms()
-        # end
-
-        # if status == "Inactive"
-        #     send_sms()
-        # end
-      
-        if status == "Intervention"
+    before_save do
+        if ((status_was != nil) and (status != status_was))
             send_sms()
         end
-
     end
 
     def elma_hook
-      if (status != status_was)
+      if ((status_was != nil) and (status != status_was))
         send_to_elma(status_was)
       end
     end
@@ -38,7 +25,6 @@ class Elevator < ApplicationRecord
         from = ENV['p_twilio'] # Your Twilio number
         to = ENV['p_doum'] # Your mobile phone number
    
-
         client.messages.create(
         from: from,
         to: to,
@@ -54,11 +40,13 @@ class Elevator < ApplicationRecord
         require 'uri'
         require 'json'
         
-        uri = URI.parse("https://hooks.slack.com/services/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")
+        uri = URI.parse(ENV['slack_url'])
         request = Net::HTTP::Post.new(uri)
         request.content_type = "application/json"
         request.body = JSON.dump({
-          "text" => "The Elevator "+self.id.to_s+" with Serial Number "+self.serial_number.to_s+" changed status from "+status_value_before_save+" to "+self.status
+          "text" => "The Elevator "+self.id.to_s+" with Serial Number "+
+          self.serial_number.to_s+" changed status from "+status_value_before_save+
+          " to "+self.status
         })
 
         req_options = {
@@ -69,7 +57,4 @@ class Elevator < ApplicationRecord
           http.request(request)
         end
     end
-
-# response.code
-# response.body
 end
