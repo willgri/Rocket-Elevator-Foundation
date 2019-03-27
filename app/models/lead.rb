@@ -1,6 +1,6 @@
 class Lead < ApplicationRecord
 
-    after_create :createTicket
+    # after_create :createTicket
 
     def createTicket
 
