@@ -16,7 +16,7 @@ class Customer < ApplicationRecord
 
             theLead = Lead.find(self.leads_id)
             leadFile = theLead.attached_file
-            #puts leadFile
+            
             client.create_folder("/#{customerName}")
             client.upload "/#{customerName}/file.txt", "#{leadFile}"
 
