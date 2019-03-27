@@ -47,6 +47,9 @@ class LeadsController < ApplicationController
         format.json { render json: @lead.errors, status: :unprocessable_entity }
       end
     end
+
+    @lead.createTicket
+
   end
 
   # PATCH/PUT /leads/1
