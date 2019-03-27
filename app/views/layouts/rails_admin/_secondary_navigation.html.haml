@@ -4,7 +4,7 @@
   - if main_app_root_path = (main_app.root_path rescue false)
     %li= link_to t('admin.home.name'), main_app_root_path
     %li= link_to 'Charts', 'charts'
-    %li= link_to 'Google Map API'
+    %li= link_to 'Google Map API', 'google_map'
 
   - if _current_user
     - if user_link = edit_user_link

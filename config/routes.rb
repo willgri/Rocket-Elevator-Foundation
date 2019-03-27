@@ -12,6 +12,9 @@ Rails.application.routes.draw do
   get 'employee' => 'pages#admin/login'
   get "quotes" => "pages#index"
   get "/charts" => 'charts#charts'
+  get "google_map" => 'pages#google_map'
+  get "/watson" => 'watson#watson'
+
   resources :quotes
   resources :leads
   

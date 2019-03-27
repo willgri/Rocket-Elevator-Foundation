@@ -6,6 +6,16 @@
         %th.shrink.last-created= t "admin.table_headers.last_created"
         %th.records= t "admin.table_headers.records"
         %th.shrink.controls
+        %h3 Vocal
+        %audio{:id => "audio", :src => "", :controls => true, :autoplay => true}
+        :javascript
+          $(document).ready( function(){
+            $.get("/watson", function(data, status){
+              console.log(data);
+              src = `/watson`
+              $('#audio').attr("src", src)
+            })
+          })
     %tbody
       - @abstract_models.each do |abstract_model|
         - if authorized? :index, abstract_model
@@ -33,3 +43,4 @@
     .content
       %h2= t("admin.actions.history_index.menu")
       = render partial: 'rails_admin/main/dashboard_history'
+      
