@@ -10,7 +10,7 @@ class Customer < ApplicationRecord
         puts "manage_dropbox"
         if self.leads_id
 
-            client = DropboxApi::Client.new(ENV['dropboxApi'])
+            client = DropboxApi::Client.new(ENV['dropbox2Api'])
 
             customerName = self.full_name
 
