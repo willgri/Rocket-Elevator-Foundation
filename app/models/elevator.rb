@@ -21,6 +21,12 @@ class Elevator < ApplicationRecord
 
     end
 
+    def elma_hook
+      if (status != status_was)
+        send_to_elma(status_was)
+      end
+    end
+
     def send_sms
         # Download the twilio-ruby library from twilio.com/docs/libraries/ruby
         require 'twilio-ruby'

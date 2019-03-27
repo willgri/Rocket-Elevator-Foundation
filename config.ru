@@ -1,15 +1,15 @@
-$LOAD_PATH.unshift(File.dirname(__FILE__))
+#$LOAD_PATH.unshift(File.dirname(__FILE__))
 # This file is used by Rack-based servers to start the application.
 
 require_relative 'config/environment'
 
-require 'dotenv'
-Dotenv.load
+#require 'dotenv'
+#Dotenv.load
 
 # require 'slackbot'
-require 'web'
+#require 'web'
 
-Thread.abort_on_exception = true
+#Thread.abort_on_exception = true
 
 # Thread.new do
 #   begin
@@ -21,6 +21,6 @@ Thread.abort_on_exception = true
 #   end
 # end
 
-run SlackElmabot::Web
+#run SlackElmabot::Web
 
 run Rails.application
