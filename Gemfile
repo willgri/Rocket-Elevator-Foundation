@@ -109,4 +109,7 @@ gem 'chartkick', '~> 3.0', '>= 3.0.2'
 gem 'chartjs-ror'
 gem 'groupdate'
 
+# ZENDESK
+gem "zendesk_api"
+
 
