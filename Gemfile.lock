@@ -86,6 +86,27 @@ GEM
       rack-test (>= 0.6.3)
       regexp_parser (~> 1.2)
       xpath (~> 3.2)
+    celluloid (0.17.4)
+      celluloid-essentials
+      celluloid-extras
+      celluloid-fsm
+      celluloid-pool
+      celluloid-supervision
+      timers (>= 4.1.1)
+    celluloid-essentials (0.20.5)
+      timers (>= 4.1.1)
+    celluloid-extras (0.20.5)
+      timers (>= 4.1.1)
+    celluloid-fsm (0.20.5)
+      timers (>= 4.1.1)
+    celluloid-io (0.17.3)
+      celluloid (>= 0.17.2)
+      nio4r (>= 1.1)
+      timers (>= 4.1.1)
+    celluloid-pool (0.20.5)
+      timers (>= 4.1.1)
+    celluloid-supervision (0.20.6)
+      timers (>= 4.1.1)
     chartjs-ror (3.6.4)
       rails (>= 3.1)
     chartkick (3.0.2)
@@ -112,11 +133,14 @@ GEM
       warden (~> 1.2.3)
     domain_name (0.5.20180417)
       unf (>= 0.0.5, < 1.0.0)
+    dotenv (2.7.1)
     erubi (1.8.0)
     eventmachine (1.2.7)
     execjs (2.7.0)
     faraday (0.15.4)
       multipart-post (>= 1.2, < 3)
+    faraday_middleware (0.13.1)
+      faraday (>= 0.7.4, < 1.0)
     faye-websocket (0.10.7)
       eventmachine (>= 0.12.0)
       websocket-driver (>= 0.5.1)
@@ -125,6 +149,10 @@ GEM
       railties (>= 3.2, < 6.0)
     font-awesome-sass (4.3.2.1)
       sass (~> 3.2)
+    foreman (0.63.0)
+      dotenv (>= 0.7)
+      thor (>= 0.13.6)
+    gli (2.18.0)
     globalid (0.4.2)
       activesupport (>= 4.2.0)
     groupdate (4.1.1)
@@ -132,6 +160,7 @@ GEM
     haml (5.0.4)
       temple (>= 0.8.0)
       tilt
+    hashie (3.6.0)
     http (3.3.0)
       addressable (~> 2.3)
       http-cookie (~> 1.0)
@@ -190,6 +219,7 @@ GEM
     msgpack (1.2.9)
     multi_json (1.13.1)
     multipart-post (2.0.0)
+    mustermann (1.0.3)
     mysql2 (0.5.2)
     nested_form (0.3.2)
     net-scp (2.0.0)
@@ -206,6 +236,8 @@ GEM
     rack-pjax (1.1.0)
       nokogiri (~> 1.5)
       rack (>= 1.1)
+    rack-protection (2.0.5)
+      rack
     rack-test (1.1.0)
       rack (>= 1.0, < 3)
     rails (5.2.2.1)
@@ -279,6 +311,18 @@ GEM
     selenium-webdriver (3.141.0)
       childprocess (~> 0.5)
       rubyzip (~> 1.2, >= 1.2.2)
+    sinatra (2.0.5)
+      mustermann (~> 1.0)
+      rack (~> 2.0)
+      rack-protection (= 2.0.5)
+      tilt (~> 2.0)
+    slack-ruby-client (0.14.1)
+      activesupport
+      faraday (>= 0.9)
+      faraday_middleware
+      gli
+      hashie
+      websocket-driver
     spring (2.0.2)
       activesupport (>= 4.2)
     spring-watcher-listen (2.0.1)
@@ -298,6 +342,7 @@ GEM
     thor (0.20.3)
     thread_safe (0.3.6)
     tilt (2.0.9)
+    timers (4.3.0)
     turbolinks (5.2.0)
       turbolinks-source (~> 5.2)
     turbolinks-source (5.2.0)
@@ -341,12 +386,15 @@ DEPENDENCIES
   capistrano-rails-db
   capistrano3-puma
   capybara (>= 2.15)
+  celluloid-io
   chartjs-ror
   chartkick (~> 3.0, >= 3.0.2)
   chromedriver-helper
   coffee-rails (~> 4.2)
   devise
+  dotenv
   font-awesome-sass (~> 4.3.0)
+  foreman
   groupdate
   ibm_watson (~> 0.1.1)
   jbuilder (~> 2.5)
@@ -363,6 +411,8 @@ DEPENDENCIES
   rvm1-capistrano3
   sass-rails (~> 5.0)
   selenium-webdriver
+  sinatra
+  slack-ruby-client (~> 0.14.1)
   spring
   spring-watcher-listen (~> 2.0.0)
   turbolinks (~> 5)
