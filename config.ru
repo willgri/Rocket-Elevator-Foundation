@@ -3,24 +3,24 @@ $LOAD_PATH.unshift(File.dirname(__FILE__))
 
 require_relative 'config/environment'
 
-require 'dotenv'
-Dotenv.load
+# require 'dotenv'
+# Dotenv.load
 
-require 'slackbot'
-require 'web'
+require 'slack_elmabot/bot'
+# require 'web'
 
-Thread.abort_on_exception = true
+# Thread.abort_on_exception = true
 
-Thread.new do
-  begin
-    SlackElmabot::Bot.run
-  rescue Exception => e
-    STDERR.puts "ERROR: #{e}"
-    STDERR.puts e.backtrace
-    raise e
-  end
-end
+# Thread.new do
+#   begin
+#SlackElmabot::Bot.run
+#   rescue Exception => e
+#     STDERR.puts "ERROR: #{e}"
+#     STDERR.puts e.backtrace
+#     raise e
+#   end
+# end
 
-run SlackElmabot::Web
+# run SlackElmabot::Web
 
 run Rails.application

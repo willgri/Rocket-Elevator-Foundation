@@ -21,6 +21,8 @@ gem 'pg', '~> 0.18.4'
 gem 'whenever', require: false
 
 # Gem for Slack Bot
+gem 'slack-ruby-bot'
+#
 gem 'slack-ruby-client', '~> 0.14.1'
 #
 gem 'sinatra'
@@ -28,6 +30,12 @@ gem 'sinatra'
 gem 'dotenv'
 #
 gem 'celluloid-io'
+#
+
+# Gem for Google Maps API
+gem 'geocoder'
+#
+gem 'gmaps4rails'
 
 # Added by Doum
 gem 'bootstrap-sass', '~> 3.4.1'
