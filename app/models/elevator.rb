@@ -21,6 +21,12 @@ class Elevator < ApplicationRecord
 
     end
 
+    def elma_hook
+      if (status != status_was)
+        send_to_elma(status_was)
+      end
+    end
+
     def send_sms
         # Download the twilio-ruby library from twilio.com/docs/libraries/ruby
         require 'twilio-ruby'
@@ -48,7 +54,7 @@ class Elevator < ApplicationRecord
         require 'uri'
         require 'json'
         
-        uri = URI.parse("https://hooks.slack.com/services/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")
+        uri = URI.parse("https://hooks.slack.com/services/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")
         request = Net::HTTP::Post.new(uri)
         request.content_type = "application/json"
         request.body = JSON.dump({
