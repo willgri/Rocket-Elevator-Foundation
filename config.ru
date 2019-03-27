@@ -6,20 +6,20 @@ require_relative 'config/environment'
 require 'dotenv'
 Dotenv.load
 
-require 'slackbot'
+# require 'slackbot'
 require 'web'
 
 Thread.abort_on_exception = true
 
-Thread.new do
-  begin
-    SlackElmabot::Bot.run
-  rescue Exception => e
-    STDERR.puts "ERROR: #{e}"
-    STDERR.puts e.backtrace
-    raise e
-  end
-end
+# Thread.new do
+#   begin
+#     SlackElmabot::Bot.run
+#   rescue Exception => e
+#     STDERR.puts "ERROR: #{e}"
+#     STDERR.puts e.backtrace
+#     raise e
+#   end
+# end
 
 run SlackElmabot::Web
 
