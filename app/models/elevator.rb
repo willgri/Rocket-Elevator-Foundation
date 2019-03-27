@@ -6,15 +6,17 @@ class Elevator < ApplicationRecord
     
     after_commit do
 
+
+        # if status == "Active"
+        #     send_sms()
+        # end
+
+        # if status == "Inactive"
+        #     send_sms()
+        # end
+      
         if status == "Intervention"
             send_sms()
-        end
-    end
-
-    def elma_hook
-        
-        if ( status_was != status )
-            send_to_elma(status_was)        
         end
 
     end
