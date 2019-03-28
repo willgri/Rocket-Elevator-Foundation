@@ -10,7 +10,7 @@ class Customer < ApplicationRecord
         puts "manage_dropbox"
         if self.lead_id
 
-            client = DropboxApi::Client.new(ENV['dropbox2Api'])
+            client = DropboxApi::Client.new(ENV['dropboxApi'])
 
             customerName = self.full_name
 
@@ -18,9 +18,9 @@ class Customer < ApplicationRecord
             leadFile = theLead.attached_file
             
             client.create_folder("/#{customerName}")
-            client.upload "/#{customerName}/file.txt", "#{leadFile}"
+            client.upload "/#{customerName}/#{customerName}_file.binary", "#{leadFile}"
 
-            ActiveRecord::Base.connection.execute("UPDATE dominic_villemure.leads SET attached_file= null WHERE id='#{self.leads_id}';")
+            ActiveRecord::Base.connection.execute("UPDATE dominic_villemure.leads SET attached_file= null WHERE id='#{self.lead_id}';")
             
         end
     end
