@@ -1,7 +1,11 @@
 RailsAdmin.config do |config|
+  config.navigation_static_links = {
+    'Google' => 'http://www.google.com'
+  }
   config.authenticate_with do
      warden.authenticate! scope: :admin
      config.main_app_name = Proc.new { |controller| [ "Rocketelevator", "BackOffice - #{controller.params[:action].try(:titleize)}" ] }
+ 
    end
    config.current_user_method(&:current_admin)
   ### Popular gems integration
@@ -37,6 +41,7 @@ RailsAdmin.config do |config|
     edit
     delete
     show_in_app
+
 
     ## With an audit adapter, you can add:
     # history_index
