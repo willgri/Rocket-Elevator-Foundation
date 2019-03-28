@@ -1,4 +1,5 @@
 class Lead < ApplicationRecord
+    has_many :customers
 
     # after_create :createTicket
 

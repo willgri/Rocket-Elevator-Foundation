@@ -29,8 +29,21 @@ gem uses for schedule : whenever
 
 # Collaborators :
 
+<<<<<<< HEAD
+-Remi Lemay-Dupont
+-Joanie Coffey
+-Airton
+-Charles Hébert
+
+# Week 7
+
+working on APIs
+
+Dropbox dev : Danny Gauthier
+=======
 -Stephane Roy
 -Danny Gauthier
 -Dominic Villemure
 -Simon Fortier
 -William Grimard
+>>>>>>> 460eac169a98baaf52da084ec50dd709214aa912
