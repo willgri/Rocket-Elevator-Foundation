@@ -17,6 +17,7 @@ class Lead < ApplicationRecord
         
         begin
         client.create_folder("/#{theBusiness}")
+        client.upload("/#{theBusiness}/#{the_time.strftime "%Y-%m-%d %H:%M"}__#{leadFileName}", leadFile)
         rescue Exception
         client.upload("/#{theBusiness}/#{the_time.strftime "%Y-%m-%d %H:%M"}__#{leadFileName}", leadFile)
         end

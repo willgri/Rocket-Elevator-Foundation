@@ -38,10 +38,10 @@ class LeadsController < ApplicationController
       @lead.message = params[:message]
       attached_file = params[:attached_file]
 
-      @lead.attached_file = attached_file.read
-
-      
-      @lead.file_name = attached_file.original_filename
+      if attached_file 
+        @lead.attached_file = attached_file.read  
+        @lead.file_name = attached_file.original_filename
+      end
       
       # jai_besoin_du_filename = attached_file.original_filename
 
