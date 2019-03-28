@@ -36,8 +36,18 @@ class LeadsController < ApplicationController
       @lead.project_name = params[:project_name]
       @lead.project_description = params[:project_description]
       @lead.message = params[:message]
-      @lead.attached_file = params[:attached_file]
-     
+      attached_file = params[:attached_file]
+
+      @lead.attached_file = attached_file.read
+
+      
+      @lead.file_name = attached_file.original_filename
+      
+      # jai_besoin_du_filename = attached_file.original_filename
+
+      # puts "FILE NAME " + jai_besoin_du_filename
+      # puts "FILE BINARY " + attached_file.read 
+
     respond_to do |format|
       if @lead.save
         format.html { redirect_to @lead, notice: 'Lead was successfully created.' }

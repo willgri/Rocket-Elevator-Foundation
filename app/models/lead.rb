@@ -1,7 +1,60 @@
 class Lead < ApplicationRecord
-    has_many :customers
+    belongs_to :customers, optional: true
 
-    # after_create :createTicket
+    after_create :manage_dropbox_after_create
+    after_update :manage_dropbox_after_update
+
+    def upload_the_file
+
+        client = DropboxApi::Client.new(ENV['dropboxApi'])
+
+        the_time = Time.now
+        the_time.strftime "%Y-%m-%d %H:%M"
+
+        theBusiness = self.business_name
+        leadFile = self.attached_file
+        leadFileName = self.file_name
+        
+        begin
+        client.create_folder("/#{theBusiness}")
+        rescue Exception
+        client.upload("/#{theBusiness}/#{the_time.strftime "%Y-%m-%d %H:%M"}__#{leadFileName}", leadFile)
+        end
+
+        ActiveRecord::Base.connection.execute("UPDATE dominic_villemure.leads SET attached_file = null WHERE id='#{self.id}';")
+                  
+    end
+
+    def manage_dropbox_after_update
+        puts "manage_dropbox_after_update"
+        if self.customer_id
+
+            self.upload_the_file
+
+        end
+
+    end
+
+    def manage_dropbox_after_create
+
+        puts "manage_dropbox_after_create"
+        #client = DropboxApi::Client.new(ENV['dropboxApi'])
+
+        Customer.all.each do |c|
+
+            if c.business_name == self.business_name
+
+                ActiveRecord::Base.connection.execute("UPDATE dominic_villemure.leads SET customer_id =#{c.id} WHERE id = #{self.id};")
+
+                self.upload_the_file 
+
+                break if c.business_name == self.business_name
+
+            end
+
+        end
+
+    end
 
     def createTicket
 
@@ -37,11 +90,14 @@ class Lead < ApplicationRecord
             mes = "Attached Message: None"
         end
       
-        client.tickets.create!(:subject => "#{self.full_name} from #{self.business_name}", :type => "question",
-        :comment => { :value => "The contact #{self.full_name} from company #{self.business_name} can be reached at email #{self.email} and at phone number #{self.phone_number}.
+        client.tickets.create!(
+            :subject => "#{self.full_name} from #{self.business_name}", 
+            :type => "question",
+            :comment => { :value => "The contact #{self.full_name} from company #{self.business_name} can be reached at email #{self.email} and at phone number #{self.phone_number}.
         #{self.department_in_charge_of_elevators} has a project named #{self.project_name} which would require contribution from Rocket Elevators.
         \n \n #{self.project_description} \n \n #{mes} \n \n #{attached}"},
-        :submitter_id => client.current_user.id, :priority => "normal")
+        :submitter_id => client.current_user.id, 
+        :priority => "normal")
         
     end
 

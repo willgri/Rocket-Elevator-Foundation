@@ -1,6 +1,7 @@
 class CreateLeads < ActiveRecord::Migration[5.2]
   def change
     create_table :leads do |t|
+      t.belongs_to :customer, foreign_key: true
       t.string :full_name
       t.string :business_name
       t.string :email
@@ -10,6 +11,7 @@ class CreateLeads < ActiveRecord::Migration[5.2]
       t.string :department_in_charge_of_elevators
       t.text :message
       t.binary :attached_file
+      t.string :file_name
       t.date :date
       t.timestamps
     end

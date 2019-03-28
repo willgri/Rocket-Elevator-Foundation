@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2019_03_12_140444) do
+ActiveRecord::Schema.define(version: 2019_03_13_130911) do
 
   create_table "addresses", options: "ENGINE=InnoDB DEFAULT CHARSET=utf8", force: :cascade do |t|
     t.string "address_type"
@@ -94,7 +94,6 @@ ActiveRecord::Schema.define(version: 2019_03_12_140444) do
   end
 
   create_table "customers", options: "ENGINE=InnoDB DEFAULT CHARSET=utf8", force: :cascade do |t|
-    t.bigint "lead_id"
     t.bigint "address_id", null: false
     t.bigint "admins_id"
     t.date "date_of_creation"
@@ -109,7 +108,6 @@ ActiveRecord::Schema.define(version: 2019_03_12_140444) do
     t.datetime "updated_at", null: false
     t.index ["address_id"], name: "index_customers_on_address_id"
     t.index ["admins_id"], name: "index_customers_on_admins_id"
-    t.index ["lead_id"], name: "index_customers_on_lead_id"
   end
 
   create_table "elevators", options: "ENGINE=InnoDB DEFAULT CHARSET=utf8", force: :cascade do |t|
@@ -129,6 +127,7 @@ ActiveRecord::Schema.define(version: 2019_03_12_140444) do
   end
 
   create_table "leads", options: "ENGINE=InnoDB DEFAULT CHARSET=utf8", force: :cascade do |t|
+    t.bigint "customer_id"
     t.string "full_name"
     t.string "business_name"
     t.string "email"
@@ -138,9 +137,11 @@ ActiveRecord::Schema.define(version: 2019_03_12_140444) do
     t.string "department_in_charge_of_elevators"
     t.text "message"
     t.binary "attached_file"
+    t.string "file_name"
     t.date "date"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
+    t.index ["customer_id"], name: "index_leads_on_customer_id"
   end
 
   create_table "quotes", options: "ENGINE=InnoDB DEFAULT CHARSET=utf8", force: :cascade do |t|
@@ -175,6 +176,6 @@ ActiveRecord::Schema.define(version: 2019_03_12_140444) do
   add_foreign_key "columns", "batteries", on_update: :cascade, on_delete: :cascade
   add_foreign_key "customers", "addresses", on_update: :cascade, on_delete: :cascade
   add_foreign_key "customers", "admins", column: "admins_id", on_update: :cascade, on_delete: :cascade
-  add_foreign_key "customers", "leads"
   add_foreign_key "elevators", "columns", on_update: :cascade, on_delete: :cascade
+  add_foreign_key "leads", "customers"
 end
