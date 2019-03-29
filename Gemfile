@@ -38,6 +38,7 @@ gem 'aws-sdk', '~> 3'
 gem 'aws-sdk-rails', '~> 2'
 #
 gem 'aws-sdk-s3', '~> 1'
+
 # Gem for Google Maps API
 gem 'geocoder'
 #
