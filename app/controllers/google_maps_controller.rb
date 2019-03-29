@@ -34,7 +34,7 @@ class GoogleMapsController < ApplicationController
         # ([streetAddress, city, country].compact.join(', '))
         # p(lon)
 
-        options = { units: "metric", APPID: ENV['googlekey'] }
+        options = { units: "metric", APPID: ENV['weatherkey'] }
         weather = OpenWeather::Current.geocode(lat, lon, options)
         sky = weather['weather'][0]['main']
         temp = weather['main']["temp"]
