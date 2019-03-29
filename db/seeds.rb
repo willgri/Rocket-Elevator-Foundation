@@ -1,5 +1,27 @@
 
+require 'csv'
+csv_text = File.read(Rails.root.join('lib', 'seed', 'lead.csv'))
+csv = CSV.parse(csv_text, :headers => true, :encoding => 'ISO-8859-1')
+csv.each do |row|   
+    t = Lead.new
+    t.id = row['Id']
+    t.full_name = row['full_name']
+    t.business_name = row['business_name']
+    t.email = row['email']
+    t.phone_number = row['phone_number']
+    t.project_name = row['project_name']
+    t.project_description = row['project_description']
+    t.department_in_charge_of_elevators = row['department_in_charge_of_elevators']
+    t.message = row['message']
+    t.attached_file = row['attached_file']
+    t.file_name = "#{t.business_name}_file.txt"
+    t.date = row['date']
+    t.created_at = row['created_at']
+    t.updated_at = row['updated_at']
 
+    t.save!
+      
+  end
 
 require 'csv'
 csv_text = File.read(Rails.root.join('lib', 'seed', 'Employees.csv'))
@@ -17,7 +39,7 @@ csv.each do |row|
     t.last_name = row['last_name']
     t.title = row['Title']
     t.save!
-    puts "#{t.email}, #{t.created_at} saved"    
+    # puts "#{t.email}, #{t.created_at} saved"    
   end
 
 require 'csv'
@@ -178,6 +200,7 @@ csv.each do |row|
             t.quality = row['quality']
             t.elevator_price = row['elevator_price']
             t.installation_price = row['installation_price']
+            t.total_price = row['total_price']
             t.number_elevator = row['number_elevator']
             t.number_appartment = row['number_appartment']
             t.number_floor = row['number_floor']
@@ -189,32 +212,10 @@ csv.each do |row|
             t.number_of_trade_market = row['number_of_trade_market']
             t.number_of_distinct_business = row['number_of_distinct_business']
 
-  
             t.save!
               
           end
 
 
           
-        require 'csv'
-        csv_text = File.read(Rails.root.join('lib', 'seed', 'lead.csv'))
-        csv = CSV.parse(csv_text, :headers => true, :encoding => 'ISO-8859-1')
-        csv.each do |row|   
-            t = Lead.new
-            t.id = row['Id']
-            t.full_name = row['full_name']
-            t.business_name = row['business_name']
-            t.email = row['email']
-            t.phone_number = row['phone_number']
-            t.project_name = row['project_name']
-            t.project_description = row['project_description']
-            t.department_in_charge_of_elevators = row['department_in_charge_of_elevators']
-            t.message = row['message']
-            t.attached_file = row['attached_file']
-            t.date = row['date']
-            t.created_at = row['created_at']
-            t.updated_at = row['updated_at']
-
-            t.save!
-              
-          end
+        
