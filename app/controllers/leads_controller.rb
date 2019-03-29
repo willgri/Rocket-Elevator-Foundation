@@ -36,9 +36,16 @@ class LeadsController < ApplicationController
       @lead.project_name = params[:project_name]
       @lead.project_description = params[:project_description]
       @lead.message = params[:message]
-      @lead.attached_file = params[:attached_file]
-     
-    respond_to do |format|
+      attached_file = params[:attached_file]
+
+      if attached_file 
+        @lead.attached_file = attached_file.read  
+        @lead.file_name = attached_file.original_filename
+      end
+
+      @lead.createTicket
+      UserNotifier.send_email(@lead).deliver
+      respond_to do |format|
       if @lead.save
         format.html { redirect_to @lead, notice: 'Lead was successfully created.' }
         format.json { render :show, status: :created, location: @lead }
@@ -47,6 +54,7 @@ class LeadsController < ApplicationController
         format.json { render json: @lead.errors, status: :unprocessable_entity }
       end
     end
+
   end
 
   # PATCH/PUT /leads/1

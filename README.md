@@ -1,14 +1,14 @@
 ﻿# README
 
 # implementation of 7 API
-	-Twilio
-	-Google Map
-	-ZenDesk
-	-SendGrid
-	-IbmWatson
-	-DropBox
-	-Slack
 
+    -Twilio
+    -Google Map
+    -ZenDesk
+    -SendGrid
+    -IbmWatson
+    -DropBox
+    -Slack
 
 # TOOL USED to buil the site
 

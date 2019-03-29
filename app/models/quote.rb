@@ -1,6 +1,6 @@
 class Quote < ApplicationRecord
 
-    after_create :createTicket
+    # after_create :createTicket
 
     def createTicket
 
@@ -26,9 +26,9 @@ class Quote < ApplicationRecord
       
         client.tickets.create!(:subject => "QUOTE FOR: #{self.full_name} from #{self.business_name}",
         :type => "task", :comment => { :value => "The contact #{self.full_name} from company #{self.business_name} can be reached at email #{self.email} and at phone number #{self.phone_number}.
-        \n \n The client require a quote for a #{self.building_type} building with a #{self.quality} intallation.
+        \n \n The client require a quote for a #{self.building_type} building with a #{self.quality} installation.
         \n #{self.number_elevator} elevators are initially suggested for construction with for a total price of #{self.total_price}$."},
-        :submitter_id => client.current_user.id, :priority => "urgent")
+        :priority => "urgent")
         
     end
 

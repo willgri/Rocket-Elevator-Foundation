@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2019_03_13_140911) do
+ActiveRecord::Schema.define(version: 2019_03_13_130911) do
 
   create_table "addresses", options: "ENGINE=InnoDB DEFAULT CHARSET=utf8", force: :cascade do |t|
     t.string "address_type"
@@ -22,6 +22,8 @@ ActiveRecord::Schema.define(version: 2019_03_13_140911) do
     t.string "postal_code"
     t.string "country"
     t.text "notes"
+    t.float "latitude"
+    t.float "longitude"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
   end
@@ -127,6 +129,7 @@ ActiveRecord::Schema.define(version: 2019_03_13_140911) do
   end
 
   create_table "leads", options: "ENGINE=InnoDB DEFAULT CHARSET=utf8", force: :cascade do |t|
+    t.bigint "customer_id"
     t.string "full_name"
     t.string "business_name"
     t.string "email"
@@ -136,9 +139,11 @@ ActiveRecord::Schema.define(version: 2019_03_13_140911) do
     t.string "department_in_charge_of_elevators"
     t.text "message"
     t.binary "attached_file"
+    t.string "file_name"
     t.date "date"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
+    t.index ["customer_id"], name: "index_leads_on_customer_id"
   end
 
   create_table "quotes", options: "ENGINE=InnoDB DEFAULT CHARSET=utf8", force: :cascade do |t|
@@ -174,4 +179,5 @@ ActiveRecord::Schema.define(version: 2019_03_13_140911) do
   add_foreign_key "customers", "addresses", on_update: :cascade, on_delete: :cascade
   add_foreign_key "customers", "admins", column: "admins_id", on_update: :cascade, on_delete: :cascade
   add_foreign_key "elevators", "columns", on_update: :cascade, on_delete: :cascade
+  add_foreign_key "leads", "customers"
 end
