@@ -36,8 +36,18 @@ class LeadsController < ApplicationController
       @lead.project_name = params[:project_name]
       @lead.project_description = params[:project_description]
       @lead.message = params[:message]
-      @lead.attached_file = params[:attached_file]
-     
+      attached_file = params[:attached_file]
+
+      if attached_file 
+        @lead.attached_file = attached_file.read  
+        @lead.file_name = attached_file.original_filename
+      end
+      
+      # jai_besoin_du_filename = attached_file.original_filename
+
+      # puts "FILE NAME " + jai_besoin_du_filename
+      # puts "FILE BINARY " + attached_file.read 
+
     respond_to do |format|
       if @lead.save
         format.html { redirect_to @lead, notice: 'Lead was successfully created.' }
@@ -47,6 +57,9 @@ class LeadsController < ApplicationController
         format.json { render json: @lead.errors, status: :unprocessable_entity }
       end
     end
+
+    @lead.createTicket
+
   end
 
   # PATCH/PUT /leads/1

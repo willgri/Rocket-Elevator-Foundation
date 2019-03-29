@@ -32,6 +32,12 @@ gem 'dotenv'
 gem 'celluloid-io'
 #
 
+#Gem for AWS Transcribe
+gem 'aws-sdk', '~> 3'
+#
+gem 'aws-sdk-rails', '~> 2'
+#
+gem 'aws-sdk-s3', '~> 1'
 # Gem for Google Maps API
 gem 'geocoder'
 #
@@ -121,3 +127,5 @@ gem 'groupdate'
 gem "zendesk_api"
 
 
+# DROPBOX
+gem 'dropbox_api'
