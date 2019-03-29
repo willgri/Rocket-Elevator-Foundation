@@ -3,7 +3,7 @@ class Elevator < ApplicationRecord
     before_save :elma_hook
     belongs_to :column
     before_save do
-        if status == "Intervention"
+        if ((status_was != nil) and (status == "Intervention"))
             send_sms()
         end
     end
