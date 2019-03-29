@@ -4,6 +4,7 @@ class GoogleMapsController < ApplicationController
     @markers = []
     Building.find_each do |building| 
       if building.id < 21
+        # SQL request to take data needed from DB
         address = building.address
         clientName = building.customer.full_name
         batteries = building.batteries.count
@@ -15,34 +16,34 @@ class GoogleMapsController < ApplicationController
         building.batteries.all.each do |battery|
           floor = battery.columns.first.number_of_floor
 
+        # Taking needed data from address
         streetAddress = address.adress
         city = address.city
         country = address.country
         p(streetAddress, city, country)
-      
-        # address_position =  (["750 Boulevard Lebourgneuf", "Quebec", "QC"].compact.join(', '))
+
+        # Finding latitude/longitude with address if not already in DB 
+        #(If we don't store in DB loading the page is too long)
+        if address.longitude.nil?
         address_position =  ([streetAddress, city, country].compact.join(', '))
         results = Geocoder.search(address_position)
-        lat = results.first.coordinates[0]
-        lon = results.first.coordinates[1]
-        p(lat)
-        p(lon)
-      
-        
-        
-        # address_position =  (["750 Boulevard Lebourgneuf", "Quebec", "QC"].compact.join(', '))
-        # ([streetAddress, city, country].compact.join(', '))
-        # p(lon)
 
+        address.latitude = results.first.coordinates[0]
+        address.longitude = results.first.coordinates[1]
+        address.save!
+        end
+
+        # Finding weather with latitude and longitude
         options = { units: "metric", APPID: ENV['weatherkey'] }
-        weather = OpenWeather::Current.geocode(lat, lon, options)
+        weather = OpenWeather::Current.geocode(address.latitude, address.longitude, options)
         sky = weather['weather'][0]['main']
         temp = weather['main']["temp"]
-
+        
+        # Adding data into markers
         @markers << {
         address: address.adress,
-        lat: lat, 
-        lng: lon,
+        lat: address.latitude, 
+        lng: address.longitude,
         customer: clientName,
         batteries: batteries,
         columns: columns, 
