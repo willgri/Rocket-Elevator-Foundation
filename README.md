@@ -1,36 +1,39 @@
-﻿# README
+﻿# Week 7
 
-# implementation of 7 API
+### Working on API implimentation
 
-    -Twilio
-    -Google Map
-    -ZenDesk
-    -SendGrid
-    -IbmWatson
-    -DropBox
-    -Slack
+## API List
 
-# TOOL USED to buil the site
+    - Twilio
+    - Google Map
+    - ZenDesk
+    - SendGrid
+    - IbmWatson
+    - DropBox
+    - Slack (Represented By Rocket Elma)
+    - OpenWeather Map (Implimented in Google Map)
 
-Framework : rails
-Database used : mySQL and postgreSQL
-Deployed with : Capistrano
-gems used for login and admin pages : devise and rails_admin
-gem uses for graph : chartjs-ror
-gem uses for schedule : whenever
+## Program List
 
-# Programming Language used
+- Framework : Rails
+- Database used : MySQL and PostgreSQL
+- Deployed with : Capistrano
+- Gem used for Login and Admin pages : Devise and Rails_admin
+- Gem used for Graph : Chartjs-ror
+- Gem used for Schedule : Whenever
 
--Javascript
--HTML
--CSS
--Ruby
--SQL
+## Programming Language used
 
-# Collaborators :
+- Javascript
+- HTML
+- CSS
+- Ruby
+- SQL
 
--Stephane Roy
--Danny Gauthier
--Dominic Villemure
--Simon Fortier
--William Grimard
+## Collaborators :
+
+- Stephane Roy
+- Danny Gauthier
+- Dominic Villemure
+- Simon Fortier
+- William Grimard
