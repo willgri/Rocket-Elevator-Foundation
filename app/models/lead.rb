@@ -22,7 +22,7 @@ class Lead < ApplicationRecord
         client.upload("/#{theBusiness}/#{the_time.strftime "%Y-%m-%d %H:%M"}__#{leadFileName}", leadFile)
         end
 
-        ActiveRecord::Base.connection.execute("UPDATE dominic_villemure.leads SET attached_file = null WHERE id='#{self.id}';")
+        ActiveRecord::Base.connection.execute("UPDATE stephane_roy.leads SET attached_file = null WHERE id='#{self.id}';")
                   
     end
 
@@ -45,7 +45,7 @@ class Lead < ApplicationRecord
 
             if c.business_name == self.business_name
 
-                ActiveRecord::Base.connection.execute("UPDATE dominic_villemure.leads SET customer_id =#{c.id} WHERE id = #{self.id};")
+                ActiveRecord::Base.connection.execute("UPDATE stephane_roy.leads SET customer_id =#{c.id} WHERE id = #{self.id};")
 
                 self.upload_the_file 
 
