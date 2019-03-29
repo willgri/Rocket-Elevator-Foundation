@@ -1,0 +1,131 @@
+<%= render partial: "partial" %>
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+      #GoogleMap
+       {
+        height: 700px;
+        width: 95%;
+       }
+       #around {background-color: #232323 }
+
+       /*style the box which holds the text of the information window*/
+        /* .gm-style .gm-style-iw {
+           background-color: #ce3131 !important;
+           top: 0 !important;
+           left: 0 !important;
+           width: 100% !important;
+           height: 100% !important;
+           min-height: 120px !important;
+           padding-top: 10px;
+           display: block !important;
+        } */
+
+        /*style the paragraph tag*/
+        /* .gm-style .gm-style-iw #google-popup p{
+           padding: 10px;
+        } */
+
+
+       /*style the annoying little arrow at the bottom*/
+       /* .gm-style div div div div div div div div {
+           background-color: #ce3131 !important;
+           margin: 0;
+           padding: 0;
+           top: 0;
+           color: #fff;
+           font-size: 16px;
+       } */
+
+       /*style the link*/
+       /* .gm-style div div div div div div div div a {
+           color: #f1f1f1;
+           font-weight: bold;
+       } */
+    </style>
+  </head>
+<section id="around">
+  <center>
+  <div id="GoogleMap">
+ </div>
+  </center>
+</section>
+
+    <script>
+    var marker_list = [];
+
+      <% @markers.each do |location| %>
+        marker_list.push({
+        address: "<%= location[:address] %>",
+        lat: <%= location[:lat] %>,
+        lng: <%= location[:lng] %>,
+        customer: "<%= location[:customer] %>", 
+        batteries: "<%= location[:batteries] %>",
+        columns: "<%= location[:columns] %> ",
+        elevators: "<%= location[:elevators] %> ",
+        contact: "<%= location[:contact] %> ",
+        floor: "<%= location[:floor] %> ",
+        sky: "<%= location[:sky] %> ",
+        temp: "<%= location[:temp] %> "
+        });
+      <% end %> 
+      
+          // ADDING MAP
+          
+      function initMap() {
+          // MAP CENTER LOCATION
+          var mapCenter = {lat: 46.8139, lng: -81.2080};
+          // CENTER MAP ON QC
+          var map = new google.maps.Map(
+            document.getElementById('GoogleMap'), {zoom: 4, center: mapCenter});
+          var geolocations = marker_list.map(function(location, i){
+            var marker = new google.maps.Marker({
+            position: location,
+            map: map,
+            animation:google.maps.Animation.DROP,
+            icon: createImage("/assets/rocket_pin.png")
+          });
+
+          function createImage(url){
+          var image = {
+            url: url,
+            // This marker is 32 pixels wide by 32 pixels tall.
+            scaledsize: new google.maps.Size(64, 64),
+            // The origin for this image is 0,0.
+            origin: new google.maps.Point(0,0),
+            // The anchor for this image is the base of the flagpole at 0,32.
+            anchor: new google.maps.Point(32, 61)
+            };
+            return image;
+          }
+          var infoWindow = new google.maps.InfoWindow({
+            maxWidth: 300
+          
+          });
+          var window = '<h3>' + location.address + '</h3>' +
+            'Customer: ' + location.customer + '</br>' + 
+            '<br>Number of Floor: ' + location.floor + '</br>' + 
+            '<br>Batteries: ' + location.batteries + '</br>' +
+            '<br>Columns: ' + location.columns + '</br>' + 
+            '<br>Elevators: ' + location.elevators + '</br>' + 
+            '<br>Contact: ' + location.contact + '</br>' +
+            '<br>Condition: ' + location.sky + '</br>' +
+            '<br>Temperature: ' + location.temp + ' Celcius';
+             
+            
+            marker.addListener('click', function() {
+            infoWindow.setContent(window)
+            infoWindow.open(map, marker);
+        });
+          console.log(marker)
+          return marker
+        });
+    }
+    </script>
+
+    <script async defer
+        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB4HLVZVnuEPh0m2BqTwdripl_QhDfU3cg&callback=initMap">
+    </script>
+
+ 
