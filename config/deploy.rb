@@ -6,7 +6,7 @@ set :rvm_map_bins, [ 'rake', 'gem', 'bundle', 'ruby', 'puma', 'pumactl' ]
 set :application, "stephane_roy"
 set :repo_url, "https://github.com/Stephane3677/Rocket_Elevators_API"
 
-require "whenever/capistrano"
+# require "whenever/capistrano"
 
 # Default branch is :master
 # ask :branch, `git rev-parse --abbrev-ref HEAD`.chomp
