@@ -3,7 +3,7 @@ class Elevator < ApplicationRecord
     before_save :elma_hook
     belongs_to :column
     before_save do
-        if ((status_was != nil) and (status != status_was))
+        if ((status_was != nil) and (status == "Intervention"))
             send_sms()
         end
     end
@@ -23,7 +23,9 @@ class Elevator < ApplicationRecord
         client = Twilio::REST::Client.new(account_sid, auth_token)
 
         from = ENV['p_twilio'] # Your Twilio number
-        to = ENV['p_doum'] # Your mobile phone number
+        # to = ENV['p_doum'] # Your mobile phone number (if you want to hardcode 1 phone number)
+        to = "+1#{self.column.battery.building.technical_ressource_phone_number}"
+        p(to)
    
         client.messages.create(
         from: from,
