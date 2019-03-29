@@ -121,3 +121,6 @@ gem 'aws-sdk', '~> 3'
 gem 'aws-sdk-rails', '~> 2'
 gem 'aws-sdk-s3', '~> 1'
 
+# wait util
+gem 'waitutil', '~> 0.2.1'
+
