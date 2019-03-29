@@ -3,7 +3,7 @@ class GoogleMapsController < ApplicationController
   def index
     @markers = []
     Building.find_each do |building| 
-      if building.id < 16
+      if building.id < 21
         address = building.address
         clientName = building.customer.full_name
         batteries = building.batteries.count

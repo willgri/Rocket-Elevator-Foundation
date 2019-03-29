@@ -10,39 +10,6 @@
        }
        #around {background-color: #232323 }
 
-       /*style the box which holds the text of the information window*/
-        /* .gm-style .gm-style-iw {
-           background-color: #ce3131 !important;
-           top: 0 !important;
-           left: 0 !important;
-           width: 100% !important;
-           height: 100% !important;
-           min-height: 120px !important;
-           padding-top: 10px;
-           display: block !important;
-        } */
-
-        /*style the paragraph tag*/
-        /* .gm-style .gm-style-iw #google-popup p{
-           padding: 10px;
-        } */
-
-
-       /*style the annoying little arrow at the bottom*/
-       /* .gm-style div div div div div div div div {
-           background-color: #ce3131 !important;
-           margin: 0;
-           padding: 0;
-           top: 0;
-           color: #fff;
-           font-size: 16px;
-       } */
-
-       /*style the link*/
-       /* .gm-style div div div div div div div div a {
-           color: #f1f1f1;
-           font-weight: bold;
-       } */
     </style>
   </head>
 <section id="around">
@@ -103,15 +70,15 @@
             maxWidth: 300
           
           });
-          var window = '<h3>' + location.address + '</h3>' +
-            'Customer: ' + location.customer + '</br>' + 
-            '<br>Number of Floor: ' + location.floor + '</br>' + 
-            '<br>Batteries: ' + location.batteries + '</br>' +
-            '<br>Columns: ' + location.columns + '</br>' + 
-            '<br>Elevators: ' + location.elevators + '</br>' + 
-            '<br>Contact: ' + location.contact + '</br>' +
-            '<br>Condition: ' + location.sky + '</br>' +
-            '<br>Temperature: ' + location.temp + ' Celcius';
+         var window = '<h4>' + location.address + '</h4>' +
+          '<strong>Customer:</strong> ' + location.customer + '</br>' +
+          '<br><strong>Number of Floor:</strong> ' + location.floor + '</br>' +
+          '<br><strong>Batteries:</strong> ' + location.batteries + '</br>' +
+          '<br><strong>Columns:</strong> ' + location.columns + '</br>' +
+          '<br><strong>Elevators:</strong> ' + location.elevators + '</br>' +
+          '<br><strong>Contact:</strong> ' + location.contact + '</br>' +
+          '<br><strong>Condition:</strong> ' + location.sky + '</br>' +
+          '<br><strong>Temperature:</strong> ' + location.temp + ' Celcius';
              
             
             marker.addListener('click', function() {
