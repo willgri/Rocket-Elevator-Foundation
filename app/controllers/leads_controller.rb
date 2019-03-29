@@ -47,7 +47,9 @@ class LeadsController < ApplicationController
 
       # puts "FILE NAME " + jai_besoin_du_filename
       # puts "FILE BINARY " + attached_file.read 
-
+      p "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+      @lead.createTicket
+      UserNotifier.send_email(@lead).deliver
     respond_to do |format|
       if @lead.save
         format.html { redirect_to @lead, notice: 'Lead was successfully created.' }
@@ -57,8 +59,6 @@ class LeadsController < ApplicationController
         format.json { render json: @lead.errors, status: :unprocessable_entity }
       end
     end
-
-    @lead.createTicket
 
   end
 

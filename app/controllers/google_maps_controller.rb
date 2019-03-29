@@ -1,5 +1,6 @@
 require 'open_weather'
 class GoogleMapsController < ApplicationController
+  before_action :authenticate_admin!
   def index
     @markers = []
     Building.find_each do |building| 

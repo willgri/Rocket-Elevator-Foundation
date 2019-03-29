@@ -28,7 +28,7 @@ class Quote < ApplicationRecord
         :type => "task", :comment => { :value => "The contact #{self.full_name} from company #{self.business_name} can be reached at email #{self.email} and at phone number #{self.phone_number}.
         \n \n The client require a quote for a #{self.building_type} building with a #{self.quality} installation.
         \n #{self.number_elevator} elevators are initially suggested for construction with for a total price of #{self.total_price}$."},
-        :submitter_id => client.current_user.id, :priority => "urgent")
+        :priority => "urgent")
         
     end
 
