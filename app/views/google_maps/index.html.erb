@@ -9,9 +9,9 @@
         width: 95%;
        }
        #around {background-color: #232323 }
-
     </style>
   </head>
+
 <section id="around">
   <center>
   <div id="GoogleMap">
@@ -19,80 +19,78 @@
   </center>
 </section>
 
-    <script>
-    var marker_list = [];
-
-      <% @markers.each do |location| %>
-        marker_list.push({
-        address: "<%= location[:address] %>",
-        lat: <%= location[:lat] %>,
-        lng: <%= location[:lng] %>,
-        customer: "<%= location[:customer] %>", 
-        batteries: "<%= location[:batteries] %>",
-        columns: "<%= location[:columns] %> ",
-        elevators: "<%= location[:elevators] %> ",
-        contact: "<%= location[:contact] %> ",
-        floor: "<%= location[:floor] %> ",
-        sky: "<%= location[:sky] %> ",
-        temp: "<%= location[:temp] %> "
+  <script>
+  var marker_list = [];
+    // Taking data from the google map controller
+    <% @markers.each do |location| %>
+      marker_list.push({
+      address: "<%= location[:address] %>",
+      lat: <%= location[:lat] %>,
+      lng: <%= location[:lng] %>,
+      customer: "<%= location[:customer] %>", 
+      batteries: "<%= location[:batteries] %>",
+      columns: "<%= location[:columns] %> ",
+      elevators: "<%= location[:elevators] %> ",
+      contact: "<%= location[:contact] %> ",
+      floor: "<%= location[:floor] %> ",
+      sky: "<%= location[:sky] %> ",
+      temp: "<%= location[:temp] %> "
+      });
+    <% end %> 
+    
+        // Adding map      
+        function initMap() {
+        // Mam center location
+        var mapCenter = {lat: 46.8139, lng: -81.2080};
+        // Center map on North America
+        var map = new google.maps.Map(
+          document.getElementById('GoogleMap'), {zoom: 4, center: mapCenter});
+        var geolocations = marker_list.map(function(location, i){
+          var marker = new google.maps.Marker({
+          position: location,
+          map: map,
+          animation:google.maps.Animation.DROP,
+          icon: createImage("/assets/rocket_pin.png")
         });
-      <% end %> 
-      
-          // ADDING MAP
-          
-      function initMap() {
-          // MAP CENTER LOCATION
-          var mapCenter = {lat: 46.8139, lng: -81.2080};
-          // CENTER MAP ON QC
-          var map = new google.maps.Map(
-            document.getElementById('GoogleMap'), {zoom: 4, center: mapCenter});
-          var geolocations = marker_list.map(function(location, i){
-            var marker = new google.maps.Marker({
-            position: location,
-            map: map,
-            animation:google.maps.Animation.DROP,
-            icon: createImage("/assets/rocket_pin.png")
-          });
 
-          function createImage(url){
-          var image = {
-            url: url,
-            // This marker is 32 pixels wide by 32 pixels tall.
-            scaledsize: new google.maps.Size(64, 64),
-            // The origin for this image is 0,0.
-            origin: new google.maps.Point(0,0),
-            // The anchor for this image is the base of the flagpole at 0,32.
-            anchor: new google.maps.Point(32, 61)
-            };
-            return image;
-          }
-          var infoWindow = new google.maps.InfoWindow({
-            maxWidth: 300
-          
-          });
-         var window = '<h4>' + location.address + '</h4>' +
-          '<strong>Customer:</strong> ' + location.customer + '</br>' +
-          '<br><strong>Number of Floor:</strong> ' + location.floor + '</br>' +
-          '<br><strong>Batteries:</strong> ' + location.batteries + '</br>' +
-          '<br><strong>Columns:</strong> ' + location.columns + '</br>' +
-          '<br><strong>Elevators:</strong> ' + location.elevators + '</br>' +
-          '<br><strong>Contact:</strong> ' + location.contact + '</br>' +
-          '<br><strong>Condition:</strong> ' + location.sky + '</br>' +
-          '<br><strong>Temperature:</strong> ' + location.temp + ' Celcius';
-             
-            
-            marker.addListener('click', function() {
-            infoWindow.setContent(window)
-            infoWindow.open(map, marker);
+        function createImage(url){
+        var image = {
+          url: url,
+          // This marker is 64 pixels wide by 64 pixels tall.
+          scaledsize: new google.maps.Size(64, 64),
+          // The origin for this image is 0,0.
+          origin: new google.maps.Point(0,0),
+          // The anchor for this image is the base of the flagpole at 32,61.
+          anchor: new google.maps.Point(32, 61)
+          };
+          return image;
+        }
+        var infoWindow = new google.maps.InfoWindow({
+          maxWidth: 300
+        
         });
-          console.log(marker)
-          return marker
-        });
-    }
-    </script>
-
-    <script async defer
-        src="https://maps.googleapis.com/maps/api/js?key=<%=ENV['googlekey'] %>&callback=initMap">
-    </script>
-
+        // Content of the infoWindow
+        var window = '<h4>' + location.address + '</h4>' +
+        '<strong>Customer:</strong> ' + location.customer + '</br>' +
+        '<br><strong>Number of Floor:</strong> ' + location.floor + '</br>' +
+        '<br><strong>Batteries:</strong> ' + location.batteries + '</br>' +
+        '<br><strong>Columns:</strong> ' + location.columns + '</br>' +
+        '<br><strong>Elevators:</strong> ' + location.elevators + '</br>' +
+        '<br><strong>Contact:</strong> ' + location.contact + '</br>' +
+        '<br><strong>Condition:</strong> ' + location.sky + '</br>' +
+        '<br><strong>Temperature:</strong> ' + location.temp + ' Celcius';
+ 
+          marker.addListener('click', function() {
+          infoWindow.setContent(window)
+          infoWindow.open(map, marker);
+      });
+        // Returning marker for the callback from the URL below
+        return marker
+      });
+  }
+  </script>
+  
+  <script async defer
+      src="https://maps.googleapis.com/maps/api/js?key=<%=ENV['googlekey'] %>&callback=initMap">
+  </script>
  
