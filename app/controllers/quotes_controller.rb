@@ -85,6 +85,10 @@ class QuotesController < ApplicationController
         format.json { render json: @quote.errors, status: :unprocessable_entity }
       end
     end
+
+    @quote.createTicket
+
+
   end
 
   # PATCH/PUT /quotes/1

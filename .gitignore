@@ -24,7 +24,13 @@
 .byebug_history
 
 # Ignore master key for decrypting credentials and more.
-/config/master.key
+
+config/master.key
 .env
-/config/application.yml
-/config/database.yml
+
+# Ignore the Api Keys
+config/application.yml
+
+# Ignore the database.yml
+config/database.yml
+
