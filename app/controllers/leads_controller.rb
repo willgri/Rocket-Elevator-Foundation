@@ -43,7 +43,9 @@ class LeadsController < ApplicationController
         @lead.file_name = attached_file.original_filename
       end
 
+      #ZENDESK
       @lead.createTicket
+      #SENDGRID
       UserNotifier.send_email(@lead).deliver
       respond_to do |format|
       if @lead.save
