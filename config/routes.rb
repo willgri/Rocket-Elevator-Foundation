@@ -14,7 +14,8 @@ Rails.application.routes.draw do
   get "/charts" => 'charts#charts'
   get "google_map" => 'pages#google_map'
   get "/watson" => 'watson#watson'
-
+  
+  resources :transcriptions
   resources :quotes
   resources :leads
   

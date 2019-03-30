@@ -18,13 +18,13 @@
               })
             })
         %div
-          %form{:action => "/leads", :enctype => "multipart/form-data", :method => "post"}
+          %form{:action => "/transcriptions", :enctype => "multipart/form-data", :method => "post"}
             .row
               .col-md-9
-                %label{:for => "attached_file"} Audio Attachement
+                %label{:for => "transcription_file"} Audio Attachement
                 / custom file upload
-                %input#file.custom-file-upload{"data-btn-text" => "Select a File", :name => "attached_file", :type => "file"}/
-                %small.text-muted.block Max file size: 10Mb (zip/pdf/jpg/png)
+                %input#file.custom-file-upload{"data-btn-text" => "Select a File", :name => "transcription_file", :type => "file"}/
+                %small.text-muted.block Max file size: 10Mb (MP3 only)
                 %br/
                 %button.btn.btn-primary{:type => "submit"}
                   %i.fa.fa-check
