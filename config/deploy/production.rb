@@ -8,7 +8,7 @@ server "34.203.94.126", user: "ubuntu", roles: %w{app db web}
 # server "db.example.com", user: "deploy", roles: %w{db}
 
 set :rails_env, "production"
-set :deploy_to, "/home/ubuntu/apps/dominic_villemure"
+set :deploy_to, "/home/ubuntu/apps/stephane_roy"
 set :linked_dirs, %w{tmp/pids tmp/sockets log}
 set :linked_files, %w{config/secrets.yml config/database.yml}
 

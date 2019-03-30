@@ -47,6 +47,12 @@ gem 'rails-ujs', '~> 0.1.0'
 gem 'twilio-ruby', '~> 5.21.2'
 # IBM WATSON
 gem 'ibm_watson', '~> 0.1.1'
+# OPEN WEATHER
+gem 'open-weather', '~> 0.11.0'
+# FARADAY
+gem 'faraday', '~> 0.9.2'
+#GEOCODER
+gem 'geocoder', '~> 1.3', '>= 1.3.7'
 
 # Use CoffeeScript for .coffee assets and views
 gem 'coffee-rails', '~> 4.2'

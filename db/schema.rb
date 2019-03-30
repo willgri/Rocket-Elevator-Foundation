@@ -22,6 +22,8 @@ ActiveRecord::Schema.define(version: 2019_03_29_223046) do
     t.string "postal_code"
     t.string "country"
     t.text "notes"
+    t.float "latitude"
+    t.float "longitude"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
   end
