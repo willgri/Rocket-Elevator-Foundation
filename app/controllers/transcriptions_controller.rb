@@ -1,6 +1,7 @@
 class TranscriptionsController < ApplicationController
     skip_before_action :verify_authenticity_token
 
+    # AMAZON TRANSCRIPT
     def new
         @transcription = Transcription.new
     end
