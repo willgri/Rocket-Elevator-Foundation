@@ -17,14 +17,14 @@ class Transcription < ApplicationRecord
 
     tclient = Aws::TranscribeService::Client.new(
         region: 'us-east-2',
-        access_key_id: 'AKIAJWCNKX5L676W4QBQ',
-        secret_access_key: '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'
+        access_key_id: ENV['aws_key'],
+        secret_access_key: ENV['aws_secret']
     )
   
       sclient = Aws::S3::Client.new(
         region: 'us-east-2',
-        access_key_id: 'AKIAJWCNKX5L676W4QBQ',
-        secret_access_key: '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'
+        access_key_id: ENV['aws_key'],
+        secret_access_key: ENV['aws_secret']
     )
   
         sclient.put_object(bucket: 'hugeaudio', key: "#{the_time.strftime "%Y-%m-%d %H:%M"}.mp3", body: "#{the_mp3}")
@@ -66,7 +66,7 @@ class Transcription < ApplicationRecord
 
         self.transcription_text = transcription
 
-        ActiveRecord::Base.connection.execute("UPDATE dominic_villemure.transcriptions SET transcription_text='#{transcription}' WHERE id=#{self.id};")
+        ActiveRecord::Base.connection.execute("UPDATE stephane_roy.transcriptions SET transcription_text='#{transcription}' WHERE id=#{self.id};")
       }
     end
 end
