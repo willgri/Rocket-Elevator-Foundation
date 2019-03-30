@@ -6,16 +6,30 @@
         %th.shrink.last-created= t "admin.table_headers.last_created"
         %th.records= t "admin.table_headers.records"
         %th.shrink.controls
-        %h3 Vocal
-        %audio{:id => "audio", :src => "", :controls => true, :autoplay => true}
-        :javascript
-          $(document).ready( function(){
-            $.get("/watson", function(data, status){
-              console.log(data);
-              src = `/watson`
-              $('#audio').attr("src", src)
+        %div{:style => "float:left"}
+          %h3 Vocal
+          %audio{:id => "audio", :src => "", :controls => true, :autoplay => true, :style => "float:left"}
+          :javascript
+            $(document).ready( function(){
+              $.get("/watson", function(data, status){
+                console.log(data);
+                src = `/watson`
+                $('#audio').attr("src", src)
+              })
             })
-          })
+        %div
+          %form{:action => "/transcriptions", :enctype => "multipart/form-data", :method => "post"}
+            .row
+              .col-md-9
+                %label{:for => "transcription_file"} Audio Attachement
+                / custom file upload
+                %input#file.custom-file-upload{"data-btn-text" => "Select a File", :name => "transcription_file", :type => "file"}/
+                %small.text-muted.block Max file size: 10Mb (MP3 only)
+                %br/
+                %button.btn.btn-primary{:type => "submit"}
+                  %i.fa.fa-check
+                  SEND FILE
+            %br/
     %tbody
       - @abstract_models.each do |abstract_model|
         - if authorized? :index, abstract_model

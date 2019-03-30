@@ -15,6 +15,7 @@ Rails.application.routes.draw do
   get "/watson" => 'watson#watson'
 
   resources :google_maps
+  resources :transcriptions
   resources :quotes
   resources :leads
   
