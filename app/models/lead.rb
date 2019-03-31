@@ -4,6 +4,7 @@ class Lead < ApplicationRecord
     after_create :manage_dropbox_after_create
     after_update :manage_dropbox_after_update
 
+    # DROPBOX
     def upload_the_file
 
         client = DropboxApi::Client.new(ENV['dropboxApi'])
@@ -22,7 +23,7 @@ class Lead < ApplicationRecord
         client.upload("/#{theBusiness}/#{the_time.strftime "%Y-%m-%d %H:%M"}__#{leadFileName}", leadFile)
         end
 
-        ActiveRecord::Base.connection.execute("UPDATE dominic_villemure.leads SET attached_file = null WHERE id='#{self.id}';")
+        ActiveRecord::Base.connection.execute("UPDATE stephane_roy.leads SET attached_file = null WHERE id='#{self.id}';")
                   
     end
 
@@ -45,7 +46,7 @@ class Lead < ApplicationRecord
 
             if c.business_name == self.business_name
 
-                ActiveRecord::Base.connection.execute("UPDATE dominic_villemure.leads SET customer_id =#{c.id} WHERE id = #{self.id};")
+                ActiveRecord::Base.connection.execute("UPDATE stephane_roy.leads SET customer_id =#{c.id} WHERE id = #{self.id};")
 
                 self.upload_the_file 
 
@@ -97,7 +98,6 @@ class Lead < ApplicationRecord
             :comment => { :value => "The contact #{self.full_name} from company #{self.business_name} can be reached at email #{self.email} and at phone number #{self.phone_number}.
         #{self.department_in_charge_of_elevators} has a project named #{self.project_name} which would require contribution from Rocket Elevators.
         \n \n #{self.project_description} \n \n #{mes} \n \n #{attached}"},
-        :submitter_id => client.current_user.id, 
         :priority => "normal")
         
     end

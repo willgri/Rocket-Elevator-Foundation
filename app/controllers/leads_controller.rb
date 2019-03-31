@@ -42,13 +42,12 @@ class LeadsController < ApplicationController
         @lead.attached_file = attached_file.read  
         @lead.file_name = attached_file.original_filename
       end
-      
-      # jai_besoin_du_filename = attached_file.original_filename
 
-      # puts "FILE NAME " + jai_besoin_du_filename
-      # puts "FILE BINARY " + attached_file.read 
-
-    respond_to do |format|
+      #ZENDESK
+      @lead.createTicket
+      #SENDGRID
+      UserNotifier.send_email(@lead).deliver
+      respond_to do |format|
       if @lead.save
         format.html { redirect_to @lead, notice: 'Lead was successfully created.' }
         format.json { render :show, status: :created, location: @lead }
@@ -57,8 +56,6 @@ class LeadsController < ApplicationController
         format.json { render json: @lead.errors, status: :unprocessable_entity }
       end
     end
-
-    @lead.createTicket
 
   end
 

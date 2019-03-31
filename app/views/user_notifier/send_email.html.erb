@@ -4,14 +4,16 @@
     <meta content='text/html; charset=UTF-8' http-equiv='Content-Type' />
   </head>
   <body>  
-       <%= image_tag "M" %>
-    <h1>Thanks for contacting us, <%= @lead.full_name %>!</h1>
-    <p>Thanks for contacting us and have a great day!</p>
-    <p>Greetings <%= @lead.full_name %> <br> 
-        We thank you for contacting Rocket Elevators to discuss the opportunity to contribute to your project <%= @lead.project_name %>. <br>
-        A representative from our team will be in touch with you very soon. We look forward to demonstrate the value of our solutions and help you choose the appropriate product given your requirements. <br> 
-        We’ll Talk soon <br> 
-        The Rocket Team</p>
+       <%= image_tag("R2",size: "250x100") %>
+    <p>Greetings <%= @lead.full_name %> <br>
+    <br>
+    We thank you for contacting Rocket Elevators to discuss the opportunity to contribute to your project <%= @lead.project_name %>. <br>
+    A representative from our team will be in touch with you very soon. We look forward to demonstrate the value of our solutions and help you choose the appropriate product given your requirements. </p><br>
+          We’ll talk soon! <br>
+    <br>
+    <br>
+    <p align="right">Thanks for contacting us and have a great day!<br>
+    The Rocket Team</p>
 
   </body>
 </html>

@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2019_03_13_130911) do
+ActiveRecord::Schema.define(version: 2019_03_29_223046) do
 
   create_table "addresses", options: "ENGINE=InnoDB DEFAULT CHARSET=utf8", force: :cascade do |t|
     t.string "address_type"
@@ -168,6 +168,13 @@ ActiveRecord::Schema.define(version: 2019_03_13_130911) do
     t.integer "number_of_elevators_cage"
     t.integer "number_of_trade_market"
     t.integer "number_of_distinct_business"
+  end
+
+  create_table "transcriptions", options: "ENGINE=InnoDB DEFAULT CHARSET=utf8", force: :cascade do |t|
+    t.binary "transcription_file"
+    t.string "transcription_text"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
   end
 
   add_foreign_key "batteries", "admins", column: "admins_id", on_update: :cascade, on_delete: :cascade
