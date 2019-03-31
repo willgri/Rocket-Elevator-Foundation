@@ -8,10 +8,11 @@
     - Google Map
     - ZenDesk
     - SendGrid
-    - IbmWatson
+    - IbmWatson (text to speech)
     - DropBox
     - Slack (Represented By Rocket Elma)
     - OpenWeather Map (Implimented in Google Map)
+    - AWS Transcript (speech to text)
 
 ## Program List
 

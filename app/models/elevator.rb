@@ -14,6 +14,7 @@ class Elevator < ApplicationRecord
       end
     end
 
+    # TWILIO
     def send_sms
         # Download the twilio-ruby library from twilio.com/docs/libraries/ruby
         require 'twilio-ruby'
@@ -37,6 +38,7 @@ class Elevator < ApplicationRecord
         )
     end
 
+    # SLACK
     def send_to_elma(status_value_before_save)
         require 'net/http'
         require 'uri'

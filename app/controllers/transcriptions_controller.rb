@@ -8,6 +8,7 @@ class TranscriptionsController < ApplicationController
     require 'uri'
 
 
+    # AMAZON TRANSCRIPT
     def new
         @transcription = Transcription.new
     end
