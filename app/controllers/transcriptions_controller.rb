@@ -16,10 +16,8 @@ class TranscriptionsController < ApplicationController
     def create
         @transcription = Transcription.new(transcription_params)
 
-        # @transcription.transcription_file = params[:transcription_file].read
 
         
-        # @transcription.transcribe_mp3
 
             puts "Begining to Transcribe"
     
@@ -76,9 +74,7 @@ class TranscriptionsController < ApplicationController
             result = JSON.parse(data)
             puts transcription = JSON.parse(data)['results']['transcripts']
     
-            # self.transcription_text = transcription
     
-            # ActiveRecord::Base.connection.execute("UPDATE dominic_villemure.transcriptions SET transcription_text='#{transcription}' WHERE id=#{self.id};")
             @transcription.transcription_text = transcription
 
             @transcription.save
