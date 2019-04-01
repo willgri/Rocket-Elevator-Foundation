@@ -33,4 +33,5 @@ config/application.yml
 
 # Ignore the database.yml
 config/database.yml
+config/dwh_database.yml
 
