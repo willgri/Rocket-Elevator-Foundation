@@ -6,8 +6,8 @@ class FactIntervention < ActiveRecord::Migration[5.2]
       t.integer :battery_id
       t.integer :column_id
       t.integer :elevator_id
-      t.date :start_intervention_date_hour
-      t.date :end_intervention_date_hour
+      t.string :start_intervention_date_hour
+      t.string :end_intervention_date_hour
       t.string :result
       t.string :report
       t.string :status
