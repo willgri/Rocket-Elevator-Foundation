@@ -1,5 +1,5 @@
 class Admin < ApplicationRecord
-  belongs_to :intervention
+  has_many :interventions
   # Include default devise modules. Others available are:
   # :confirmable, :lockable, :timeoutable, :trackable and :omniauthable
   devise :database_authenticatable, :registerable,

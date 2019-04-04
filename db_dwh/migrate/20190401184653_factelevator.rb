@@ -6,7 +6,7 @@ class Factelevator < ActiveRecord::Migration[5.2]
       t.date :installation_date
       t.integer :building_id
       t.integer :customer_id
-      t.integer :building_city
+      t.string :building_city
     end
   end
 end

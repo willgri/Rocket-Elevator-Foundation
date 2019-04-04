@@ -1,10 +1,10 @@
 module Types
     class BuildingType < BaseObject
       field :id, ID, null: false
-      field :intervention, InterventionType, null: true
+      field :interventions, [InterventionType], null: true 
       field :customer, CustomerType, null: false
       field :address, AddressType, null: false
-      field :BuildingDetail, BuildingDetailType, null: true
+      field :BuildingDetails, [BuildingDetailType], null: true
       field :building_admin_full_name, String, null: false
       field :building_admin_email, String, null: false
       field :building_admin_phone_number, String, null: false
