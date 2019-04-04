@@ -1,9 +1,9 @@
 module Types
   class QueryType < BaseObject
 
-    field :all_interventions, [InterventionType], null: false do
+    field :all_interventions, [InterventionType], null: true do
       argument :id, ID, required: false
-    end  
+    end
 
     field :all_buildings, [BuildingType], null: true do
       argument :id, ID, required: false
@@ -64,6 +64,7 @@ module Types
         Customer.where(id: id)
       else
         Customer.all
+        Address.all
       end
     end
 
@@ -74,6 +75,6 @@ module Types
         Admin.all
       end
     end
-      
+
   end
 end

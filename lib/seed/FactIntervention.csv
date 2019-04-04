@@ -1,4 +1,4 @@
-id,employee_id,building_id,battery_id,column_id,elevator_id,start_intervention_date_hour,end_intervention_date_hour,result,report,status
+id,admin_id,building_id,battery_id,column_id,elevator_id,start_intervention_date_hour,end_intervention_date_hour,result,report,status
 ,500,313,313,313,1000,"2019-04-02-16:20","2019-04-02-17:40","incomplete","systemdebug","InProgress"
 ,421,277,277,277,581,"2019-03-24-12:50","2019-03-27-09:30","success","door failure lightbulb change and grease on bearing","Complete"
 ,37,142,142,142,24,"2019-03-20-11:35","2019-03-20-18:10","fail","motor timing belt","Pending"

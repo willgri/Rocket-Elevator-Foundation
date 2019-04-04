@@ -6,11 +6,11 @@ module Types
         field :status, String, null: false
         field :entity, String, null: false
         field :adress, String, null: false
-        field :appartment, String, null: false
+        field :appartment, String, null: true
         field :city, String, null: false
         field :postal_code, String, null: false
         field :country, String, null: false
-        field :notes, String, null: false
+        field :notes, String, null: true
         field :created_at, String, null: false
         field :updated_at, String, null: false
     end

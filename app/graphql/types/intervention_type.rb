@@ -1,14 +1,14 @@
 module Types
     class InterventionType < BaseObject
-      field :id, ID, null: false
-      field :employee_id, ID, null: false
-      field :building_id, ID, null: false
-      field :column_id, ID, null: false
-      field :elevator_id, ID, null: false
-      field :start_intervention_date_hour, String, null: false 
-      field :end_intervention_date_hour, String, null: false
-      field :result, String, null: false
+      field :id, ID, null: true
+      field :admin, AdminType, null: true
+      field :building, BuildingType, null: true
+      field :column_id, ID, null: true
+      field :elevator_id, ID, null: true
+      field :start_intervention_date_hour, String, null: true
+      field :end_intervention_date_hour, String, null: true
+      field :result, String, null: true
       field :report, String, null: true
-      field :status, String, null: false
+      field :status, String, null: true
     end
 end

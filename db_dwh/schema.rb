@@ -25,7 +25,7 @@ ActiveRecord::Schema.define(version: 2019_04_01_193631) do
   end
 
   create_table "fact_intervention", force: :cascade do |t|
-    t.integer "employee_id"
+    t.integer "admin_id"
     t.integer "building_id"
     t.integer "battery_id"
     t.integer "column_id"

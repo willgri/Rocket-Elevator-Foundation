@@ -5,7 +5,7 @@ csv = CSV.parse(csv_text, :headers => true, :encoding => 'ISO-8859-1')
 csv.each do |row|   
     t = Intervention.new
     t.id = row['id']
-    t.employee_id = row['employee_id']
+    t.admin_id = row['admin_id']
     t.building_id = row['building_id']
     t.battery_id = row['battery_id']
     t.column_id = row['column_id']
