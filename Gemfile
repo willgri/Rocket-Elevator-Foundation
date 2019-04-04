@@ -130,3 +130,8 @@ gem 'aws-sdk-s3', '~> 1'
 # wait util
 gem 'waitutil', '~> 0.2.1'
 
+# Gemfile of Graphql
+gem "graphql"
+
+
+gem 'graphiql-rails', group: :development

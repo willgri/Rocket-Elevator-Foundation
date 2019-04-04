@@ -5,7 +5,7 @@ class Factcontact < ActiveRecord::Migration[5.2]
       t.date :created_at
       t.string :business_name
       t.string :email
-      t.integer :project_name
+      t.string :project_name
     end
   end
 end

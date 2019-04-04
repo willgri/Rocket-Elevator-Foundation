@@ -25,13 +25,13 @@ ActiveRecord::Schema.define(version: 2019_04_01_193631) do
   end
 
   create_table "fact_intervention", force: :cascade do |t|
-    t.integer "employee_id"
+    t.integer "admin_id"
     t.integer "building_id"
     t.integer "battery_id"
     t.integer "column_id"
     t.integer "elevator_id"
-    t.date "start_intervention_date_hour"
-    t.date "end_intervention_date_hour"
+    t.string "start_intervention_date_hour"
+    t.string "end_intervention_date_hour"
     t.string "result"
     t.string "report"
     t.string "status"
@@ -42,7 +42,7 @@ ActiveRecord::Schema.define(version: 2019_04_01_193631) do
     t.date "created_at"
     t.string "business_name"
     t.string "email"
-    t.integer "project_name"
+    t.string "project_name"
   end
 
   create_table "factelevator", force: :cascade do |t|
@@ -51,7 +51,7 @@ ActiveRecord::Schema.define(version: 2019_04_01_193631) do
     t.date "installation_date"
     t.integer "building_id"
     t.integer "customer_id"
-    t.integer "building_city"
+    t.string "building_city"
   end
 
   create_table "factquotes", force: :cascade do |t|
