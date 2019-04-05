@@ -150,7 +150,7 @@ function editItem(id) {
 $(".my-form").on("submit", function () {
     const item = {
         status: $("#edit-name").val(),
-        // isComplete: $("#edit-isComplete").is(":checked"),
+        isComplete: $("#edit-isComplete").is(":checked"),
         id: $("#edit-id").val()
     };
 
