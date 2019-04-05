@@ -1,7 +1,7 @@
 Rails.application.routes.draw do
-  if Rails.env.development?
-    mount GraphiQL::Rails::Engine, at: "/graphiql", graphql_path: "/graphql"
-  end
+  # if Rails.env.development?
+  #   mount GraphiQL::Rails::Engine, at: "/graphiql", graphql_path: "/graphql"
+  # end
   post "/graphql", to: "graphql#execute"
   devise_for :admin, path_names: { sign_in: 'login', sign_out: 'logout', sign_up: 'signup' }
   mount RailsAdmin::Engine => '/admins', as: 'rails_admin'
