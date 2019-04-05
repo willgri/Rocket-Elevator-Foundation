@@ -7,8 +7,8 @@ id,building_id,admins_id,atype,status,deploy_date,last_inspection_date,operation
 6,6,6,Corporate,Active,27/2/2019,16/2/2019,Certified,You are looking at the battery,Very long note,9/2/2018,12/24/2018
 7,7,7,Commercial,Active,31/5/2016,14/1/2018,Certified,I like that,Very long note,12/26/2018,10/28/2018
 8,8,8,Hybrid,Active,23/11/2017,12/6/2018,Certified,You are looking at the battery,Look behind you,11/8/2018,8/6/2018
-9,9,9,Residential,Inactive,24/12/2017,19/6/2017,Certified,You are looking at the battery,I have nothing to say about a battery,7/8/2018,3/13/2018
-10,10,10,Corporate,Inactive,24/4/2017,9/7/2017,Certified,This is an informative information,Look behind you,6/29/2018,3/6/2019
+9,9,9,Residential,Active,24/12/2017,19/6/2017,Certified,You are looking at the battery,I have nothing to say about a battery,7/8/2018,3/13/2018
+10,10,10,Corporate,Active,24/4/2017,9/7/2017,Certified,This is an informative information,Look behind you,6/29/2018,3/6/2019
 11,11,11,Commercial,Active,22/9/2018,28/9/2016,Certified,I like that,Look behind you,7/21/2018,7/12/2018
 12,12,12,Hybrid,Active,28/3/2018,4/4/2017,Certified,This is an informative information,I have nothing to say about a battery,5/27/2018,7/3/2018
 13,13,13,Residential,Active,26/10/2016,14/12/2016,Certified,I like that,I have nothing to say about a battery,5/15/2018,12/3/2018
@@ -20,10 +20,10 @@ id,building_id,admins_id,atype,status,deploy_date,last_inspection_date,operation
 19,19,19,Commercial,Active,24/1/2017,29/4/2016,Certified,This is an informative information,Look behind you,10/8/2018,3/18/2018
 20,20,20,Hybrid,Active,17/1/2018,10/2/2017,Certified,This is an informative information,Very long note,2/13/2019,10/8/2018
 21,21,21,Residential,Active,15/10/2018,9/3/2017,Certified,You are looking at the battery,Very long note,6/13/2018,1/21/2019
-22,22,22,Corporate,Inactive,27/8/2017,7/9/2016,Certified,I like that,I have nothing to say about a battery,5/9/2018,9/18/2018
+22,22,22,Corporate,Active,27/8/2017,7/9/2016,Certified,I like that,I have nothing to say about a battery,5/9/2018,9/18/2018
 23,23,23,Commercial,Active,10/11/2018,4/4/2016,Certified,I like that,Look behind you,8/23/2018,3/3/2019
 24,24,24,Hybrid,Active,5/1/2017,29/5/2017,Certified,You are looking at the battery,I have nothing to say about a battery,9/6/2018,7/17/2018
-25,25,25,Residential,Inactive,21/12/2017,3/9/2017,Certified,You are looking at the battery,I have nothing to say about a battery,9/21/2018,3/4/2018
+25,25,25,Residential,Active,21/12/2017,3/9/2017,Certified,You are looking at the battery,I have nothing to say about a battery,9/21/2018,3/4/2018
 26,26,26,Corporate,Active,11/3/2018,21/1/2018,Certified,This is an informative information,Look behind you,2/7/2019,9/1/2018
 27,27,27,Commercial,Active,4/2/2018,5/10/2016,Certified,You are looking at the battery,Very long note,12/14/2018,10/20/2018
 28,28,28,Hybrid,Active,22/8/2016,15/2/2019,Certified,This is an informative information,Look behind you,6/21/2018,8/21/2018
@@ -33,7 +33,7 @@ id,building_id,admins_id,atype,status,deploy_date,last_inspection_date,operation
 32,32,32,Hybrid,Active,2/7/2017,21/7/2018,Certified,You are looking at the battery,I have nothing to say about a battery,8/15/2018,2/23/2019
 33,33,33,Residential,Active,10/10/2018,1/8/2017,Certified,This is an informative information,Look behind you,7/12/2018,7/2/2018
 34,34,34,Corporate,Active,1/3/2017,27/8/2017,Not legal at all,I like that,Very long note,7/10/2018,2/21/2019
-35,35,35,Commercial,Inactive,23/3/2018,30/10/2018,Certified,This is an informative information,I have nothing to say about a battery,12/11/2018,3/31/2018
+35,35,35,Commercial,Active,23/3/2018,30/10/2018,Certified,This is an informative information,I have nothing to say about a battery,12/11/2018,3/31/2018
 36,36,36,Hybrid,Active,8/3/2018,17/3/2016,Certified,This is an informative information,Look behind you,10/20/2018,1/9/2019
 37,37,37,Residential,Active,29/6/2017,13/7/2017,Certified,You are looking at the battery,Look behind you,9/30/2018,3/2/2019
 38,38,38,Corporate,Active,19/8/2016,19/8/2016,Certified,You are looking at the battery,Look behind you,11/11/2018,3/8/2018
@@ -62,14 +62,14 @@ id,building_id,admins_id,atype,status,deploy_date,last_inspection_date,operation
 61,61,61,Residential,Active,22/10/2016,4/5/2016,Certified,You are looking at the battery,Look behind you,11/11/2018,12/7/2018
 62,62,62,Corporate,Active,29/12/2016,26/8/2016,Certified,You are looking at the battery,Look behind you,4/18/2018,8/27/2018
 63,63,63,Commercial,Active,1/5/2016,22/5/2018,Certified,You are looking at the battery,Look behind you,2/26/2019,5/24/2018
-64,64,64,Hybrid,Inactive,21/6/2017,8/4/2018,Not legal at all,You are looking at the battery,Look behind you,12/20/2018,12/7/2018
+64,64,64,Hybrid,Active,21/6/2017,8/4/2018,Not legal at all,You are looking at the battery,Look behind you,12/20/2018,12/7/2018
 65,65,65,Residential,Active,6/8/2017,3/11/2018,Certified,I like that,Look behind you,2/4/2019,8/31/2018
 66,66,66,Corporate,Active,16/4/2018,25/1/2018,Certified,This is an informative information,Look behind you,2/24/2019,3/11/2019
 67,67,67,Commercial,Active,17/4/2017,9/12/2017,Certified,I like that,I have nothing to say about a battery,9/9/2018,9/13/2018
 68,68,68,Hybrid,Active,8/5/2017,5/10/2017,Certified,This is an informative information,Look behind you,10/16/2018,8/4/2018
 69,69,69,Residential,Active,29/3/2017,5/7/2016,Certified,You are looking at the battery,Look behind you,4/23/2018,12/19/2018
 70,70,70,Corporate,Active,7/3/2019,1/11/2017,Certified,This is an informative information,I have nothing to say about a battery,9/21/2018,9/6/2018
-71,71,71,Commercial,Inactive,8/11/2017,19/12/2017,Certified,This is an informative information,Look behind you,4/29/2018,7/6/2018
+71,71,71,Commercial,Active,8/11/2017,19/12/2017,Certified,This is an informative information,Look behind you,4/29/2018,7/6/2018
 72,72,72,Hybrid,Active,11/1/2018,19/5/2016,Certified,You are looking at the battery,Very long note,1/14/2019,7/10/2018
 73,73,73,Residential,Active,24/10/2018,6/6/2018,Certified,You are looking at the battery,Look behind you,5/12/2018,7/23/2018
 74,74,74,Corporate,Active,2/5/2016,4/6/2017,Certified,I like that,I have nothing to say about a battery,1/11/2019,3/29/2018
@@ -86,7 +86,7 @@ id,building_id,admins_id,atype,status,deploy_date,last_inspection_date,operation
 85,85,85,Residential,Active,10/11/2016,3/2/2019,Certified,This is an informative information,Very long note,2/21/2019,3/15/2018
 86,86,86,Corporate,Active,4/8/2018,31/3/2017,Certified,You are looking at the battery,Look behind you,7/23/2018,7/24/2018
 87,87,87,Commercial,Active,1/10/2018,22/10/2016,Certified,This is an informative information,I have nothing to say about a battery,11/19/2018,10/22/2018
-88,88,88,Hybrid,Inactive,29/7/2018,12/6/2017,Certified,I like that,I have nothing to say about a battery,1/2/2019,1/24/2019
+88,88,88,Hybrid,Active,29/7/2018,12/6/2017,Certified,I like that,I have nothing to say about a battery,1/2/2019,1/24/2019
 89,89,89,Residential,Active,28/3/2017,23/11/2017,Not legal at all,This is an informative information,Very long note,11/11/2018,1/22/2019
 90,90,90,Corporate,Active,15/8/2018,3/8/2016,Certified,You are looking at the battery,I have nothing to say about a battery,7/31/2018,12/7/2018
 91,91,91,Commercial,Active,22/2/2017,17/6/2017,Certified,You are looking at the battery,Look behind you,5/30/2018,8/2/2018
@@ -212,8 +212,8 @@ id,building_id,admins_id,atype,status,deploy_date,last_inspection_date,operation
 211,211,211,Commercial,Active,2/5/2018,6/9/2016,Certified,I like that,Look behind you,4/10/2018,10/26/2018
 212,212,212,Hybrid,Active,13/4/2017,9/9/2016,Certified,I like that,Very long note,4/30/2018,2/28/2019
 213,213,213,Residential,Active,30/7/2017,26/8/2018,Certified,I like that,I have nothing to say about a battery,8/16/2018,10/22/2018
-214,214,214,Corporate,Inactive,18/3/2018,21/11/2016,Certified,I like that,Very long note,7/8/2018,9/27/2018
-215,215,215,Commercial,Inactive,7/3/2017,21/9/2016,Certified,You are looking at the battery,I have nothing to say about a battery,8/25/2018,10/23/2018
+214,214,214,Corporate,Active,18/3/2018,21/11/2016,Certified,I like that,Very long note,7/8/2018,9/27/2018
+215,215,215,Commercial,Active,7/3/2017,21/9/2016,Certified,You are looking at the battery,I have nothing to say about a battery,8/25/2018,10/23/2018
 216,216,216,Hybrid,Active,24/6/2018,26/2/2019,Certified,This is an informative information,I have nothing to say about a battery,11/26/2018,4/18/2018
 217,217,217,Residential,Active,21/8/2017,14/12/2018,Certified,I like that,I have nothing to say about a battery,7/25/2018,11/28/2018
 218,218,218,Corporate,Active,29/3/2017,15/11/2017,Certified,You are looking at the battery,Very long note,8/24/2018,8/1/2018
@@ -277,7 +277,7 @@ id,building_id,admins_id,atype,status,deploy_date,last_inspection_date,operation
 276,276,276,Hybrid,Active,7/11/2018,27/6/2018,Certified,You are looking at the battery,I have nothing to say about a battery,2/13/2019,2/19/2019
 277,277,277,Residential,Active,26/2/2018,23/1/2017,Certified,You are looking at the battery,Very long note,9/28/2018,2/5/2019
 278,278,278,Corporate,Active,16/4/2017,16/8/2016,Certified,I like that,Very long note,5/29/2018,11/19/2018
-279,279,279,Commercial,Inactive,5/5/2017,29/3/2016,Certified,This is an informative information,Very long note,9/15/2018,12/20/2018
+279,279,279,Commercial,Active,5/5/2017,29/3/2016,Certified,This is an informative information,Very long note,9/15/2018,12/20/2018
 280,280,280,Hybrid,Active,10/6/2018,26/5/2017,Certified,You are looking at the battery,Look behind you,4/13/2018,11/29/2018
 281,281,281,Residential,Active,22/9/2018,29/1/2019,Certified,I like that,Look behind you,5/26/2018,4/5/2018
 282,282,282,Corporate,Active,22/4/2018,19/2/2017,Certified,I like that,Look behind you,6/19/2018,7/4/2018
@@ -310,14 +310,14 @@ id,building_id,admins_id,atype,status,deploy_date,last_inspection_date,operation
 309,309,309,Residential,Active,27/11/2018,25/6/2016,Certified,This is an informative information,Look behind you,11/26/2018,1/14/2019
 310,310,310,Corporate,Active,28/8/2016,27/5/2017,Certified,You are looking at the battery,I have nothing to say about a battery,7/8/2018,2/23/2019
 311,311,311,Commercial,Active,3/3/2019,9/3/2017,Certified,You are looking at the battery,I have nothing to say about a battery,4/7/2018,2/24/2019
-312,312,312,Hybrid,Inactive,20/9/2018,1/3/2018,Certified,You are looking at the battery,Look behind you,11/6/2018,8/22/2018
+312,312,312,Hybrid,Active,20/9/2018,1/3/2018,Certified,You are looking at the battery,Look behind you,11/6/2018,8/22/2018
 313,313,313,Residential,Active,27/8/2018,24/2/2018,Certified,This is an informative information,Look behind you,9/2/2018,9/11/2018
 314,314,314,Corporate,Active,14/5/2018,27/5/2018,Certified,You are looking at the battery,Very long note,8/17/2018,8/27/2018
 315,315,315,Commercial,Active,5/4/2018,4/5/2018,Certified,I like that,Very long note,4/10/2018,11/17/2018
 316,316,316,Hybrid,Active,17/11/2017,14/11/2018,Certified,You are looking at the battery,I have nothing to say about a battery,11/22/2018,5/3/2018
 317,317,317,Residential,Active,19/8/2016,25/5/2016,Certified,You are looking at the battery,I have nothing to say about a battery,7/3/2018,4/8/2018
 318,318,318,Corporate,Active,11/10/2018,19/8/2018,Not legal at all,This is an informative information,Very long note,9/9/2018,10/31/2018
-319,319,319,Commercial,Inactive,26/8/2016,16/11/2016,Not legal at all,This is an informative information,I have nothing to say about a battery,11/8/2018,3/11/2019
+319,319,319,Commercial,Active,26/8/2016,16/11/2016,Not legal at all,This is an informative information,I have nothing to say about a battery,11/8/2018,3/11/2019
 320,320,320,Hybrid,Active,5/8/2018,3/1/2017,Certified,You are looking at the battery,Look behind you,7/18/2018,4/25/2018
 321,321,321,Residential,Active,11/5/2017,1/7/2018,Certified,I like that,Very long note,11/28/2018,1/6/2019
 322,322,322,Corporate,Active,18/3/2016,2/3/2018,Certified,I like that,I have nothing to say about a battery,12/3/2018,2/12/2019
@@ -330,9 +330,9 @@ id,building_id,admins_id,atype,status,deploy_date,last_inspection_date,operation
 329,329,329,Residential,Active,10/1/2018,20/3/2018,Certified,I like that,I have nothing to say about a battery,5/22/2018,7/3/2018
 330,330,330,Corporate,Active,16/4/2017,9/12/2016,Not legal at all,You are looking at the battery,Very long note,4/9/2018,7/3/2018
 331,331,331,Commercial,Active,16/11/2017,31/10/2016,Certified,I like that,I have nothing to say about a battery,1/27/2019,1/10/2019
-332,332,332,Hybrid,Inactive,25/10/2018,29/7/2018,Certified,I like that,Look behind you,10/24/2018,2/17/2019
+332,332,332,Hybrid,Active,25/10/2018,29/7/2018,Certified,I like that,Look behind you,10/24/2018,2/17/2019
 333,333,333,Residential,Active,31/5/2017,25/1/2018,Certified,This is an informative information,Look behind you,12/8/2018,5/16/2018
-334,334,334,Corporate,Inactive,8/11/2016,23/8/2016,Certified,You are looking at the battery,Look behind you,9/22/2018,4/12/2018
+334,334,334,Corporate,Active,8/11/2016,23/8/2016,Certified,You are looking at the battery,Look behind you,9/22/2018,4/12/2018
 335,335,335,Commercial,Active,9/12/2018,9/10/2016,Certified,This is an informative information,Very long note,5/16/2018,1/22/2019
 336,336,336,Hybrid,Active,28/3/2018,11/11/2017,Certified,I like that,Very long note,6/23/2018,12/11/2018
 337,337,337,Residential,Active,19/5/2017,26/8/2016,Certified,I like that,Very long note,3/28/2018,2/6/2019
@@ -391,7 +391,7 @@ id,building_id,admins_id,atype,status,deploy_date,last_inspection_date,operation
 390,390,390,Corporate,Active,4/9/2017,16/9/2017,Certified,You are looking at the battery,I have nothing to say about a battery,9/18/2018,10/15/2018
 391,391,391,Commercial,Active,16/3/2016,30/6/2016,Certified,You are looking at the battery,Look behind you,7/22/2018,3/12/2018
 392,392,392,Hybrid,Active,5/9/2017,8/1/2019,Certified,This is an informative information,I have nothing to say about a battery,6/8/2018,2/1/2019
-393,393,393,Residential,Inactive,20/2/2017,15/1/2017,Certified,I like that,Look behind you,9/13/2018,12/23/2018
+393,393,393,Residential,Active,20/2/2017,15/1/2017,Certified,I like that,Look behind you,9/13/2018,12/23/2018
 394,394,394,Corporate,Active,6/3/2018,16/11/2018,Certified,You are looking at the battery,Very long note,8/14/2018,2/20/2019
 395,395,395,Commercial,Active,23/2/2019,20/5/2017,Certified,You are looking at the battery,I have nothing to say about a battery,11/20/2018,9/1/2018
 396,396,396,Hybrid,Active,20/5/2017,9/5/2016,Certified,This is an informative information,I have nothing to say about a battery,4/7/2018,7/29/2018
@@ -400,7 +400,7 @@ id,building_id,admins_id,atype,status,deploy_date,last_inspection_date,operation
 399,399,399,Commercial,Active,11/1/2018,18/10/2017,Certified,You are looking at the battery,Look behind you,5/29/2018,6/19/2018
 400,400,400,Hybrid,Active,3/9/2017,27/6/2016,Certified,You are looking at the battery,I have nothing to say about a battery,9/27/2018,3/8/2018
 401,401,401,Residential,Active,3/3/2017,21/10/2017,Certified,This is an informative information,I have nothing to say about a battery,12/3/2018,7/27/2018
-402,402,402,Corporate,Inactive,18/10/2018,31/10/2018,Certified,I like that,Look behind you,10/24/2018,12/24/2018
+402,402,402,Corporate,Active,18/10/2018,31/10/2018,Certified,I like that,Look behind you,10/24/2018,12/24/2018
 403,403,403,Commercial,Active,27/4/2017,30/7/2018,Certified,This is an informative information,Look behind you,10/16/2018,7/27/2018
 404,404,404,Hybrid,Active,9/1/2019,26/8/2017,Certified,You are looking at the battery,Very long note,11/2/2018,9/28/2018
 405,405,405,Residential,Active,19/8/2017,3/11/2017,Certified,I like that,Look behind you,9/15/2018,11/6/2018
@@ -427,7 +427,7 @@ id,building_id,admins_id,atype,status,deploy_date,last_inspection_date,operation
 426,426,426,Corporate,Active,29/5/2018,11/6/2017,Not legal at all,This is an informative information,Look behind you,12/18/2018,8/8/2018
 427,427,427,Commercial,Active,2/2/2019,24/10/2016,Certified,You are looking at the battery,I have nothing to say about a battery,11/3/2018,7/6/2018
 428,428,428,Hybrid,Active,15/8/2018,23/6/2018,Certified,You are looking at the battery,I have nothing to say about a battery,5/3/2018,8/8/2018
-429,429,429,Residential,Inactive,23/12/2017,22/1/2018,Certified,I like that,Very long note,10/3/2018,4/14/2018
+429,429,429,Residential,Active,23/12/2017,22/1/2018,Certified,I like that,Very long note,10/3/2018,4/14/2018
 430,430,430,Corporate,Active,21/2/2019,24/2/2018,Certified,I like that,I have nothing to say about a battery,8/8/2018,10/26/2018
 431,431,431,Commercial,Active,29/1/2019,8/8/2018,Certified,You are looking at the battery,Very long note,8/11/2018,1/16/2019
 432,432,432,Hybrid,Active,7/9/2018,9/10/2016,Certified,This is an informative information,I have nothing to say about a battery,8/1/2018,6/21/2018
@@ -443,7 +443,7 @@ id,building_id,admins_id,atype,status,deploy_date,last_inspection_date,operation
 442,442,442,Corporate,Active,25/12/2017,2/1/2019,Certified,This is an informative information,Look behind you,7/10/2018,9/26/2018
 443,443,443,Commercial,Active,6/8/2018,20/3/2018,Certified,I like that,Very long note,2/25/2019,7/28/2018
 444,444,444,Hybrid,Active,11/8/2017,13/10/2017,Certified,I like that,I have nothing to say about a battery,2/28/2019,7/28/2018
-445,445,445,Residential,Inactive,5/3/2017,18/8/2018,Certified,This is an informative information,Look behind you,6/19/2018,6/13/2018
+445,445,445,Residential,Active,5/3/2017,18/8/2018,Certified,This is an informative information,Look behind you,6/19/2018,6/13/2018
 446,446,446,Corporate,Active,23/10/2016,17/6/2017,Certified,I like that,Very long note,1/26/2019,10/25/2018
 447,447,447,Commercial,Active,2/1/2019,18/12/2016,Certified,You are looking at the battery,Very long note,11/9/2018,3/12/2018
 448,448,448,Hybrid,Active,1/8/2018,22/3/2018,Certified,This is an informative information,Look behind you,1/8/2019,2/18/2019
