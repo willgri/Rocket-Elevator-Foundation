@@ -54,8 +54,8 @@ function whatIsSelected() {
     if (uri2 == "/building") {
         a = "id"
         b = "building_admin_full_name"
-        c = ""
-        d = ""
+        c = "building_admin_email"
+        d = "building_admin_phone_number"
     }
     if (uri2 == "/lead") {
         a = "id"
