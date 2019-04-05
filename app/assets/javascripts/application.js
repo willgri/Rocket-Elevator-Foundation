@@ -16,3 +16,4 @@
 //= require bootstrap
 //= require_tree ./plugins
 //= require Chart.min
+//= require API.js
