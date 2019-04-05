@@ -2,60 +2,77 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<meta charset="UTF-8">
-	<title>RocketAPI</title>
-	<style>
-		input[type='submit'], button, [aria-label] {
-			cursor: pointer;
-		}
-		#spoiler {
-			display: none;
-		}
-		table {
-			font-family: Arial, sans-serif;
-			border: 1px solid;
-			border-collapse: collapse;
-		}
-		th {
-			background-color: #212121;
-			color: white;
-		}
-		td {
-			border: 1px solid;
-			padding: 5px;
-		}
-	</style>
+   <meta charset="UTF-8">
+   <title>RocketAPI</title>
+   <style>
+
+       input[type='submit'], button, [aria-label] {
+           cursor: pointer;
+       }
+
+       #spoiler {
+           display: none;
+       }
+
+       table {
+           font-family: Arial, sans-serif;
+           border: 1px solid;
+           border-collapse: collapse;
+       }
+
+       th {
+           background-color: #212121;
+           color: white;
+       }
+
+       td {
+           border: 1px solid;
+           padding: 5px;
+       }
+   </style>
 </head>
 <body>
-	<section class="dark">
-	<h2>Select</h2>
-	<form action="javascript:void(0);" method="GET" onsubmit="getData()">
-		<select class="btn btn-primary form control" id="selection" name="Selection">
-			<option value="Select">--- Select ---</option>
-			<option value="elevator">Elevators</option>
-			<option value="column">Columns</option>
-			<option value="battery">Battery</option>
-			<option value="building">Buildings</option>
-			<option value="lead">Leads</option>
-		</select>
-		<div class = "col-md-2">
-		<input class="btn btn-primary " type="text" id="Number1" placeholder="ID / inactive / recent(leads)">
-		<input class="btn btn-primary"  type="submit" value="Get">
-		</div>
-	</form>
-
-	<div id="spoiler">
-		<h3>Edit</h3>
-		<form class="my-form">
-			<input type="hidden" id="edit-id">
-			<input type="checkbox" id="edit-isComplete">
-			<input type="text" id="edit-name">
-			<input type="submit" value="Save">
-			<a onclick="closeInput()" aria-label="Close">&#10006;</a>
-		</form>
-	</div>
-
-	<p id="counter"></p>
+   <section class="dark">
+       <center>
+           <h1 id="counter">Select Your Query</h1>
+       </center>
+           <div class="col-md-4">
+               <form action="javascript:void(0);" method="GET" onsubmit="getData()">
+                   <select class="btn btn-primary form-control" id="selection" name="Selection">
+                       <option value="Select">--- Select ---</option>
+                       <option value="elevator">Elevators</option>
+                       <option value="column">Columns</option>
+                       <option value="battery">Battery</option>
+                       <option value="building">Buildings</option>
+                       <option value="lead">Leads</option>
+                   </select>
+                   <div class="input-group">
+                       <input type="text" id="Number1" class="form-control" placeholder="ID / Inactive / Recent(Leads)">
+                       <div class="input-group-btn">
+                           <button class="btn btn-primary" type="submit">
+                               <i>GET</i>
+                           </button>
+                       </div>
+                   </div>
+               </form>
+       <div class="col-md-12" id="spoiler">
+           <center>
+           <h3>Edit Your Value</h3>
+           </center>
+           <form>
+               <input type="hidden" id="edit-id">
+               <div class="col-md-12 input-group">
+               <input type="hidden" id="edit-isComplete">
+                   <input type="text" class="form-control" id="edit-name" placeholder="New Value">
+                   <div class="input-group-btn">
+                       <button class="btn btn-primary" type="submit" onclick="closeInput()">
+                           <i>SAVE</i>
+                       </button>
+                   </div>
+               </div>
+           </form>
+       </div>
+           </div>
 	<div class="col-md-8">
 	<table class="table">
 		<tr>
