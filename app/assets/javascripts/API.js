@@ -158,8 +158,8 @@ $(".my-form").on("submit", function () {
     $.ajax({
         url: uri + uri2 + "/" + $("#edit-id").val(),
         type: "PUT",
-        accepts: "json",
-        contentType: "json",
+        accepts: "application/json",
+        contentType: "application/json",
         data: JSON.stringify(item),
         success: function (result) {
             getData();
