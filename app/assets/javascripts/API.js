@@ -148,7 +148,7 @@ function editItem(id) {
 
 // Selecting value from the edit form
 $(".my-form").on("submit", function () {
-    const item = {
+    var item = {
         status: $("#edit-name").val(),
         isComplete: $("#edit-isComplete").is(":checked"),
         id: $("#edit-id").val()
