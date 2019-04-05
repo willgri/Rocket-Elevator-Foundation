@@ -18,6 +18,7 @@ Rails.application.routes.draw do
   get "/charts" => 'charts#charts'
   get "google_map" => 'google_maps#index'
   get "/watson" => 'watson#watson'
+  get "RockREST" => 'pages#RockRest'
 
   resources :google_maps
   resources :transcriptions

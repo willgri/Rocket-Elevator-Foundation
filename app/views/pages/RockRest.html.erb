@@ -1,0 +1,95 @@
+<%= render partial: "partial" %>
+<!DOCTYPE html>
+<html>
+<head>
+   <meta charset="UTF-8">
+   <title>RocketAPI</title>
+   <style>
+
+       input[type='submit'], button, [aria-label] {
+           cursor: pointer;
+       }
+
+       #spoiler {
+           display: none;
+       }
+
+       table {
+           font-family: Arial, sans-serif;
+           border: 1px solid;
+           border-collapse: collapse;
+       }
+
+       th {
+           background-color: #212121;
+           color: white;
+       }
+
+       td {
+           border: 1px solid;
+           padding: 5px;
+       }
+   </style>
+</head>
+<body>
+   <section class="dark">
+       <center>
+           <h1 id="counter">Select Your Query</h1>
+       </center>
+           <div class="col-md-4">
+               <form action="javascript:void(0);" method="GET" onsubmit="getData()">
+                   <select class="btn btn-primary form-control" id="selection" name="Selection">
+                       <option value="Select">--- Select ---</option>
+                       <option value="elevator">Elevators</option>
+                       <option value="column">Columns</option>
+                       <option value="battery">Battery</option>
+                       <option value="building">Buildings</option>
+                       <option value="lead">Leads</option>
+                   </select>
+                   <div class="input-group">
+                       <input type="text" id="Number1" class="form-control" placeholder="ID / Inactive / Recent(Leads)">
+                       <div class="input-group-btn">
+                           <button class="btn btn-primary" type="submit">
+                               <i>GET</i>
+                           </button>
+                       </div>
+                   </div>
+               </form>
+       <div class="col-md-12" id="spoiler">
+           <center>
+           <h3>Edit Your Value</h3>
+           </center>
+           <form>
+               <input type="hidden" id="edit-id">
+               <div class="col-md-12 input-group">
+               <input type="hidden" id="edit-isComplete">
+                   <input type="text" class="form-control" id="edit-name" placeholder="New Value">
+                   <div class="input-group-btn">
+                       <button class="btn btn-primary" type="submit" onclick="closeInput()">
+                           <i>SAVE</i>
+                       </button>
+                   </div>
+               </div>
+           </form>
+       </div>
+           </div>
+	<div class="col-md-8">
+	<table class="table">
+		<tr>
+			<th id="th1"></th>
+			<th id="th2"></th>
+			<th id="th3"></th>
+			<th id="th4"></th>
+			<th id="th5"></th>
+		</tr>
+		<tbody id="items"></tbody>
+	</table>
+	</div>
+
+	<script src="assets/plugins/jquery/jquery-3.3.1.min.js"></script>
+	<script src="/assets/API.js"></script>
+
+</section>
+</body>
+</html>
+<%= render partial: "footer" %>
