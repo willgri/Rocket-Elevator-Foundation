@@ -149,9 +149,9 @@ function editItem(id) {
 // Selecting value from the edit form
 $(".my-form").on("submit", function () {
     const item = {
-        status: $("#edit-name").val(),
-        isComplete: $("#edit-isComplete").is(":checked"),
-        id: $("#edit-id").val()
+        "id": $("#edit-id").val(),
+        "status": $("#edit-name").val()
+        // isComplete: $("#edit-isComplete").is(":checked")
     };
 
     // Ajax PUT call with the ID and the field value
