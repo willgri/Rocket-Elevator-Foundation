@@ -11,5 +11,6 @@ class PagesController < ApplicationController
     end
     def charts
     end
-    
+    def RockRest
+    end
 end
