@@ -35,10 +35,10 @@
 - Simon Fortier
 - William Grimard
 
-LES QUERIES GRAPHQL
+## GRAPHQL QUERIES 
 
-query #1
-
+### query #1
+```
 query{
   interventionInfo(id: 10){
     id
@@ -57,10 +57,11 @@ query{
     }
   }
 }
+```
 
+### query #2
 
-query #2
-
+```
 query{
   buildingInfo(id: 10){
     id
@@ -91,10 +92,11 @@ query{
     }
   }
 }
+```
 
+### query #3
 
-query #3
-
+```
 query{
   employeeInfo(id: 500){
     id
@@ -131,4 +133,4 @@ query{
     }
   }
 }
-
+```
