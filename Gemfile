@@ -134,4 +134,4 @@ gem 'waitutil', '~> 0.2.1'
 gem "graphql"
 
 
-gem 'graphiql-rails', group: :development
+gem 'graphiql-rails'
