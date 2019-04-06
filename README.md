@@ -37,6 +37,8 @@
 
 ## GRAPHQL QUERIES 
 
+# ENDPOINT: http://www.enzoloco.ca/graphql
+
 ### query #1
 ```
 query{
