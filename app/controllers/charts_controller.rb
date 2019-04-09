@@ -6,8 +6,8 @@ class ChartsController < ApplicationController
   # GET /charts
   def charts
     
-    conn = PG::Connection.open(host: "codeboxx-postgresql.cq6zrczewpu2.us-east-1.rds.amazonaws.com", port: 5432, dbname: "dominic_villemure", user: "codeboxx", password: "Codeboxx1!")
-    # conn = PG::Connection.open(host: "localhost", port: 5432, dbname: "postgres", user: "postgres", password: "vlwnpqxc1")
+    conn = PG::Connection.open(host: "localhost", port: 5432, dbname: "postgres", user: "postgres", password: "1234")
+    # conn = PG::Connection.open(host: "localhost", port: 5432, dbname: "postgres", user: "postgres", password: "1234")
 
     @data1 = conn.exec ("SELECT business_name, numbers_of_elevators FROM dimcustomers 
       WHERE numbers_of_elevators > 0

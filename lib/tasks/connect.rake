@@ -3,8 +3,8 @@ namespace :connect do
   desc "Connection task"
         # rake connect:dwh
       task dwh: :environment do
-        conn = PG::Connection.open(host: "codeboxx-postgresql.cq6zrczewpu2.us-east-1.rds.amazonaws.com", port: 5432, dbname: "stephane_roy", user: "codeboxx", password: "Codeboxx1!")
-        # conn = PG::Connection.open(host: "localhost", port: 5432, dbname: "postgres", user: "postgres", password: "vlwnpqxc1")
+        conn = PG::Connection.open(host: "codeboxx-postgresql.cq6zrczewpu2.us-east-1.rds.amazonaws.com", port: 5432, dbname: "postgres", user: "postgres", password: "1234")
+        # conn = PG::Connection.open(host: "localhost", port: 5432, dbname: "postgres", user: "postgres", password: "1234")
 
         conn.exec ("TRUNCATE factquotes RESTART IDENTITY")
         Quote.all.each do |quote|

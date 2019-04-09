@@ -19,11 +19,12 @@ Rails.application.routes.draw do
   get "google_map" => 'google_maps#index'
   get "/watson" => 'watson#watson'
   get "RockREST" => 'pages#RockRest'
+  #get "" => "page#Intervention"
 
   resources :google_maps
   resources :transcriptions
   resources :quotes
   resources :leads
-  
+  resources :interventions  
 
 end

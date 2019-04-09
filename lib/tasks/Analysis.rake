@@ -2,7 +2,7 @@ require 'pg'
 namespace :analysis do
   desc "Connection task"
       task data: :environment do
-        conn = PG::Connection.open(host: "localhost", port: 5432, dbname: "postgres", user: "postgres", password: "vlwnpqxc1")
+        conn = PG::Connection.open(host: "localhost", port: 5432, dbname: "postgres", user: "postgres", password: "1234")
 
         rs = conn.exec (" SELECT * FROM factquotes")
 

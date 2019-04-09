@@ -3,8 +3,8 @@ lock "~> 3.11.0"
 
 
 set :rvm_map_bins, [ 'rake', 'gem', 'bundle', 'ruby', 'puma', 'pumactl' ]
-set :application, "stephane_roy"
-set :repo_url, "https://github.com/Stephane3677/Rocket_Elevators_API"
+set :application, "Rocket_Elevators_API"
+set :repo_url, "https://github.com/willgri/Rocket-Elevator-Foundation.git"
 
 # require "whenever/capistrano"
 
