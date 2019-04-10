@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+  resources :intervention1s
   if Rails.env.development?
     mount GraphiQL::Rails::Engine, at: "/graphiql", graphql_path: "/graphql"
   end
@@ -19,12 +20,12 @@ Rails.application.routes.draw do
   get "google_map" => 'google_maps#index'
   get "/watson" => 'watson#watson'
   get "RockREST" => 'pages#RockRest'
-  #get "" => "page#Intervention"
+  # get "tasks" => 'intervention1s_controller#buildings'
 
   resources :google_maps
   resources :transcriptions
   resources :quotes
   resources :leads
-  resources :interventions  
+  resources :intervention1s  
 
 end

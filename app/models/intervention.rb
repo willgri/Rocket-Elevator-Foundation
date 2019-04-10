@@ -1,3 +1,6 @@
+##### FOR GRAPH SECTION ON SITE 
+
+
 class Intervention < ApplicationRecord
    
     # belongs_to :building

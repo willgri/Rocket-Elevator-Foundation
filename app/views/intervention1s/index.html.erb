@@ -1,0 +1,49 @@
+ <%= render partial: "pages/partial" %> 
+
+<p id="notice"><%= notice %></p>
+
+<h1>Interventions</h1>
+
+<table>
+  <thead>
+    <tr>
+      <th colspan="3"></th>
+    </tr>
+  </thead>
+
+<%# start of dropdown %>
+<%= form_for @intervention, url: {action: "create"}, html: {class: "nifty_form"} do |f| %>
+  <% options = options_from_collection_for_select(@customers, 'full_name', 'id') %>
+  <%= f.select(:customer_id, Customer.all.collect {|p| [p.full_name, p.id]},  {prompt: "Select"}, {class: 'form-control'}) %>
+<% end %>
+<%# end dropdown %>
+
+<%# <%= form_for @buildings, url: {action: "create"}, html: {class: "nifty_form"} do |f| %>
+<%# <% options = options_from_collection_for_select(@buildings, 'address_id') %>
+<%# <%= f.select(:address_id, Address.all.collect {|p| [p.address_id]},  {prompt: "Select"}, {class: 'form-control'}) %>
+<%# <% end %>
+
+
+	<div class="row">
+			<div class="col-md-12">
+					<label for="project_description">Description</label>
+					<textarea required maxlength="10000" rows="8" class="form-control" name="project_description" id="project_description"></textarea>
+			</div>
+	</div>
+
+  <tbody>
+    <% @intervention1s.each do |intervention1| %>
+      <tr>
+        <td><%= link_to 'Show', intervention1 %></td>
+        <td><%= link_to 'Edit', edit_intervention1_path(intervention1) %></td>
+        <td><%= link_to 'Destroy', intervention1, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
+
+<%= render partial: "pages/footer" %>
+
+
+<script src="assets/plugins/jquery/jquery-3.3.1.min.js"></script>
+<script src="/assets/intervention1.js"></script>

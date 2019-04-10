@@ -13,6 +13,4 @@ class PagesController < ApplicationController
     end
     def RockRest
     end
-    def intervention
-    end
 end
